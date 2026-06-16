@@ -1,0 +1,26 @@
+resume_id,file_name,source,category,layout_notes,text_based_or_image_based,usable_status,notes
+R001_standard,R001_standard.pdf,pilot,Standard,single-column chronological resume,text-based,usable,clean baseline resume
+R004_creative_text,R004_creative_text.pdf,pilot,Creative,two-column creative resume,text-based,usable,minor artifacts but readable
+R005_complex_text,R005_complex_text.pdf,pilot,Creative,complex visual resume,text-based,usable,noisy extraction with symbols and flattened structure
+R002_creative,R002_creative.pdf,pilot,Creative,image-based creative resume,image-based,needs OCR,0 words extracted with normal PDF parser
+R003_complex,R003_complex.pdf,pilot,Creative,image-based complex resume,image-based,needs OCR,0 words extracted with normal PDF parser
+R006_kaggle,R006_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction with two-column highlights section
+R007_kaggle,R007_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; minor encoding artifacts in company name
+R008_kaggle,R008_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction with bullet-style entries
+R009_kaggle,R009_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,short resume; two-column highlights section
+R010_kaggle,R010_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction with two-column highlights section
+R011_kaggle,R011_kaggle.pdf,kaggle,Standard,single-column dense text resume,text-based,usable,dense qualifications block; noisy but extractable
+R012_kaggle,R012_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; two-column skills section
+R013_kaggle,R013_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; partial two-column skills layout
+R014_kaggle,R014_kaggle.pdf,kaggle,Creative,two-column layout with repeated skills sections,text-based,usable,repeated skills blocks across two columns; noisy structure
+R015_kaggle,R015_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; dense paragraph profile
+R016_kaggle,R016_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; two-column highlights block
+R017_kaggle,R017_kaggle.pdf,kaggle,Creative,two-column layout with sidebar qualifications,text-based,usable,left sidebar certifications with right-column software details
+R018_kaggle,R018_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; bold centered sub-header
+R019_kaggle,R019_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction with two-column highlights
+R020_kaggle,R020_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; two-column skills list
+R021_kaggle,R021_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; two-column qualifications block
+R022_kaggle,R022_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; minimal formatting
+R023_kaggle,R023_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; bullet-heavy layout
+R024_kaggle,R024_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,clean extraction; no section headers visible
+R025_kaggle,R025_kaggle.pdf,kaggle,Standard,single-column chronological resume,text-based,usable,garbled cover letter content embedded in resume body

@@ -1,0 +1,3 @@
+﻿resume_id,gold_count,system_count,correct,missed,incorrect,precision,recall,f1_score
+R002_creative,38,25,6,32,19,0.24,0.158,0.19
+R003_complex,36,19,8,28,11,0.421,0.222,0.291

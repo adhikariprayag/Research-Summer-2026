@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Raw resume PDFs containing personal information
+*.pdf
+
+# Temporary files
+*.tmp
+*.log
+
+# Raw and derived resume data
+02_dataset/standard_resumes/
+02_dataset/creative_resumes/
+02_dataset/gold_standard_annotations/
+
+03_text_extraction/*outputs/
+04_spacy_baseline/*outputs/
+
+# Evaluation CSVs may contain resume entities and personal information
+07_results/**/*details.csv
+02_dataset/gold_standard_annotations.xlsx
+02_dataset/resume_metadata1.csv
+02_dataset/resume_metadata.xlsx
+02_dataset/gold_standard_annotations.xlsx

@@ -1,0 +1,4 @@
+﻿group,resume_count,gold_count,system_count,correct,missed,incorrect,precision,recall,f1_score
+Standard,10,622,698,147,475,551,0.211,0.236,0.223
+Creative,10,486,579,175,311,404,0.302,0.36,0.329
+Overall,20,1108,1277,322,786,955,0.252,0.291,0.27
