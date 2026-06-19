@@ -36,3 +36,7 @@ env/
 02_dataset/resume_metadata1.csv
 02_dataset/resume_metadata.xlsx
 02_dataset/gold_standard_annotations.xlsx
+
+# GPT reconstruction outputs with resume-derived entity content
+05_gpt_reconstruction/pilot_outputs/
+05_gpt_reconstruction/evaluation_outputs/

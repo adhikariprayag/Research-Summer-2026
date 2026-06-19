@@ -1,0 +1,7 @@
+resume_id,text_file,notes
+R002_creative,03_text_extraction/ocr_outputs/R002_creative_ocr.txt,OCR-based creative resume
+R003_complex,03_text_extraction/ocr_outputs/R003_complex_ocr.txt,OCR-based complex resume
+R004_creative_text,03_text_extraction/week4_batch_outputs/R004_creative_text_pymupdf.txt,Text-based creative resume
+R005_complex_text,03_text_extraction/week4_batch_outputs/R005_complex_text_pymupdf.txt,Text-based complex resume
+R027_creative,03_text_extraction/batch2_outputs/R027_creative_pymupdf.txt,Creative resume with complex output
+R028_creative,03_text_extraction/batch2_outputs/R028_creative_pymupdf.txt,Creative resume with many entities
