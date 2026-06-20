@@ -7,7 +7,6 @@ import time
 import pandas as pd
 from openai import OpenAI
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 PILOT_LIST = (
@@ -24,18 +23,13 @@ PROMPT_FILE = (
     / "gpt_entity_reconstruction_prompt.md"
 )
 
-OUTPUT_FOLDER = (
-    PROJECT_ROOT
-    / "05_gpt_reconstruction"
-    / "pilot_outputs"
-)
+OUTPUT_FOLDER = PROJECT_ROOT / "05_gpt_reconstruction" / "pilot_outputs"
 
-COMBINED_OUTPUT = (
-    OUTPUT_FOLDER
-    / "gpt_pilot_combined_entities.csv"
-)
+COMBINED_OUTPUT = OUTPUT_FOLDER / "gpt_pilot_combined_entities.csv"
 
 MODEL_NAME = "gpt-4o-mini"
+
+MAX_OUTPUT_TOKENS = 4000
 
 ALLOWED_ENTITY_TYPES = {"PERSON", "ORG", "DATE", "GPE", "SKILL"}
 
@@ -63,6 +57,19 @@ def normalize_entity_text(text: str) -> str:
     return text
 
 
+def is_valid_json_output(path: Path) -> bool:
+    """Return True if a saved GPT output file contains valid JSON."""
+    if not path.exists():
+        return False
+
+    try:
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        data = json.loads(clean_json_text(text))
+        return isinstance(data, dict) and "entities" in data
+    except Exception:
+        return False
+
+
 def load_prompt(resume_id: str, resume_text: str) -> str:
     prompt_template = PROMPT_FILE.read_text(encoding="utf-8")
 
@@ -77,6 +84,7 @@ def call_gpt(client: OpenAI, prompt: str) -> str:
         model=MODEL_NAME,
         input=prompt,
         temperature=0,
+        max_output_tokens=MAX_OUTPUT_TOKENS,
     )
 
     return response.output_text
@@ -85,13 +93,7 @@ def call_gpt(client: OpenAI, prompt: str) -> str:
 def parse_entities(resume_id: str, raw_output: str) -> list[dict]:
     cleaned = clean_json_text(raw_output)
 
-    try:
-        data = json.loads(cleaned)
-    except json.JSONDecodeError as exc:
-        raise ValueError(
-            f"Could not parse JSON for {resume_id}. Raw output:\n{raw_output}"
-        ) from exc
-
+    data = json.loads(cleaned)
     entities = data.get("entities", [])
 
     parsed_entities = []
@@ -138,32 +140,51 @@ def main() -> None:
     pilot_df = pd.read_csv(PILOT_LIST)
 
     all_entities = []
+    failed_resumes = []
 
     for _, row in pilot_df.iterrows():
         resume_id = str(row["resume_id"]).strip()
         text_file = PROJECT_ROOT / str(row["text_file"]).strip()
+        json_output_path = OUTPUT_FOLDER / f"{resume_id}_gpt_entities.json"
 
         if not text_file.exists():
-            raise FileNotFoundError(f"Missing text file: {text_file}")
+            print(f"FAILED: Missing text file for {resume_id}: {text_file}")
+            failed_resumes.append(resume_id)
+            continue
+
+        if is_valid_json_output(json_output_path):
+            print(f"Skipping {resume_id}: valid JSON already exists.")
+            raw_output = json_output_path.read_text(
+                encoding="utf-8",
+                errors="ignore",
+            )
+            parsed_entities = parse_entities(resume_id, raw_output)
+            all_entities.extend(parsed_entities)
+            continue
 
         resume_text = text_file.read_text(encoding="utf-8", errors="ignore")
 
         print(f"Processing {resume_id}...")
         print(f"Text length: {len(resume_text)} characters")
 
-        prompt = load_prompt(resume_id, resume_text)
-        raw_output = call_gpt(client, prompt)
+        try:
+            prompt = load_prompt(resume_id, resume_text)
+            raw_output = call_gpt(client, prompt)
 
-        json_output_path = OUTPUT_FOLDER / f"{resume_id}_gpt_entities.json"
-        json_output_path.write_text(raw_output, encoding="utf-8")
+            json_output_path.write_text(raw_output, encoding="utf-8")
 
-        parsed_entities = parse_entities(resume_id, raw_output)
-        all_entities.extend(parsed_entities)
+            parsed_entities = parse_entities(resume_id, raw_output)
+            all_entities.extend(parsed_entities)
 
-        print(f"Entities extracted: {len(parsed_entities)}")
-        print(f"Saved: {json_output_path}")
+            print(f"Entities extracted: {len(parsed_entities)}")
+            print(f"Saved: {json_output_path}")
 
-        # Small delay to avoid rapid repeated requests.
+        except Exception as exc:
+            print(f"FAILED: {resume_id}")
+            print(f"Error type: {type(exc).__name__}")
+            print(f"Error message: {exc}")
+            failed_resumes.append(resume_id)
+
         time.sleep(1)
 
     combined_df = pd.DataFrame(
@@ -174,8 +195,15 @@ def main() -> None:
     combined_df.to_csv(COMBINED_OUTPUT, index=False)
 
     print("\nGPT reconstruction pilot complete.")
-    print(f"Combined entities: {len(combined_df)}")
+    print(f"Combined valid entities: {len(combined_df)}")
     print(f"Saved combined CSV: {COMBINED_OUTPUT}")
+
+    if failed_resumes:
+        print("\nFailed resumes:")
+        for resume_id in failed_resumes:
+            print(f"- {resume_id}")
+    else:
+        print("\nAll pilot resumes completed successfully.")
 
 
 if __name__ == "__main__":
