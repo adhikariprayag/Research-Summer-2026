@@ -40,3 +40,7 @@ env/
 # GPT reconstruction outputs with resume-derived entity content
 05_gpt_reconstruction/pilot_outputs/
 05_gpt_reconstruction/evaluation_outputs/
+
+# Full GPT reconstruction outputs with resume-derived entity content
+05_gpt_reconstruction/full_outputs/
+05_gpt_reconstruction/full_evaluation_outputs/
