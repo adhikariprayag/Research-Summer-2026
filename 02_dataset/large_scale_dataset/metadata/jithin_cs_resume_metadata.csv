@@ -1,0 +1,401 @@
+resume_id,source_dataset,original_category,file_type,is_cs_related,selected_for_large_dataset,selected_for_annotation,word_count,notes
+JIT_CS_0001,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0002,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,128,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0003,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,139,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0004,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,161,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0005,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,139,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0006,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0007,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,133,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0008,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0009,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,142,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0010,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0011,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,141,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0012,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0013,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0014,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0015,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0016,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0017,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0018,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0019,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0020,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0021,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0022,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0023,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0024,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0025,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0026,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0027,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,121,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0028,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,246,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0029,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,231,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0030,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0031,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0032,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0033,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,138,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0034,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0035,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0036,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,138,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0037,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,141,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0038,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0039,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0040,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0041,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,138,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0042,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,141,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0043,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0044,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0045,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0046,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0047,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0048,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0049,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0050,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0051,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0052,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0053,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0054,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0055,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0056,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0057,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0058,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0059,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0060,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0061,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,120,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0062,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0063,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0064,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,124,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0065,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0066,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,120,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0067,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0068,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0069,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,124,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0070,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0071,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,120,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0072,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0073,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0074,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,124,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0075,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0076,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0077,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0078,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0079,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0080,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0081,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0082,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0083,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0084,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0085,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0086,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0087,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0088,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0089,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0090,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0091,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0092,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0093,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0094,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0095,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0096,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0097,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0098,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0099,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0100,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0101,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0102,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0103,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0104,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0105,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0106,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0107,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0108,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0109,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0110,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0111,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0112,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0113,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0114,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0115,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0116,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0117,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0118,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0119,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0120,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0121,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0122,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0123,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0124,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0125,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0126,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0127,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0128,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0129,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0130,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0131,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0132,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0133,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0134,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0135,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0136,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0137,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0138,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0139,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0140,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0141,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0142,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0143,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0144,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0145,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0146,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0147,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0148,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0149,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0150,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0151,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0152,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0153,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0154,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0155,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0156,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0157,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0158,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0159,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0160,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,116,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0161,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0162,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0163,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0164,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,116,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0165,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0166,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0167,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0168,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,116,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0169,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0170,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0171,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0172,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0173,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0174,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0175,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0176,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0177,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0178,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0179,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0180,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0181,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0182,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0183,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0184,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0185,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0186,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0187,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0188,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0189,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0190,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0191,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0192,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0193,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0194,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0195,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0196,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0197,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0198,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0199,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0200,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0201,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0202,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0203,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0204,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0205,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0206,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0207,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0208,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0209,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0210,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0211,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0212,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0213,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0214,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0215,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0216,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0217,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0218,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0219,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0220,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0221,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0222,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0223,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0224,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0225,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0226,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0227,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0228,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0229,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0230,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0231,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0232,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0233,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0234,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0235,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0236,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0237,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0238,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0239,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0240,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0241,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0242,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0243,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0244,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0245,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0246,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0247,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0248,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0249,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0250,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0251,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0252,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0253,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0254,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0255,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0256,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0257,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0258,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,130,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0259,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,131,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0260,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0261,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0262,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,130,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0263,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,131,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0264,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0265,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0266,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,130,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0267,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,131,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0268,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0269,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0270,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0271,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0272,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0273,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0274,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0275,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0276,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0277,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0278,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0279,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0280,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0281,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0282,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0283,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0284,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0285,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0286,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0287,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0288,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0289,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0290,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0291,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0292,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0293,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0294,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0295,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0296,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0297,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0298,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0299,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0300,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0301,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0302,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0303,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0304,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0305,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0306,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0307,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0308,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0309,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0310,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0311,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0312,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0313,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0314,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0315,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0316,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0317,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0318,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0319,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0320,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0321,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0322,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0323,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0324,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0325,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0326,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0327,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0328,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0329,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0330,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0331,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0332,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0333,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0334,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0335,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0336,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,88,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0337,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0338,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0339,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0340,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,84,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0341,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0342,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0343,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0344,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,87,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0345,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0346,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0347,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0348,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,84,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0349,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0350,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0351,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0352,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0353,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0354,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0355,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0356,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0357,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0358,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0359,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0360,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0361,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0362,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0363,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0364,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0365,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0366,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0367,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0368,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0369,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0370,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0371,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0372,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0373,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0374,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0375,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0376,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0377,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0378,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0379,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0380,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0381,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0382,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0383,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0384,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0385,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0386,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0387,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0388,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0389,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0390,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0391,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0392,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0393,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0394,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0395,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0396,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0397,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0398,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0399,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0400,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated

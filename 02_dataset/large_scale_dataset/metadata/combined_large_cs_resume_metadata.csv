@@ -1,0 +1,1021 @@
+resume_id,source_dataset,original_category,file_type,is_cs_related,selected_for_large_dataset,selected_for_annotation,word_count,notes
+SNE_IT_0001,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,617,INFORMATION-TECHNOLOGY category
+SNE_IT_0002,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,807,INFORMATION-TECHNOLOGY category
+SNE_IT_0003,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,540,INFORMATION-TECHNOLOGY category
+SNE_IT_0004,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,736,INFORMATION-TECHNOLOGY category
+SNE_IT_0005,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,573,INFORMATION-TECHNOLOGY category
+SNE_IT_0006,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,944,INFORMATION-TECHNOLOGY category
+SNE_IT_0007,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,2043,INFORMATION-TECHNOLOGY category
+SNE_IT_0008,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,888,INFORMATION-TECHNOLOGY category
+SNE_IT_0009,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,961,INFORMATION-TECHNOLOGY category
+SNE_IT_0010,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1206,INFORMATION-TECHNOLOGY category
+SNE_IT_0011,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,658,INFORMATION-TECHNOLOGY category
+SNE_IT_0012,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1163,INFORMATION-TECHNOLOGY category
+SNE_IT_0013,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,715,INFORMATION-TECHNOLOGY category
+SNE_IT_0014,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,780,INFORMATION-TECHNOLOGY category
+SNE_IT_0015,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,657,INFORMATION-TECHNOLOGY category
+SNE_IT_0016,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,906,INFORMATION-TECHNOLOGY category
+SNE_IT_0017,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1227,INFORMATION-TECHNOLOGY category
+SNE_IT_0018,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1572,INFORMATION-TECHNOLOGY category
+SNE_IT_0019,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,729,INFORMATION-TECHNOLOGY category
+SNE_IT_0020,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,846,INFORMATION-TECHNOLOGY category
+SNE_IT_0021,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,710,INFORMATION-TECHNOLOGY category
+SNE_IT_0022,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,862,INFORMATION-TECHNOLOGY category
+SNE_IT_0023,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,913,INFORMATION-TECHNOLOGY category
+SNE_IT_0024,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,330,INFORMATION-TECHNOLOGY category
+SNE_IT_0025,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,881,INFORMATION-TECHNOLOGY category
+SNE_IT_0026,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,692,INFORMATION-TECHNOLOGY category
+SNE_IT_0027,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,714,INFORMATION-TECHNOLOGY category
+SNE_IT_0028,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1289,INFORMATION-TECHNOLOGY category
+SNE_IT_0029,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,653,INFORMATION-TECHNOLOGY category
+SNE_IT_0030,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,966,INFORMATION-TECHNOLOGY category
+SNE_IT_0031,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,807,INFORMATION-TECHNOLOGY category
+SNE_IT_0032,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,753,INFORMATION-TECHNOLOGY category
+SNE_IT_0033,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,380,INFORMATION-TECHNOLOGY category
+SNE_IT_0034,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1661,INFORMATION-TECHNOLOGY category
+SNE_IT_0035,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,579,INFORMATION-TECHNOLOGY category
+SNE_IT_0036,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,390,INFORMATION-TECHNOLOGY category
+SNE_IT_0037,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,995,INFORMATION-TECHNOLOGY category
+SNE_IT_0038,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1321,INFORMATION-TECHNOLOGY category
+SNE_IT_0039,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,556,INFORMATION-TECHNOLOGY category
+SNE_IT_0040,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1325,INFORMATION-TECHNOLOGY category
+SNE_IT_0041,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,872,INFORMATION-TECHNOLOGY category
+SNE_IT_0042,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1641,INFORMATION-TECHNOLOGY category
+SNE_IT_0043,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1847,INFORMATION-TECHNOLOGY category
+SNE_IT_0044,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,628,INFORMATION-TECHNOLOGY category
+SNE_IT_0045,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,237,INFORMATION-TECHNOLOGY category
+SNE_IT_0046,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,907,INFORMATION-TECHNOLOGY category
+SNE_IT_0047,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,956,INFORMATION-TECHNOLOGY category
+SNE_IT_0048,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,402,INFORMATION-TECHNOLOGY category
+SNE_IT_0049,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,465,INFORMATION-TECHNOLOGY category
+SNE_IT_0050,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,710,INFORMATION-TECHNOLOGY category
+SNE_IT_0051,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,797,INFORMATION-TECHNOLOGY category
+SNE_IT_0052,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,700,INFORMATION-TECHNOLOGY category
+SNE_IT_0053,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,805,INFORMATION-TECHNOLOGY category
+SNE_IT_0054,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,886,INFORMATION-TECHNOLOGY category
+SNE_IT_0055,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,751,INFORMATION-TECHNOLOGY category
+SNE_IT_0056,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,662,INFORMATION-TECHNOLOGY category
+SNE_IT_0057,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,721,INFORMATION-TECHNOLOGY category
+SNE_IT_0058,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,606,INFORMATION-TECHNOLOGY category
+SNE_IT_0059,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1098,INFORMATION-TECHNOLOGY category
+SNE_IT_0060,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,875,INFORMATION-TECHNOLOGY category
+SNE_IT_0061,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,741,INFORMATION-TECHNOLOGY category
+SNE_IT_0062,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,691,INFORMATION-TECHNOLOGY category
+SNE_IT_0063,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,723,INFORMATION-TECHNOLOGY category
+SNE_IT_0064,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1256,INFORMATION-TECHNOLOGY category
+SNE_IT_0065,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,920,INFORMATION-TECHNOLOGY category
+SNE_IT_0066,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1055,INFORMATION-TECHNOLOGY category
+SNE_IT_0067,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1241,INFORMATION-TECHNOLOGY category
+SNE_IT_0068,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,871,INFORMATION-TECHNOLOGY category
+SNE_IT_0069,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,915,INFORMATION-TECHNOLOGY category
+SNE_IT_0070,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,419,INFORMATION-TECHNOLOGY category
+SNE_IT_0071,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,983,INFORMATION-TECHNOLOGY category
+SNE_IT_0072,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1012,INFORMATION-TECHNOLOGY category
+SNE_IT_0073,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,899,INFORMATION-TECHNOLOGY category
+SNE_IT_0074,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,655,INFORMATION-TECHNOLOGY category
+SNE_IT_0075,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,832,INFORMATION-TECHNOLOGY category
+SNE_IT_0076,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,809,INFORMATION-TECHNOLOGY category
+SNE_IT_0077,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1347,INFORMATION-TECHNOLOGY category
+SNE_IT_0078,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1172,INFORMATION-TECHNOLOGY category
+SNE_IT_0079,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,786,INFORMATION-TECHNOLOGY category
+SNE_IT_0080,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1186,INFORMATION-TECHNOLOGY category
+SNE_IT_0081,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1227,INFORMATION-TECHNOLOGY category
+SNE_IT_0082,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,916,INFORMATION-TECHNOLOGY category
+SNE_IT_0083,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1513,INFORMATION-TECHNOLOGY category
+SNE_IT_0084,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,702,INFORMATION-TECHNOLOGY category
+SNE_IT_0085,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1030,INFORMATION-TECHNOLOGY category
+SNE_IT_0086,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1140,INFORMATION-TECHNOLOGY category
+SNE_IT_0087,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1397,INFORMATION-TECHNOLOGY category
+SNE_IT_0088,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,662,INFORMATION-TECHNOLOGY category
+SNE_IT_0089,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1296,INFORMATION-TECHNOLOGY category
+SNE_IT_0090,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,829,INFORMATION-TECHNOLOGY category
+SNE_IT_0091,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,655,INFORMATION-TECHNOLOGY category
+SNE_IT_0092,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,394,INFORMATION-TECHNOLOGY category
+SNE_IT_0093,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1313,INFORMATION-TECHNOLOGY category
+SNE_IT_0094,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,826,INFORMATION-TECHNOLOGY category
+SNE_IT_0095,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1222,INFORMATION-TECHNOLOGY category
+SNE_IT_0096,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,614,INFORMATION-TECHNOLOGY category
+SNE_IT_0097,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,2044,INFORMATION-TECHNOLOGY category
+SNE_IT_0098,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,738,INFORMATION-TECHNOLOGY category
+SNE_IT_0099,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,716,INFORMATION-TECHNOLOGY category
+SNE_IT_0100,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1431,INFORMATION-TECHNOLOGY category
+SNE_IT_0101,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,613,INFORMATION-TECHNOLOGY category
+SNE_IT_0102,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1253,INFORMATION-TECHNOLOGY category
+SNE_IT_0103,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,931,INFORMATION-TECHNOLOGY category
+SNE_IT_0104,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,321,INFORMATION-TECHNOLOGY category
+SNE_IT_0105,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1715,INFORMATION-TECHNOLOGY category
+SNE_IT_0106,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,826,INFORMATION-TECHNOLOGY category
+SNE_IT_0107,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,695,INFORMATION-TECHNOLOGY category
+SNE_IT_0108,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1041,INFORMATION-TECHNOLOGY category
+SNE_IT_0109,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,729,INFORMATION-TECHNOLOGY category
+SNE_IT_0110,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,928,INFORMATION-TECHNOLOGY category
+SNE_IT_0111,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,688,INFORMATION-TECHNOLOGY category
+SNE_IT_0112,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,743,INFORMATION-TECHNOLOGY category
+SNE_IT_0113,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1085,INFORMATION-TECHNOLOGY category
+SNE_IT_0114,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1053,INFORMATION-TECHNOLOGY category
+SNE_IT_0115,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,2670,INFORMATION-TECHNOLOGY category
+SNE_IT_0116,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,741,INFORMATION-TECHNOLOGY category
+SNE_IT_0117,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,671,INFORMATION-TECHNOLOGY category
+SNE_IT_0118,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,884,INFORMATION-TECHNOLOGY category
+SNE_IT_0119,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,1769,INFORMATION-TECHNOLOGY category
+SNE_IT_0120,snehaanbhawal/resume-dataset,INFORMATION-TECHNOLOGY,csv_text,yes,yes,no,745,INFORMATION-TECHNOLOGY category
+JIT_CS_0001,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0002,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,128,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0003,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,139,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0004,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,161,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0005,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,139,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0006,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0007,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,133,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0008,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0009,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,142,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0010,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0011,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,141,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0012,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0013,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0014,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0015,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0016,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0017,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0018,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0019,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0020,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0021,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0022,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0023,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0024,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0025,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0026,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0027,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,121,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0028,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,246,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0029,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,231,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0030,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0031,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0032,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0033,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,138,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0034,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0035,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0036,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,138,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0037,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,141,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0038,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0039,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,129,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0040,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0041,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,138,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0042,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,141,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0043,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,150,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0044,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0045,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0046,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0047,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0048,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0049,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0050,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0051,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0052,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0053,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0054,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,118,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0055,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0056,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0057,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0058,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,122,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0059,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0060,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0061,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,120,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0062,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0063,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0064,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,124,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0065,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0066,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,120,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0067,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0068,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0069,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,124,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0070,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,136,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0071,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,120,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0072,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,132,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0073,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,137,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0074,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,124,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0075,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0076,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0077,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0078,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0079,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0080,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0081,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0082,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0083,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0084,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0085,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0086,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0087,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0088,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0089,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0090,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0091,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0092,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0093,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0094,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0095,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0096,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0097,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0098,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0099,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0100,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0101,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0102,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0103,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0104,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0105,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0106,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0107,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0108,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0109,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0110,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0111,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0112,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0113,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0114,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0115,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0116,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0117,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0118,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0119,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0120,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0121,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0122,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0123,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0124,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0125,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0126,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0127,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0128,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0129,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0130,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0131,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0132,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0133,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0134,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0135,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0136,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0137,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0138,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0139,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0140,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0141,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0142,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0143,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0144,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0145,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0146,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0147,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0148,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0149,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0150,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0151,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0152,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0153,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,101,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0154,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0155,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0156,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0157,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0158,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0159,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0160,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,116,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0161,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0162,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0163,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0164,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,116,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0165,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0166,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0167,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0168,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,116,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0169,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,125,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0170,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,123,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0171,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0172,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0173,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0174,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0175,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0176,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0177,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0178,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0179,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0180,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0181,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0182,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0183,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0184,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,109,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0185,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0186,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0187,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0188,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0189,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0190,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0191,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0192,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0193,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0194,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0195,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0196,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0197,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,111,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0198,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,108,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0199,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,115,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0200,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0201,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0202,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0203,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0204,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0205,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0206,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0207,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0208,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0209,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,117,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0210,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0211,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0212,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0213,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0214,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0215,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0216,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0217,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0218,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0219,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0220,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0221,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0222,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0223,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0224,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0225,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0226,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0227,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0228,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0229,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0230,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0231,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0232,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0233,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0234,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0235,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0236,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0237,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0238,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0239,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,114,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0240,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0241,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0242,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0243,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0244,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0245,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0246,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0247,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0248,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0249,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0250,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0251,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0252,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0253,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,89,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0254,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0255,jithinjagadeesh/resume-dataset,Machine Learning Engineer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0256,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0257,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0258,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,130,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0259,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,131,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0260,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0261,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0262,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,130,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0263,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,131,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0264,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,126,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0265,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,112,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0266,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,130,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0267,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,131,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0268,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0269,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0270,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0271,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0272,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0273,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0274,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0275,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0276,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0277,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0278,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0279,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0280,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0281,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0282,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0283,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0284,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0285,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0286,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0287,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0288,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0289,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0290,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0291,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0292,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0293,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0294,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0295,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0296,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0297,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0298,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0299,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0300,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,107,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0301,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,106,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0302,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,113,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0303,jithinjagadeesh/resume-dataset,Backend Developer,csv_text,yes,yes,no,110,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0304,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0305,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0306,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0307,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0308,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0309,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0310,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0311,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0312,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0313,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0314,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0315,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0316,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0317,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0318,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0319,jithinjagadeesh/resume-dataset,Frontend Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0320,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0321,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0322,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0323,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0324,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0325,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0326,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0327,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0328,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,105,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0329,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0330,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0331,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0332,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0333,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0334,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0335,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,99,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0336,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,88,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0337,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0338,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0339,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0340,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,84,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0341,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0342,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0343,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0344,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,87,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0345,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0346,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0347,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0348,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,84,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0349,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0350,jithinjagadeesh/resume-dataset,Mobile App Developer (iOS/Android),csv_text,yes,yes,no,91,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0351,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0352,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,92,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0353,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0354,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0355,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,94,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0356,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0357,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0358,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0359,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0360,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0361,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0362,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0363,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0364,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0365,jithinjagadeesh/resume-dataset,Python Developer,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0366,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0367,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0368,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0369,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0370,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0371,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0372,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0373,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0374,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0375,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0376,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0377,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,98,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0378,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,104,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0379,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,97,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0380,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0381,jithinjagadeesh/resume-dataset,Data Scientist,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0382,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,95,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0383,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0384,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0385,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0386,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0387,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0388,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0389,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0390,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0391,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0392,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0393,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0394,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0395,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,103,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0396,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,93,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0397,jithinjagadeesh/resume-dataset,Cloud Engineer,csv_text,yes,yes,no,102,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0398,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,90,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0399,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,100,CS-specific resume text; possibly synthetic/generated
+JIT_CS_0400,jithinjagadeesh/resume-dataset,Full Stack Developer,csv_text,yes,yes,no,96,CS-specific resume text; possibly synthetic/generated
+SAU_CS_0001,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,108,Strict CS filter using job/position/education fields
+SAU_CS_0002,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,114,Strict CS filter using job/position/education fields
+SAU_CS_0003,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,237,Strict CS filter using job/position/education fields
+SAU_CS_0004,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,58,Strict CS filter using job/position/education fields
+SAU_CS_0005,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,169,Strict CS filter using job/position/education fields
+SAU_CS_0006,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,85,Strict CS filter using job/position/education fields
+SAU_CS_0007,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,89,Strict CS filter using job/position/education fields
+SAU_CS_0008,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,163,Strict CS filter using job/position/education fields
+SAU_CS_0009,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0010,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,224,Strict CS filter using job/position/education fields
+SAU_CS_0011,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,64,Strict CS filter using job/position/education fields
+SAU_CS_0012,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0013,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,67,Strict CS filter using job/position/education fields
+SAU_CS_0014,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0015,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,151,Strict CS filter using job/position/education fields
+SAU_CS_0016,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0017,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,81,Strict CS filter using job/position/education fields
+SAU_CS_0018,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,109,Strict CS filter using job/position/education fields
+SAU_CS_0019,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,174,Strict CS filter using job/position/education fields
+SAU_CS_0020,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0021,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,113,Strict CS filter using job/position/education fields
+SAU_CS_0022,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,236,Strict CS filter using job/position/education fields
+SAU_CS_0023,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,104,Strict CS filter using job/position/education fields
+SAU_CS_0024,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0025,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0026,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,76,Strict CS filter using job/position/education fields
+SAU_CS_0027,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,105,Strict CS filter using job/position/education fields
+SAU_CS_0028,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,176,Strict CS filter using job/position/education fields
+SAU_CS_0029,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0030,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,85,Strict CS filter using job/position/education fields
+SAU_CS_0031,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,158,Strict CS filter using job/position/education fields
+SAU_CS_0032,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,109,Strict CS filter using job/position/education fields
+SAU_CS_0033,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,90,Strict CS filter using job/position/education fields
+SAU_CS_0034,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,73,Strict CS filter using job/position/education fields
+SAU_CS_0035,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0036,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,83,Strict CS filter using job/position/education fields
+SAU_CS_0037,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,181,Strict CS filter using job/position/education fields
+SAU_CS_0038,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,77,Strict CS filter using job/position/education fields
+SAU_CS_0039,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,97,Strict CS filter using job/position/education fields
+SAU_CS_0040,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,119,Strict CS filter using job/position/education fields
+SAU_CS_0041,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,135,Strict CS filter using job/position/education fields
+SAU_CS_0042,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,137,Strict CS filter using job/position/education fields
+SAU_CS_0043,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,191,Strict CS filter using job/position/education fields
+SAU_CS_0044,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,253,Strict CS filter using job/position/education fields
+SAU_CS_0045,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,138,Strict CS filter using job/position/education fields
+SAU_CS_0046,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0047,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,141,Strict CS filter using job/position/education fields
+SAU_CS_0048,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,75,Strict CS filter using job/position/education fields
+SAU_CS_0049,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,131,Strict CS filter using job/position/education fields
+SAU_CS_0050,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,91,Strict CS filter using job/position/education fields
+SAU_CS_0051,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,101,Strict CS filter using job/position/education fields
+SAU_CS_0052,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,143,Strict CS filter using job/position/education fields
+SAU_CS_0053,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,84,Strict CS filter using job/position/education fields
+SAU_CS_0054,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,117,Strict CS filter using job/position/education fields
+SAU_CS_0055,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0056,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,104,Strict CS filter using job/position/education fields
+SAU_CS_0057,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,309,Strict CS filter using job/position/education fields
+SAU_CS_0058,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,246,Strict CS filter using job/position/education fields
+SAU_CS_0059,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0060,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,198,Strict CS filter using job/position/education fields
+SAU_CS_0061,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,57,Strict CS filter using job/position/education fields
+SAU_CS_0062,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0063,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,57,Strict CS filter using job/position/education fields
+SAU_CS_0064,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,175,Strict CS filter using job/position/education fields
+SAU_CS_0065,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0066,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,133,Strict CS filter using job/position/education fields
+SAU_CS_0067,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,92,Strict CS filter using job/position/education fields
+SAU_CS_0068,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,401,Strict CS filter using job/position/education fields
+SAU_CS_0069,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,131,Strict CS filter using job/position/education fields
+SAU_CS_0070,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,88,Strict CS filter using job/position/education fields
+SAU_CS_0071,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,89,Strict CS filter using job/position/education fields
+SAU_CS_0072,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,176,Strict CS filter using job/position/education fields
+SAU_CS_0073,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,65,Strict CS filter using job/position/education fields
+SAU_CS_0074,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,68,Strict CS filter using job/position/education fields
+SAU_CS_0075,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,87,Strict CS filter using job/position/education fields
+SAU_CS_0076,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,100,Strict CS filter using job/position/education fields
+SAU_CS_0077,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,236,Strict CS filter using job/position/education fields
+SAU_CS_0078,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,182,Strict CS filter using job/position/education fields
+SAU_CS_0079,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,101,Strict CS filter using job/position/education fields
+SAU_CS_0080,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,91,Strict CS filter using job/position/education fields
+SAU_CS_0081,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,82,Strict CS filter using job/position/education fields
+SAU_CS_0082,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,112,Strict CS filter using job/position/education fields
+SAU_CS_0083,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,192,Strict CS filter using job/position/education fields
+SAU_CS_0084,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,110,Strict CS filter using job/position/education fields
+SAU_CS_0085,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,136,Strict CS filter using job/position/education fields
+SAU_CS_0086,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0087,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,78,Strict CS filter using job/position/education fields
+SAU_CS_0088,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,164,Strict CS filter using job/position/education fields
+SAU_CS_0089,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,81,Strict CS filter using job/position/education fields
+SAU_CS_0090,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,135,Strict CS filter using job/position/education fields
+SAU_CS_0091,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,312,Strict CS filter using job/position/education fields
+SAU_CS_0092,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,187,Strict CS filter using job/position/education fields
+SAU_CS_0093,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,117,Strict CS filter using job/position/education fields
+SAU_CS_0094,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,97,Strict CS filter using job/position/education fields
+SAU_CS_0095,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,82,Strict CS filter using job/position/education fields
+SAU_CS_0096,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,293,Strict CS filter using job/position/education fields
+SAU_CS_0097,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,173,Strict CS filter using job/position/education fields
+SAU_CS_0098,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,132,Strict CS filter using job/position/education fields
+SAU_CS_0099,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,143,Strict CS filter using job/position/education fields
+SAU_CS_0100,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,147,Strict CS filter using job/position/education fields
+SAU_CS_0101,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,296,Strict CS filter using job/position/education fields
+SAU_CS_0102,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,85,Strict CS filter using job/position/education fields
+SAU_CS_0103,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0104,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,95,Strict CS filter using job/position/education fields
+SAU_CS_0105,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0106,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,131,Strict CS filter using job/position/education fields
+SAU_CS_0107,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,117,Strict CS filter using job/position/education fields
+SAU_CS_0108,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,253,Strict CS filter using job/position/education fields
+SAU_CS_0109,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,174,Strict CS filter using job/position/education fields
+SAU_CS_0110,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0111,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0112,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,224,Strict CS filter using job/position/education fields
+SAU_CS_0113,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,96,Strict CS filter using job/position/education fields
+SAU_CS_0114,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,169,Strict CS filter using job/position/education fields
+SAU_CS_0115,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,237,Strict CS filter using job/position/education fields
+SAU_CS_0116,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,122,Strict CS filter using job/position/education fields
+SAU_CS_0117,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,136,Strict CS filter using job/position/education fields
+SAU_CS_0118,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,122,Strict CS filter using job/position/education fields
+SAU_CS_0119,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,108,Strict CS filter using job/position/education fields
+SAU_CS_0120,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,72,Strict CS filter using job/position/education fields
+SAU_CS_0121,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,71,Strict CS filter using job/position/education fields
+SAU_CS_0122,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,65,Strict CS filter using job/position/education fields
+SAU_CS_0123,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,86,Strict CS filter using job/position/education fields
+SAU_CS_0124,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,68,Strict CS filter using job/position/education fields
+SAU_CS_0125,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,69,Strict CS filter using job/position/education fields
+SAU_CS_0126,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,121,Strict CS filter using job/position/education fields
+SAU_CS_0127,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,56,Strict CS filter using job/position/education fields
+SAU_CS_0128,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,106,Strict CS filter using job/position/education fields
+SAU_CS_0129,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,111,Strict CS filter using job/position/education fields
+SAU_CS_0130,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,92,Strict CS filter using job/position/education fields
+SAU_CS_0131,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,109,Strict CS filter using job/position/education fields
+SAU_CS_0132,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,325,Strict CS filter using job/position/education fields
+SAU_CS_0133,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,65,Strict CS filter using job/position/education fields
+SAU_CS_0134,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,134,Strict CS filter using job/position/education fields
+SAU_CS_0135,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,159,Strict CS filter using job/position/education fields
+SAU_CS_0136,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,78,Strict CS filter using job/position/education fields
+SAU_CS_0137,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,127,Strict CS filter using job/position/education fields
+SAU_CS_0138,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0139,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,271,Strict CS filter using job/position/education fields
+SAU_CS_0140,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,64,Strict CS filter using job/position/education fields
+SAU_CS_0141,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,131,Strict CS filter using job/position/education fields
+SAU_CS_0142,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,66,Strict CS filter using job/position/education fields
+SAU_CS_0143,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,261,Strict CS filter using job/position/education fields
+SAU_CS_0144,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,248,Strict CS filter using job/position/education fields
+SAU_CS_0145,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,65,Strict CS filter using job/position/education fields
+SAU_CS_0146,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,69,Strict CS filter using job/position/education fields
+SAU_CS_0147,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,75,Strict CS filter using job/position/education fields
+SAU_CS_0148,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,133,Strict CS filter using job/position/education fields
+SAU_CS_0149,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,135,Strict CS filter using job/position/education fields
+SAU_CS_0150,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,168,Strict CS filter using job/position/education fields
+SAU_CS_0151,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0152,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,128,Strict CS filter using job/position/education fields
+SAU_CS_0153,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,131,Strict CS filter using job/position/education fields
+SAU_CS_0154,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,105,Strict CS filter using job/position/education fields
+SAU_CS_0155,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,475,Strict CS filter using job/position/education fields
+SAU_CS_0156,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,195,Strict CS filter using job/position/education fields
+SAU_CS_0157,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,128,Strict CS filter using job/position/education fields
+SAU_CS_0158,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,56,Strict CS filter using job/position/education fields
+SAU_CS_0159,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,140,Strict CS filter using job/position/education fields
+SAU_CS_0160,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,153,Strict CS filter using job/position/education fields
+SAU_CS_0161,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,63,Strict CS filter using job/position/education fields
+SAU_CS_0162,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,192,Strict CS filter using job/position/education fields
+SAU_CS_0163,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,227,Strict CS filter using job/position/education fields
+SAU_CS_0164,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,186,Strict CS filter using job/position/education fields
+SAU_CS_0165,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,140,Strict CS filter using job/position/education fields
+SAU_CS_0166,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,68,Strict CS filter using job/position/education fields
+SAU_CS_0167,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,217,Strict CS filter using job/position/education fields
+SAU_CS_0168,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,105,Strict CS filter using job/position/education fields
+SAU_CS_0169,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,184,Strict CS filter using job/position/education fields
+SAU_CS_0170,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,106,Strict CS filter using job/position/education fields
+SAU_CS_0171,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,109,Strict CS filter using job/position/education fields
+SAU_CS_0172,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0173,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,106,Strict CS filter using job/position/education fields
+SAU_CS_0174,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0175,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,237,Strict CS filter using job/position/education fields
+SAU_CS_0176,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,160,Strict CS filter using job/position/education fields
+SAU_CS_0177,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,257,Strict CS filter using job/position/education fields
+SAU_CS_0178,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,48,Strict CS filter using job/position/education fields
+SAU_CS_0179,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,197,Strict CS filter using job/position/education fields
+SAU_CS_0180,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0181,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0182,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,126,Strict CS filter using job/position/education fields
+SAU_CS_0183,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,90,Strict CS filter using job/position/education fields
+SAU_CS_0184,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,83,Strict CS filter using job/position/education fields
+SAU_CS_0185,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,145,Strict CS filter using job/position/education fields
+SAU_CS_0186,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,71,Strict CS filter using job/position/education fields
+SAU_CS_0187,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,96,Strict CS filter using job/position/education fields
+SAU_CS_0188,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,86,Strict CS filter using job/position/education fields
+SAU_CS_0189,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,141,Strict CS filter using job/position/education fields
+SAU_CS_0190,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,138,Strict CS filter using job/position/education fields
+SAU_CS_0191,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,116,Strict CS filter using job/position/education fields
+SAU_CS_0192,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,111,Strict CS filter using job/position/education fields
+SAU_CS_0193,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0194,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,117,Strict CS filter using job/position/education fields
+SAU_CS_0195,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,116,Strict CS filter using job/position/education fields
+SAU_CS_0196,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,105,Strict CS filter using job/position/education fields
+SAU_CS_0197,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,84,Strict CS filter using job/position/education fields
+SAU_CS_0198,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,132,Strict CS filter using job/position/education fields
+SAU_CS_0199,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,283,Strict CS filter using job/position/education fields
+SAU_CS_0200,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,58,Strict CS filter using job/position/education fields
+SAU_CS_0201,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0202,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,254,Strict CS filter using job/position/education fields
+SAU_CS_0203,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,72,Strict CS filter using job/position/education fields
+SAU_CS_0204,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,226,Strict CS filter using job/position/education fields
+SAU_CS_0205,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,112,Strict CS filter using job/position/education fields
+SAU_CS_0206,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,134,Strict CS filter using job/position/education fields
+SAU_CS_0207,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,133,Strict CS filter using job/position/education fields
+SAU_CS_0208,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,258,Strict CS filter using job/position/education fields
+SAU_CS_0209,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0210,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,68,Strict CS filter using job/position/education fields
+SAU_CS_0211,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,176,Strict CS filter using job/position/education fields
+SAU_CS_0212,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,204,Strict CS filter using job/position/education fields
+SAU_CS_0213,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,303,Strict CS filter using job/position/education fields
+SAU_CS_0214,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,111,Strict CS filter using job/position/education fields
+SAU_CS_0215,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,174,Strict CS filter using job/position/education fields
+SAU_CS_0216,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,192,Strict CS filter using job/position/education fields
+SAU_CS_0217,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,136,Strict CS filter using job/position/education fields
+SAU_CS_0218,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,76,Strict CS filter using job/position/education fields
+SAU_CS_0219,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0220,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0221,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,112,Strict CS filter using job/position/education fields
+SAU_CS_0222,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,67,Strict CS filter using job/position/education fields
+SAU_CS_0223,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,78,Strict CS filter using job/position/education fields
+SAU_CS_0224,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,87,Strict CS filter using job/position/education fields
+SAU_CS_0225,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,89,Strict CS filter using job/position/education fields
+SAU_CS_0226,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,89,Strict CS filter using job/position/education fields
+SAU_CS_0227,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,111,Strict CS filter using job/position/education fields
+SAU_CS_0228,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,116,Strict CS filter using job/position/education fields
+SAU_CS_0229,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,136,Strict CS filter using job/position/education fields
+SAU_CS_0230,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,334,Strict CS filter using job/position/education fields
+SAU_CS_0231,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,205,Strict CS filter using job/position/education fields
+SAU_CS_0232,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,92,Strict CS filter using job/position/education fields
+SAU_CS_0233,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,63,Strict CS filter using job/position/education fields
+SAU_CS_0234,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,86,Strict CS filter using job/position/education fields
+SAU_CS_0235,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0236,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,119,Strict CS filter using job/position/education fields
+SAU_CS_0237,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,184,Strict CS filter using job/position/education fields
+SAU_CS_0238,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,96,Strict CS filter using job/position/education fields
+SAU_CS_0239,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,289,Strict CS filter using job/position/education fields
+SAU_CS_0240,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,90,Strict CS filter using job/position/education fields
+SAU_CS_0241,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,91,Strict CS filter using job/position/education fields
+SAU_CS_0242,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,172,Strict CS filter using job/position/education fields
+SAU_CS_0243,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,100,Strict CS filter using job/position/education fields
+SAU_CS_0244,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,127,Strict CS filter using job/position/education fields
+SAU_CS_0245,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,56,Strict CS filter using job/position/education fields
+SAU_CS_0246,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,83,Strict CS filter using job/position/education fields
+SAU_CS_0247,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0248,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0249,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0250,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,53,Strict CS filter using job/position/education fields
+SAU_CS_0251,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,80,Strict CS filter using job/position/education fields
+SAU_CS_0252,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,122,Strict CS filter using job/position/education fields
+SAU_CS_0253,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,126,Strict CS filter using job/position/education fields
+SAU_CS_0254,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,91,Strict CS filter using job/position/education fields
+SAU_CS_0255,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,128,Strict CS filter using job/position/education fields
+SAU_CS_0256,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,216,Strict CS filter using job/position/education fields
+SAU_CS_0257,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0258,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,293,Strict CS filter using job/position/education fields
+SAU_CS_0259,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0260,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,88,Strict CS filter using job/position/education fields
+SAU_CS_0261,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,106,Strict CS filter using job/position/education fields
+SAU_CS_0262,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,307,Strict CS filter using job/position/education fields
+SAU_CS_0263,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,289,Strict CS filter using job/position/education fields
+SAU_CS_0264,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0265,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0266,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,93,Strict CS filter using job/position/education fields
+SAU_CS_0267,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,203,Strict CS filter using job/position/education fields
+SAU_CS_0268,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,240,Strict CS filter using job/position/education fields
+SAU_CS_0269,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,135,Strict CS filter using job/position/education fields
+SAU_CS_0270,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,290,Strict CS filter using job/position/education fields
+SAU_CS_0271,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,95,Strict CS filter using job/position/education fields
+SAU_CS_0272,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,66,Strict CS filter using job/position/education fields
+SAU_CS_0273,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,87,Strict CS filter using job/position/education fields
+SAU_CS_0274,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,131,Strict CS filter using job/position/education fields
+SAU_CS_0275,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,293,Strict CS filter using job/position/education fields
+SAU_CS_0276,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,147,Strict CS filter using job/position/education fields
+SAU_CS_0277,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,141,Strict CS filter using job/position/education fields
+SAU_CS_0278,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0279,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,130,Strict CS filter using job/position/education fields
+SAU_CS_0280,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,77,Strict CS filter using job/position/education fields
+SAU_CS_0281,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,122,Strict CS filter using job/position/education fields
+SAU_CS_0282,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,187,Strict CS filter using job/position/education fields
+SAU_CS_0283,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,55,Strict CS filter using job/position/education fields
+SAU_CS_0284,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,152,Strict CS filter using job/position/education fields
+SAU_CS_0285,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,146,Strict CS filter using job/position/education fields
+SAU_CS_0286,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,115,Strict CS filter using job/position/education fields
+SAU_CS_0287,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,90,Strict CS filter using job/position/education fields
+SAU_CS_0288,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,95,Strict CS filter using job/position/education fields
+SAU_CS_0289,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0290,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,87,Strict CS filter using job/position/education fields
+SAU_CS_0291,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,220,Strict CS filter using job/position/education fields
+SAU_CS_0292,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,235,Strict CS filter using job/position/education fields
+SAU_CS_0293,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,132,Strict CS filter using job/position/education fields
+SAU_CS_0294,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,72,Strict CS filter using job/position/education fields
+SAU_CS_0295,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,108,Strict CS filter using job/position/education fields
+SAU_CS_0296,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,244,Strict CS filter using job/position/education fields
+SAU_CS_0297,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,240,Strict CS filter using job/position/education fields
+SAU_CS_0298,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0299,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,56,Strict CS filter using job/position/education fields
+SAU_CS_0300,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,236,Strict CS filter using job/position/education fields
+SAU_CS_0301,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,75,Strict CS filter using job/position/education fields
+SAU_CS_0302,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,194,Strict CS filter using job/position/education fields
+SAU_CS_0303,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,101,Strict CS filter using job/position/education fields
+SAU_CS_0304,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,109,Strict CS filter using job/position/education fields
+SAU_CS_0305,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,147,Strict CS filter using job/position/education fields
+SAU_CS_0306,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,78,Strict CS filter using job/position/education fields
+SAU_CS_0307,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,94,Strict CS filter using job/position/education fields
+SAU_CS_0308,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,164,Strict CS filter using job/position/education fields
+SAU_CS_0309,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,84,Strict CS filter using job/position/education fields
+SAU_CS_0310,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,179,Strict CS filter using job/position/education fields
+SAU_CS_0311,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,121,Strict CS filter using job/position/education fields
+SAU_CS_0312,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,182,Strict CS filter using job/position/education fields
+SAU_CS_0313,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,192,Strict CS filter using job/position/education fields
+SAU_CS_0314,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,166,Strict CS filter using job/position/education fields
+SAU_CS_0315,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,150,Strict CS filter using job/position/education fields
+SAU_CS_0316,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,63,Strict CS filter using job/position/education fields
+SAU_CS_0317,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,220,Strict CS filter using job/position/education fields
+SAU_CS_0318,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,82,Strict CS filter using job/position/education fields
+SAU_CS_0319,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,197,Strict CS filter using job/position/education fields
+SAU_CS_0320,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0321,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,143,Strict CS filter using job/position/education fields
+SAU_CS_0322,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,90,Strict CS filter using job/position/education fields
+SAU_CS_0323,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,194,Strict CS filter using job/position/education fields
+SAU_CS_0324,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,85,Strict CS filter using job/position/education fields
+SAU_CS_0325,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,57,Strict CS filter using job/position/education fields
+SAU_CS_0326,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,55,Strict CS filter using job/position/education fields
+SAU_CS_0327,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,175,Strict CS filter using job/position/education fields
+SAU_CS_0328,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,94,Strict CS filter using job/position/education fields
+SAU_CS_0329,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,164,Strict CS filter using job/position/education fields
+SAU_CS_0330,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0331,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,130,Strict CS filter using job/position/education fields
+SAU_CS_0332,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,66,Strict CS filter using job/position/education fields
+SAU_CS_0333,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,150,Strict CS filter using job/position/education fields
+SAU_CS_0334,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0335,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,55,Strict CS filter using job/position/education fields
+SAU_CS_0336,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,294,Strict CS filter using job/position/education fields
+SAU_CS_0337,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0338,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,110,Strict CS filter using job/position/education fields
+SAU_CS_0339,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,318,Strict CS filter using job/position/education fields
+SAU_CS_0340,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,88,Strict CS filter using job/position/education fields
+SAU_CS_0341,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,82,Strict CS filter using job/position/education fields
+SAU_CS_0342,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0343,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,80,Strict CS filter using job/position/education fields
+SAU_CS_0344,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,105,Strict CS filter using job/position/education fields
+SAU_CS_0345,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,60,Strict CS filter using job/position/education fields
+SAU_CS_0346,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,135,Strict CS filter using job/position/education fields
+SAU_CS_0347,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,128,Strict CS filter using job/position/education fields
+SAU_CS_0348,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,137,Strict CS filter using job/position/education fields
+SAU_CS_0349,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,112,Strict CS filter using job/position/education fields
+SAU_CS_0350,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,130,Strict CS filter using job/position/education fields
+SAU_CS_0351,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,128,Strict CS filter using job/position/education fields
+SAU_CS_0352,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,66,Strict CS filter using job/position/education fields
+SAU_CS_0353,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,248,Strict CS filter using job/position/education fields
+SAU_CS_0354,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,348,Strict CS filter using job/position/education fields
+SAU_CS_0355,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,301,Strict CS filter using job/position/education fields
+SAU_CS_0356,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,95,Strict CS filter using job/position/education fields
+SAU_CS_0357,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,97,Strict CS filter using job/position/education fields
+SAU_CS_0358,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,179,Strict CS filter using job/position/education fields
+SAU_CS_0359,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,83,Strict CS filter using job/position/education fields
+SAU_CS_0360,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,62,Strict CS filter using job/position/education fields
+SAU_CS_0361,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,314,Strict CS filter using job/position/education fields
+SAU_CS_0362,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,106,Strict CS filter using job/position/education fields
+SAU_CS_0363,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,124,Strict CS filter using job/position/education fields
+SAU_CS_0364,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0365,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,370,Strict CS filter using job/position/education fields
+SAU_CS_0366,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0367,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,172,Strict CS filter using job/position/education fields
+SAU_CS_0368,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,200,Strict CS filter using job/position/education fields
+SAU_CS_0369,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,253,Strict CS filter using job/position/education fields
+SAU_CS_0370,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,92,Strict CS filter using job/position/education fields
+SAU_CS_0371,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,75,Strict CS filter using job/position/education fields
+SAU_CS_0372,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,79,Strict CS filter using job/position/education fields
+SAU_CS_0373,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,147,Strict CS filter using job/position/education fields
+SAU_CS_0374,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0375,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0376,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,102,Strict CS filter using job/position/education fields
+SAU_CS_0377,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,162,Strict CS filter using job/position/education fields
+SAU_CS_0378,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,419,Strict CS filter using job/position/education fields
+SAU_CS_0379,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0380,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,94,Strict CS filter using job/position/education fields
+SAU_CS_0381,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,165,Strict CS filter using job/position/education fields
+SAU_CS_0382,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0383,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,226,Strict CS filter using job/position/education fields
+SAU_CS_0384,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,56,Strict CS filter using job/position/education fields
+SAU_CS_0385,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,142,Strict CS filter using job/position/education fields
+SAU_CS_0386,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0387,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,122,Strict CS filter using job/position/education fields
+SAU_CS_0388,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,201,Strict CS filter using job/position/education fields
+SAU_CS_0389,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,89,Strict CS filter using job/position/education fields
+SAU_CS_0390,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,176,Strict CS filter using job/position/education fields
+SAU_CS_0391,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,226,Strict CS filter using job/position/education fields
+SAU_CS_0392,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0393,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,97,Strict CS filter using job/position/education fields
+SAU_CS_0394,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,321,Strict CS filter using job/position/education fields
+SAU_CS_0395,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,150,Strict CS filter using job/position/education fields
+SAU_CS_0396,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,79,Strict CS filter using job/position/education fields
+SAU_CS_0397,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,84,Strict CS filter using job/position/education fields
+SAU_CS_0398,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,60,Strict CS filter using job/position/education fields
+SAU_CS_0399,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,232,Strict CS filter using job/position/education fields
+SAU_CS_0400,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,179,Strict CS filter using job/position/education fields
+SAU_CS_0401,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0402,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,236,Strict CS filter using job/position/education fields
+SAU_CS_0403,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0404,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0405,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,229,Strict CS filter using job/position/education fields
+SAU_CS_0406,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,57,Strict CS filter using job/position/education fields
+SAU_CS_0407,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,185,Strict CS filter using job/position/education fields
+SAU_CS_0408,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,76,Strict CS filter using job/position/education fields
+SAU_CS_0409,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,110,Strict CS filter using job/position/education fields
+SAU_CS_0410,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,179,Strict CS filter using job/position/education fields
+SAU_CS_0411,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,260,Strict CS filter using job/position/education fields
+SAU_CS_0412,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0413,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,112,Strict CS filter using job/position/education fields
+SAU_CS_0414,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,372,Strict CS filter using job/position/education fields
+SAU_CS_0415,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,143,Strict CS filter using job/position/education fields
+SAU_CS_0416,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,124,Strict CS filter using job/position/education fields
+SAU_CS_0417,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,263,Strict CS filter using job/position/education fields
+SAU_CS_0418,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,71,Strict CS filter using job/position/education fields
+SAU_CS_0419,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0420,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,144,Strict CS filter using job/position/education fields
+SAU_CS_0421,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,191,Strict CS filter using job/position/education fields
+SAU_CS_0422,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,84,Strict CS filter using job/position/education fields
+SAU_CS_0423,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,225,Strict CS filter using job/position/education fields
+SAU_CS_0424,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,174,Strict CS filter using job/position/education fields
+SAU_CS_0425,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,85,Strict CS filter using job/position/education fields
+SAU_CS_0426,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,237,Strict CS filter using job/position/education fields
+SAU_CS_0427,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,72,Strict CS filter using job/position/education fields
+SAU_CS_0428,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,180,Strict CS filter using job/position/education fields
+SAU_CS_0429,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,115,Strict CS filter using job/position/education fields
+SAU_CS_0430,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,164,Strict CS filter using job/position/education fields
+SAU_CS_0431,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0432,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,110,Strict CS filter using job/position/education fields
+SAU_CS_0433,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,215,Strict CS filter using job/position/education fields
+SAU_CS_0434,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,106,Strict CS filter using job/position/education fields
+SAU_CS_0435,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,63,Strict CS filter using job/position/education fields
+SAU_CS_0436,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,155,Strict CS filter using job/position/education fields
+SAU_CS_0437,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,57,Strict CS filter using job/position/education fields
+SAU_CS_0438,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,142,Strict CS filter using job/position/education fields
+SAU_CS_0439,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,118,Strict CS filter using job/position/education fields
+SAU_CS_0440,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,179,Strict CS filter using job/position/education fields
+SAU_CS_0441,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,102,Strict CS filter using job/position/education fields
+SAU_CS_0442,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,64,Strict CS filter using job/position/education fields
+SAU_CS_0443,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,112,Strict CS filter using job/position/education fields
+SAU_CS_0444,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,82,Strict CS filter using job/position/education fields
+SAU_CS_0445,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0446,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,175,Strict CS filter using job/position/education fields
+SAU_CS_0447,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,159,Strict CS filter using job/position/education fields
+SAU_CS_0448,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,222,Strict CS filter using job/position/education fields
+SAU_CS_0449,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,289,Strict CS filter using job/position/education fields
+SAU_CS_0450,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,148,Strict CS filter using job/position/education fields
+SAU_CS_0451,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,62,Strict CS filter using job/position/education fields
+SAU_CS_0452,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,145,Strict CS filter using job/position/education fields
+SAU_CS_0453,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,115,Strict CS filter using job/position/education fields
+SAU_CS_0454,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,153,Strict CS filter using job/position/education fields
+SAU_CS_0455,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,114,Strict CS filter using job/position/education fields
+SAU_CS_0456,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,201,Strict CS filter using job/position/education fields
+SAU_CS_0457,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,146,Strict CS filter using job/position/education fields
+SAU_CS_0458,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,72,Strict CS filter using job/position/education fields
+SAU_CS_0459,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,170,Strict CS filter using job/position/education fields
+SAU_CS_0460,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,201,Strict CS filter using job/position/education fields
+SAU_CS_0461,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,121,Strict CS filter using job/position/education fields
+SAU_CS_0462,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0463,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,74,Strict CS filter using job/position/education fields
+SAU_CS_0464,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,293,Strict CS filter using job/position/education fields
+SAU_CS_0465,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,149,Strict CS filter using job/position/education fields
+SAU_CS_0466,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,101,Strict CS filter using job/position/education fields
+SAU_CS_0467,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,75,Strict CS filter using job/position/education fields
+SAU_CS_0468,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,70,Strict CS filter using job/position/education fields
+SAU_CS_0469,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,69,Strict CS filter using job/position/education fields
+SAU_CS_0470,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,197,Strict CS filter using job/position/education fields
+SAU_CS_0471,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,99,Strict CS filter using job/position/education fields
+SAU_CS_0472,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,72,Strict CS filter using job/position/education fields
+SAU_CS_0473,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,78,Strict CS filter using job/position/education fields
+SAU_CS_0474,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,129,Strict CS filter using job/position/education fields
+SAU_CS_0475,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,92,Strict CS filter using job/position/education fields
+SAU_CS_0476,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,127,Strict CS filter using job/position/education fields
+SAU_CS_0477,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,87,Strict CS filter using job/position/education fields
+SAU_CS_0478,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,236,Strict CS filter using job/position/education fields
+SAU_CS_0479,saugataroyarghya/resume-dataset,Data Science Engineer,csv_structured,yes,yes,no,125,Strict CS filter using job/position/education fields
+SAU_CS_0480,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,142,Strict CS filter using job/position/education fields
+SAU_CS_0481,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,365,Strict CS filter using job/position/education fields
+SAU_CS_0482,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,107,Strict CS filter using job/position/education fields
+SAU_CS_0483,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,130,Strict CS filter using job/position/education fields
+SAU_CS_0484,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,113,Strict CS filter using job/position/education fields
+SAU_CS_0485,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,66,Strict CS filter using job/position/education fields
+SAU_CS_0486,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,73,Strict CS filter using job/position/education fields
+SAU_CS_0487,saugataroyarghya/resume-dataset,Intern (Generative AI Engineering - 2D/3D Image Generation),csv_structured,yes,yes,no,63,Strict CS filter using job/position/education fields
+SAU_CS_0488,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,65,Strict CS filter using job/position/education fields
+SAU_CS_0489,saugataroyarghya/resume-dataset,Senior iOS Engineer,csv_structured,yes,yes,no,120,Strict CS filter using job/position/education fields
+SAU_CS_0490,saugataroyarghya/resume-dataset,Senior Software Engineer,csv_structured,yes,yes,no,84,Strict CS filter using job/position/education fields
+SAU_CS_0491,saugataroyarghya/resume-dataset,Executive/ Sr. Executive -IT,csv_structured,yes,yes,no,82,Strict CS filter using job/position/education fields
+SAU_CS_0492,saugataroyarghya/resume-dataset,DevOps Engineer,csv_structured,yes,yes,no,103,Strict CS filter using job/position/education fields
+SAU_CS_0493,saugataroyarghya/resume-dataset,Data Engineer,csv_structured,yes,yes,no,157,Strict CS filter using job/position/education fields
+SAU_CS_0494,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,153,Strict CS filter using job/position/education fields
+SAU_CS_0495,saugataroyarghya/resume-dataset,AI Engineer,csv_structured,yes,yes,no,86,Strict CS filter using job/position/education fields
+SAU_CS_0496,saugataroyarghya/resume-dataset,Machine Learning (ML) Engineer,csv_structured,yes,yes,no,127,Strict CS filter using job/position/education fields
+SAU_CS_0497,saugataroyarghya/resume-dataset,"Full Stack Developer (Python,React js)",csv_structured,yes,yes,no,109,Strict CS filter using job/position/education fields
+SAU_CS_0498,saugataroyarghya/resume-dataset,Database Administrator (DBA),csv_structured,yes,yes,no,96,Strict CS filter using job/position/education fields
+SAU_CS_0499,saugataroyarghya/resume-dataset,Network Support Engineer,csv_structured,yes,yes,no,102,Strict CS filter using job/position/education fields
+SAU_CS_0500,saugataroyarghya/resume-dataset,"System Administrator (Operation & Maintenance of Server, Storage & Service Desk System)",csv_structured,yes,yes,no,134,Strict CS filter using job/position/education fields
