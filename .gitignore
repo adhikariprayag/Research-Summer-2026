@@ -44,3 +44,37 @@ env/
 # Full GPT reconstruction outputs with resume-derived entity content
 05_gpt_reconstruction/full_outputs/
 05_gpt_reconstruction/full_evaluation_outputs/
+
+# ==========================================
+# Private resume research data
+# ==========================================
+
+# Raw resume datasets
+**/raw_private/
+**/json_records_private/
+
+# Resume text and manual annotations
+**/annotation_subset_private/
+**/gold_standard*.csv
+**/annotation_tracker*.csv
+**/resume_texts*/
+
+# Resume-derived system outputs
+**/baseline_test*/
+**/system_entities*.csv
+**/missed_entities*.csv
+**/incorrect_predictions*.csv
+**/per_resume_entity_results*.csv
+
+# Raw GPT outputs
+**/gpt_outputs_private/
+**/gpt_raw_outputs/
+**/raw_gpt_outputs/
+**/*gpt_output*.json
+**/*gpt_response*.json
+
+# Resume files and extracted text
+**/*.pdf
+**/*.docx
+**/extracted_text/
+**/resume_texts/
