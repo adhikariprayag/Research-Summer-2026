@@ -84,3 +84,4 @@ env/
 02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v3.py
 02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v4_skill_relabel.py
 02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v4_skill_relabel_15.py
+05_gpt_reconstruction/gpt_skill_recovery_private/
