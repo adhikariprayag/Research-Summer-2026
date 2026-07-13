@@ -13,8 +13,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FULL_LIST = (
     PROJECT_ROOT
     / "05_gpt_reconstruction"
-    / "full_inputs"
-    / "gpt_full_20_resume_list.csv"
+    / "gpt_skill_recovery_private"
+    / "gpt_skill_recovery_current_20_input.csv"
 )
 
 PROMPT_FILE = (
@@ -28,15 +28,16 @@ OUTPUT_FOLDER = (
     PROJECT_ROOT
     / "05_gpt_reconstruction"
     / "gpt_skill_recovery_private"
+    / "current_20_outputs"
 )
 
 COMBINED_OUTPUT = (
     OUTPUT_FOLDER
-    / "gpt_skill_recovery_20_combined.csv"
+    / "gpt_skill_recovery_current_20_combined.csv"
 )
 
 MODEL_NAME = "gpt-4o-mini"
-MAX_OUTPUT_TOKENS = 4000
+MAX_OUTPUT_TOKENS = 8000
 
 ALLOWED_ENTITY_TYPES = {"SKILL"}
 
