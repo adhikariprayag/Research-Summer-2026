@@ -78,3 +78,9 @@ env/
 **/*.docx
 **/extracted_text/
 **/resume_texts/
+
+# Local intermediate files containing resume-derived examples or overfitted rules
+01_literature_review/week5_6_summary.md
+02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v3.py
+02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v4_skill_relabel.py
+02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v4_skill_relabel_15.py
