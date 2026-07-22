@@ -1,0 +1,2 @@
+resumes_processed,total_predictions,unique_entity_types,average_predictions_per_resume,median_predictions_per_resume,minimum_predictions_per_resume,maximum_predictions_per_resume,elapsed_seconds
+1020,14665,5,14.38,12.0,1,89,78.64
