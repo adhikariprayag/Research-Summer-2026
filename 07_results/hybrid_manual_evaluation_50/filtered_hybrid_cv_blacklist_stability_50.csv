@@ -1,0 +1,20 @@
+entity_norm,blacklisted_folds,mean_training_total,mean_training_valid,mean_training_incorrect
+software,5,22.4,0.0,22.4
+database,5,16.8,2.4,14.4
+network,5,14.4,1.6,12.8
+information technology,5,11.2,0.0,11.2
+testing,5,12.8,4.0,8.8
+automation,5,8.0,1.6,6.4
+cloud,5,6.4,0.8,5.6
+troubleshooting,5,8.8,3.2,5.6
+windows,5,8.0,2.4,5.6
+networking,5,6.4,2.4,4.0
+recovery,5,5.6,1.6,4.0
+r,5,2.4,0.0,2.4
+backup,4,6.5,2.25,4.25
+firewall,3,2.0,0.0,2.0
+router,3,2.0,0.0,2.0
+vmware,3,3.0,1.0,2.0
+voip,3,2.0,0.0,2.0
+help desk,2,5.0,2.0,3.0
+sql,1,7.0,3.0,4.0

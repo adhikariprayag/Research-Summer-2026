@@ -1,0 +1,151 @@
+resume_id,dataset,system,tp,fp,fn
+JIT_CS_0081,jithinjagadeesh/resume-dataset,GPT,12,0,0
+JIT_CS_0081,jithinjagadeesh/resume-dataset,Raw Hybrid,12,2,0
+JIT_CS_0081,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,12,2,0
+JIT_CS_0358,jithinjagadeesh/resume-dataset,GPT,11,1,1
+JIT_CS_0358,jithinjagadeesh/resume-dataset,Raw Hybrid,11,3,1
+JIT_CS_0358,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,11,1,1
+JIT_CS_0106,jithinjagadeesh/resume-dataset,GPT,15,0,0
+JIT_CS_0106,jithinjagadeesh/resume-dataset,Raw Hybrid,15,1,0
+JIT_CS_0106,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,15,0,0
+JIT_CS_0344,jithinjagadeesh/resume-dataset,GPT,10,0,1
+JIT_CS_0344,jithinjagadeesh/resume-dataset,Raw Hybrid,10,2,1
+JIT_CS_0344,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,10,2,1
+JIT_CS_0052,jithinjagadeesh/resume-dataset,GPT,21,0,4
+JIT_CS_0052,jithinjagadeesh/resume-dataset,Raw Hybrid,21,0,4
+JIT_CS_0052,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,21,0,4
+JIT_CS_0144,jithinjagadeesh/resume-dataset,GPT,9,1,7
+JIT_CS_0144,jithinjagadeesh/resume-dataset,Raw Hybrid,10,2,6
+JIT_CS_0144,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,10,1,6
+JIT_CS_0194,jithinjagadeesh/resume-dataset,GPT,15,2,6
+JIT_CS_0194,jithinjagadeesh/resume-dataset,Raw Hybrid,16,3,5
+JIT_CS_0194,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,16,3,5
+JIT_CS_0298,jithinjagadeesh/resume-dataset,GPT,9,0,11
+JIT_CS_0298,jithinjagadeesh/resume-dataset,Raw Hybrid,9,2,11
+JIT_CS_0298,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,9,0,11
+JIT_CS_0391,jithinjagadeesh/resume-dataset,GPT,14,0,6
+JIT_CS_0391,jithinjagadeesh/resume-dataset,Raw Hybrid,14,3,6
+JIT_CS_0391,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,14,0,6
+JIT_CS_0225,jithinjagadeesh/resume-dataset,GPT,18,0,0
+JIT_CS_0225,jithinjagadeesh/resume-dataset,Raw Hybrid,18,2,0
+JIT_CS_0225,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,18,0,0
+JIT_CS_0016,jithinjagadeesh/resume-dataset,GPT,15,0,8
+JIT_CS_0016,jithinjagadeesh/resume-dataset,Raw Hybrid,16,1,7
+JIT_CS_0016,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,16,1,7
+JIT_CS_0065,jithinjagadeesh/resume-dataset,GPT,15,0,12
+JIT_CS_0065,jithinjagadeesh/resume-dataset,Raw Hybrid,16,6,11
+JIT_CS_0065,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,15,2,12
+JIT_CS_0027,jithinjagadeesh/resume-dataset,GPT,11,1,10
+JIT_CS_0027,jithinjagadeesh/resume-dataset,Raw Hybrid,11,1,10
+JIT_CS_0027,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,11,1,10
+JIT_CS_0367,jithinjagadeesh/resume-dataset,GPT,13,2,5
+JIT_CS_0367,jithinjagadeesh/resume-dataset,Raw Hybrid,15,4,3
+JIT_CS_0367,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,15,4,3
+JIT_CS_0156,jithinjagadeesh/resume-dataset,GPT,10,0,5
+JIT_CS_0156,jithinjagadeesh/resume-dataset,Raw Hybrid,10,3,5
+JIT_CS_0156,jithinjagadeesh/resume-dataset,CV Filtered Hybrid,10,0,5
+SAU_CS_0109,saugataroyarghya/resume-dataset,GPT,30,2,9
+SAU_CS_0109,saugataroyarghya/resume-dataset,Raw Hybrid,30,4,9
+SAU_CS_0109,saugataroyarghya/resume-dataset,CV Filtered Hybrid,30,2,9
+SAU_CS_0407,saugataroyarghya/resume-dataset,GPT,7,1,8
+SAU_CS_0407,saugataroyarghya/resume-dataset,Raw Hybrid,10,2,5
+SAU_CS_0407,saugataroyarghya/resume-dataset,CV Filtered Hybrid,10,2,5
+SAU_CS_0025,saugataroyarghya/resume-dataset,GPT,19,0,7
+SAU_CS_0025,saugataroyarghya/resume-dataset,Raw Hybrid,20,0,6
+SAU_CS_0025,saugataroyarghya/resume-dataset,CV Filtered Hybrid,19,0,7
+SAU_CS_0188,saugataroyarghya/resume-dataset,GPT,19,3,1
+SAU_CS_0188,saugataroyarghya/resume-dataset,Raw Hybrid,19,4,1
+SAU_CS_0188,saugataroyarghya/resume-dataset,CV Filtered Hybrid,19,4,1
+SAU_CS_0135,saugataroyarghya/resume-dataset,GPT,17,0,22
+SAU_CS_0135,saugataroyarghya/resume-dataset,Raw Hybrid,17,2,22
+SAU_CS_0135,saugataroyarghya/resume-dataset,CV Filtered Hybrid,17,0,22
+SAU_CS_0055,saugataroyarghya/resume-dataset,GPT,20,0,1
+SAU_CS_0055,saugataroyarghya/resume-dataset,Raw Hybrid,21,1,0
+SAU_CS_0055,saugataroyarghya/resume-dataset,CV Filtered Hybrid,20,0,1
+SAU_CS_0363,saugataroyarghya/resume-dataset,GPT,25,2,0
+SAU_CS_0363,saugataroyarghya/resume-dataset,Raw Hybrid,25,3,0
+SAU_CS_0363,saugataroyarghya/resume-dataset,CV Filtered Hybrid,25,3,0
+SAU_CS_0298,saugataroyarghya/resume-dataset,GPT,18,0,1
+SAU_CS_0298,saugataroyarghya/resume-dataset,Raw Hybrid,19,2,0
+SAU_CS_0298,saugataroyarghya/resume-dataset,CV Filtered Hybrid,19,0,0
+SAU_CS_0338,saugataroyarghya/resume-dataset,GPT,37,0,0
+SAU_CS_0338,saugataroyarghya/resume-dataset,Raw Hybrid,37,4,0
+SAU_CS_0338,saugataroyarghya/resume-dataset,CV Filtered Hybrid,37,1,0
+SAU_CS_0405,saugataroyarghya/resume-dataset,GPT,14,0,7
+SAU_CS_0405,saugataroyarghya/resume-dataset,Raw Hybrid,15,3,6
+SAU_CS_0405,saugataroyarghya/resume-dataset,CV Filtered Hybrid,15,0,6
+SAU_CS_0453,saugataroyarghya/resume-dataset,GPT,19,0,5
+SAU_CS_0453,saugataroyarghya/resume-dataset,Raw Hybrid,20,3,4
+SAU_CS_0453,saugataroyarghya/resume-dataset,CV Filtered Hybrid,19,0,5
+SAU_CS_0106,saugataroyarghya/resume-dataset,GPT,18,0,1
+SAU_CS_0106,saugataroyarghya/resume-dataset,Raw Hybrid,18,8,1
+SAU_CS_0106,saugataroyarghya/resume-dataset,CV Filtered Hybrid,18,4,1
+SAU_CS_0285,saugataroyarghya/resume-dataset,GPT,10,0,16
+SAU_CS_0285,saugataroyarghya/resume-dataset,Raw Hybrid,11,4,15
+SAU_CS_0285,saugataroyarghya/resume-dataset,CV Filtered Hybrid,10,2,16
+SAU_CS_0256,saugataroyarghya/resume-dataset,GPT,33,0,6
+SAU_CS_0256,saugataroyarghya/resume-dataset,Raw Hybrid,34,4,5
+SAU_CS_0256,saugataroyarghya/resume-dataset,CV Filtered Hybrid,34,1,5
+SAU_CS_0425,saugataroyarghya/resume-dataset,GPT,22,0,0
+SAU_CS_0425,saugataroyarghya/resume-dataset,Raw Hybrid,22,4,0
+SAU_CS_0425,saugataroyarghya/resume-dataset,CV Filtered Hybrid,22,1,0
+SAU_CS_0097,saugataroyarghya/resume-dataset,GPT,22,0,2
+SAU_CS_0097,saugataroyarghya/resume-dataset,Raw Hybrid,23,5,1
+SAU_CS_0097,saugataroyarghya/resume-dataset,CV Filtered Hybrid,23,2,1
+SAU_CS_0426,saugataroyarghya/resume-dataset,GPT,21,0,9
+SAU_CS_0426,saugataroyarghya/resume-dataset,Raw Hybrid,21,14,9
+SAU_CS_0426,saugataroyarghya/resume-dataset,CV Filtered Hybrid,21,7,9
+SAU_CS_0239,saugataroyarghya/resume-dataset,GPT,26,3,29
+SAU_CS_0239,saugataroyarghya/resume-dataset,Raw Hybrid,28,8,27
+SAU_CS_0239,saugataroyarghya/resume-dataset,CV Filtered Hybrid,27,4,28
+SAU_CS_0454,saugataroyarghya/resume-dataset,GPT,27,1,3
+SAU_CS_0454,saugataroyarghya/resume-dataset,Raw Hybrid,27,5,3
+SAU_CS_0454,saugataroyarghya/resume-dataset,CV Filtered Hybrid,27,3,3
+SAU_CS_0339,saugataroyarghya/resume-dataset,GPT,23,0,23
+SAU_CS_0339,saugataroyarghya/resume-dataset,Raw Hybrid,27,8,19
+SAU_CS_0339,saugataroyarghya/resume-dataset,CV Filtered Hybrid,26,1,20
+SNE_IT_0053,snehaanbhawal/resume-dataset,GPT,17,0,10
+SNE_IT_0053,snehaanbhawal/resume-dataset,Raw Hybrid,18,5,9
+SNE_IT_0053,snehaanbhawal/resume-dataset,CV Filtered Hybrid,18,0,9
+SNE_IT_0097,snehaanbhawal/resume-dataset,GPT,10,1,12
+SNE_IT_0097,snehaanbhawal/resume-dataset,Raw Hybrid,13,6,9
+SNE_IT_0097,snehaanbhawal/resume-dataset,CV Filtered Hybrid,12,3,10
+SNE_IT_0094,snehaanbhawal/resume-dataset,GPT,37,5,28
+SNE_IT_0094,snehaanbhawal/resume-dataset,Raw Hybrid,41,8,24
+SNE_IT_0094,snehaanbhawal/resume-dataset,CV Filtered Hybrid,40,5,25
+SNE_IT_0120,snehaanbhawal/resume-dataset,GPT,16,2,26
+SNE_IT_0120,snehaanbhawal/resume-dataset,Raw Hybrid,16,5,26
+SNE_IT_0120,snehaanbhawal/resume-dataset,CV Filtered Hybrid,16,3,26
+SNE_IT_0001,snehaanbhawal/resume-dataset,GPT,10,1,26
+SNE_IT_0001,snehaanbhawal/resume-dataset,Raw Hybrid,15,10,21
+SNE_IT_0001,snehaanbhawal/resume-dataset,CV Filtered Hybrid,15,4,21
+SNE_IT_0083,snehaanbhawal/resume-dataset,GPT,15,0,16
+SNE_IT_0083,snehaanbhawal/resume-dataset,Raw Hybrid,17,8,14
+SNE_IT_0083,snehaanbhawal/resume-dataset,CV Filtered Hybrid,17,3,14
+SNE_IT_0031,snehaanbhawal/resume-dataset,GPT,40,0,19
+SNE_IT_0031,snehaanbhawal/resume-dataset,Raw Hybrid,45,10,14
+SNE_IT_0031,snehaanbhawal/resume-dataset,CV Filtered Hybrid,45,4,14
+SNE_IT_0056,snehaanbhawal/resume-dataset,GPT,22,0,22
+SNE_IT_0056,snehaanbhawal/resume-dataset,Raw Hybrid,26,5,18
+SNE_IT_0056,snehaanbhawal/resume-dataset,CV Filtered Hybrid,24,0,20
+SNE_IT_0102,snehaanbhawal/resume-dataset,GPT,45,0,18
+SNE_IT_0102,snehaanbhawal/resume-dataset,Raw Hybrid,49,5,14
+SNE_IT_0102,snehaanbhawal/resume-dataset,CV Filtered Hybrid,48,0,15
+SNE_IT_0089,snehaanbhawal/resume-dataset,GPT,19,4,26
+SNE_IT_0089,snehaanbhawal/resume-dataset,Raw Hybrid,22,7,23
+SNE_IT_0089,snehaanbhawal/resume-dataset,CV Filtered Hybrid,21,4,24
+SNE_IT_0073,snehaanbhawal/resume-dataset,GPT,24,0,20
+SNE_IT_0073,snehaanbhawal/resume-dataset,Raw Hybrid,27,8,17
+SNE_IT_0073,snehaanbhawal/resume-dataset,CV Filtered Hybrid,25,2,19
+SNE_IT_0004,snehaanbhawal/resume-dataset,GPT,51,1,17
+SNE_IT_0004,snehaanbhawal/resume-dataset,Raw Hybrid,53,10,15
+SNE_IT_0004,snehaanbhawal/resume-dataset,CV Filtered Hybrid,52,4,16
+SNE_IT_0114,snehaanbhawal/resume-dataset,GPT,19,0,25
+SNE_IT_0114,snehaanbhawal/resume-dataset,Raw Hybrid,23,5,21
+SNE_IT_0114,snehaanbhawal/resume-dataset,CV Filtered Hybrid,22,0,22
+SNE_IT_0110,snehaanbhawal/resume-dataset,GPT,37,1,31
+SNE_IT_0110,snehaanbhawal/resume-dataset,Raw Hybrid,40,7,28
+SNE_IT_0110,snehaanbhawal/resume-dataset,CV Filtered Hybrid,39,2,29
+SNE_IT_0043,snehaanbhawal/resume-dataset,GPT,38,2,45
+SNE_IT_0043,snehaanbhawal/resume-dataset,Raw Hybrid,51,12,32
+SNE_IT_0043,snehaanbhawal/resume-dataset,CV Filtered Hybrid,46,5,37

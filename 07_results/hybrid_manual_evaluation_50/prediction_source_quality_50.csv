@@ -1,0 +1,16 @@
+dataset,prediction_source,total,correct,incorrect,partial,strict_accuracy,relaxed_accuracy
+jithinjagadeesh/resume-dataset,both,56,55,0,1,0.982,1.0
+jithinjagadeesh/resume-dataset,gpt,149,143,1,5,0.96,0.993
+jithinjagadeesh/resume-dataset,v4,34,6,27,1,0.176,0.206
+jithinjagadeesh/resume-dataset,all,239,204,28,7,0.854,0.883
+saugataroyarghya/resume-dataset,both,96,95,1,0,0.99,0.99
+saugataroyarghya/resume-dataset,gpt,343,332,11,0,0.968,0.968
+saugataroyarghya/resume-dataset,v4,93,17,73,3,0.183,0.215
+saugataroyarghya/resume-dataset,all,532,444,85,3,0.835,0.84
+snehaanbhawal/resume-dataset,both,59,58,1,0,0.983,0.983
+snehaanbhawal/resume-dataset,gpt,358,342,10,6,0.955,0.972
+snehaanbhawal/resume-dataset,v4,150,56,87,7,0.373,0.42
+snehaanbhawal/resume-dataset,all,567,456,98,13,0.804,0.827
+Combined,both,211,208,2,1,0.986,0.991
+Combined,gpt,850,817,22,11,0.961,0.974
+Combined,v4,277,79,187,11,0.285,0.325
