@@ -1,0 +1,101 @@
+dataset_group,rank,skill,norm,resumes_with_skill,percentage_of_resumes
+Jithin,1,Python,python,211,52.75
+Jithin,2,cloud,cloud,111,27.75
+Jithin,3,machine learning,machine learning,110,27.5
+Jithin,4,Django,django,107,26.75
+Jithin,5,database,database,105,26.25
+Jithin,6,JavaScript,javascript,100,25.0
+Jithin,7,Java,java,95,23.75
+Jithin,8,RESTful APIs,restful apis,92,23.0
+Jithin,9,AWS,aws,91,22.75
+Jithin,10,Flask,flask,88,22.0
+Jithin,11,React.js,react.js,85,21.25
+Jithin,12,scikit-learn,scikit-learn,78,19.5
+Jithin,13,Node.js,node.js,74,18.5
+Jithin,14,TensorFlow,tensorflow,74,18.5
+Jithin,15,CSS,css,73,18.25
+Jithin,16,Azure,azure,68,17.0
+Jithin,17,testing,testing,65,16.25
+Jithin,18,HTML,html,59,14.75
+Jithin,19,Angular,angular,56,14.0
+Jithin,20,Express.js,express.js,50,12.5
+Jithin,21,Kubernetes,kubernetes,50,12.5
+Jithin,22,Kotlin,kotlin,49,12.25
+Jithin,23,google cloud,google cloud,48,12.0
+Jithin,24,Pandas,pandas,47,11.75
+Jithin,25,c,c,46,11.5
+Saugata,1,software,software,327,65.4
+Saugata,2,Machine Learning,machine learning,322,64.4
+Saugata,3,Python,python,303,60.6
+Saugata,4,troubleshooting,troubleshooting,230,46.0
+Saugata,5,SQL,sql,192,38.4
+Saugata,6,Data Analysis,data analysis,186,37.2
+Saugata,7,database,database,166,33.2
+Saugata,8,testing,testing,134,26.8
+Saugata,9,Deep Learning,deep learning,130,26.0
+Saugata,10,hardware,hardware,128,25.6
+Saugata,11,network,network,125,25.0
+Saugata,12,Data Science,data science,123,24.6
+Saugata,13,Model Training,model training,108,21.6
+Saugata,14,technical support,technical support,108,21.6
+Saugata,15,C++,c++,92,18.4
+Saugata,16,Linux,linux,92,18.4
+Saugata,17,backup,backup,89,17.8
+Saugata,18,R,r,87,17.4
+Saugata,19,MySQL,mysql,86,17.2
+Saugata,20,Data Analytics,data analytics,83,16.6
+Saugata,21,nlp,nlp,82,16.4
+Saugata,22,C,c,80,16.0
+Saugata,23,Natural Language Processing,natural language processing,80,16.0
+Saugata,24,Tableau,tableau,80,16.0
+Saugata,25,SQL Query Optimization,sql query optimization,78,15.6
+Snehaan,1,information technology,information technology,113,94.167
+Snehaan,2,software,software,103,85.833
+Snehaan,3,network,network,89,74.167
+Snehaan,4,hardware,hardware,77,64.167
+Snehaan,5,windows,windows,73,60.833
+Snehaan,6,project management,project management,62,51.667
+Snehaan,7,database,database,59,49.167
+Snehaan,8,troubleshooting,troubleshooting,50,41.667
+Snehaan,9,SQL,sql,49,40.833
+Snehaan,10,Active Directory,active directory,47,39.167
+Snehaan,11,testing,testing,44,36.667
+Snehaan,12,Cisco,cisco,42,35.0
+Snehaan,13,recovery,recovery,40,33.333
+Snehaan,14,networking,networking,39,32.5
+Snehaan,15,technical support,technical support,38,31.667
+Snehaan,16,backup,backup,37,30.833
+Snehaan,17,help desk,help desk,37,30.833
+Snehaan,18,Linux,linux,33,27.5
+Snehaan,19,excel,excel,30,25.0
+Snehaan,20,LAN,lan,28,23.333
+Snehaan,21,Oracle,oracle,27,22.5
+Snehaan,22,SharePoint,sharepoint,27,22.5
+Snehaan,23,switches,switches,26,21.667
+Snehaan,24,VMware,vmware,25,20.833
+Snehaan,25,cloud,cloud,24,20.0
+Combined,1,Python,python,521,51.078
+Combined,2,software,software,472,46.275
+Combined,3,Machine Learning,machine learning,432,42.353
+Combined,4,database,database,330,32.353
+Combined,5,SQL,sql,282,27.647
+Combined,6,troubleshooting,troubleshooting,280,27.451
+Combined,7,testing,testing,243,23.824
+Combined,8,network,network,242,23.725
+Combined,9,Data Analysis,data analysis,239,23.431
+Combined,10,hardware,hardware,208,20.392
+Combined,11,Java,java,177,17.353
+Combined,12,AWS,aws,173,16.961
+Combined,13,Data Science,data science,165,16.176
+Combined,14,Django,django,161,15.784
+Combined,15,cloud,cloud,159,15.588
+Combined,16,Deep Learning,deep learning,157,15.392
+Combined,17,JavaScript,javascript,152,14.902
+Combined,18,information technology,information technology,149,14.608
+Combined,19,windows,windows,147,14.412
+Combined,20,technical support,technical support,146,14.314
+Combined,21,c,c,145,14.216
+Combined,22,R,r,138,13.529
+Combined,23,networking,networking,137,13.431
+Combined,24,backup,backup,135,13.235
+Combined,25,MySQL,mysql,133,13.039

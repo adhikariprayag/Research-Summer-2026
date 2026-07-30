@@ -1,0 +1,2 @@
+training_review_resumes,training_review_rows,training_v4_only_rows,training_unique_v4_only_terms,deployment_blacklist_terms,raw_hybrid_predictions,raw_v4_only_predictions,removed_v4_only_predictions,resumes_with_removed_predictions,filtered_hybrid_predictions,percentage_raw_predictions_removed
+50,1338,277,66,17,25238,4482,2502,822,22736,9.914

@@ -1,0 +1,101 @@
+dataset_group,rank,skill,norm,resumes_with_skill,percentage_of_resumes
+Jithin,1,Python,python,211,52.75
+Jithin,2,machine learning,machine learning,110,27.5
+Jithin,3,Django,django,107,26.75
+Jithin,4,JavaScript,javascript,100,25.0
+Jithin,5,Java,java,95,23.75
+Jithin,6,RESTful APIs,restful apis,92,23.0
+Jithin,7,AWS,aws,91,22.75
+Jithin,8,Flask,flask,88,22.0
+Jithin,9,React.js,react.js,85,21.25
+Jithin,10,scikit-learn,scikit-learn,78,19.5
+Jithin,11,Node.js,node.js,74,18.5
+Jithin,12,TensorFlow,tensorflow,74,18.5
+Jithin,13,CSS,css,73,18.25
+Jithin,14,Azure,azure,68,17.0
+Jithin,15,HTML,html,59,14.75
+Jithin,16,Angular,angular,56,14.0
+Jithin,17,Express.js,express.js,50,12.5
+Jithin,18,Kubernetes,kubernetes,50,12.5
+Jithin,19,Kotlin,kotlin,49,12.25
+Jithin,20,google cloud,google cloud,48,12.0
+Jithin,21,Pandas,pandas,47,11.75
+Jithin,22,c,c,46,11.5
+Jithin,23,Objective-C,objective-c,45,11.25
+Jithin,24,Swift,swift,45,11.25
+Jithin,25,Terraform,terraform,45,11.25
+Saugata,1,Machine Learning,machine learning,322,64.4
+Saugata,2,Python,python,303,60.6
+Saugata,3,SQL,sql,192,38.4
+Saugata,4,Data Analysis,data analysis,186,37.2
+Saugata,5,Deep Learning,deep learning,130,26.0
+Saugata,6,hardware,hardware,128,25.6
+Saugata,7,Data Science,data science,123,24.6
+Saugata,8,Model Training,model training,108,21.6
+Saugata,9,technical support,technical support,108,21.6
+Saugata,10,C++,c++,92,18.4
+Saugata,11,Linux,linux,92,18.4
+Saugata,12,MySQL,mysql,86,17.2
+Saugata,13,Data Analytics,data analytics,83,16.6
+Saugata,14,nlp,nlp,82,16.4
+Saugata,15,C,c,80,16.0
+Saugata,16,Natural Language Processing,natural language processing,80,16.0
+Saugata,17,Tableau,tableau,80,16.0
+Saugata,18,SQL Query Optimization,sql query optimization,78,15.6
+Saugata,19,AWS,aws,77,15.4
+Saugata,20,excel,excel,76,15.2
+Saugata,21,Statistical Analysis,statistical analysis,72,14.4
+Saugata,22,Git,git,69,13.8
+Saugata,23,Java,java,69,13.8
+Saugata,24,project management,project management,66,13.2
+Saugata,25,Data Visualization,data visualization,65,13.0
+Snehaan,1,hardware,hardware,77,64.167
+Snehaan,2,project management,project management,62,51.667
+Snehaan,3,SQL,sql,49,40.833
+Snehaan,4,Active Directory,active directory,47,39.167
+Snehaan,5,Cisco,cisco,42,35.0
+Snehaan,6,technical support,technical support,38,31.667
+Snehaan,7,help desk,help desk,37,30.833
+Snehaan,8,Linux,linux,33,27.5
+Snehaan,9,excel,excel,30,25.0
+Snehaan,10,LAN,lan,28,23.333
+Snehaan,11,Oracle,oracle,27,22.5
+Snehaan,12,SharePoint,sharepoint,27,22.5
+Snehaan,13,switches,switches,26,21.667
+Snehaan,14,windows server,windows server,24,20.0
+Snehaan,15,troubleshooting,troubleshooting,23,19.167
+Snehaan,16,wan,wan,23,19.167
+Snehaan,17,Windows 7,windows 7,23,19.167
+Snehaan,18,HTML,html,22,18.333
+Snehaan,19,VPN,vpn,22,18.333
+Snehaan,20,network security,network security,21,17.5
+Snehaan,21,disaster recovery,disaster recovery,20,16.667
+Snehaan,22,c,c,19,15.833
+Snehaan,23,unix,unix,19,15.833
+Snehaan,24,information security,information security,17,14.167
+Snehaan,25,Remedy,remedy,16,13.333
+Combined,1,Python,python,521,51.078
+Combined,2,Machine Learning,machine learning,432,42.353
+Combined,3,SQL,sql,282,27.647
+Combined,4,Data Analysis,data analysis,239,23.431
+Combined,5,hardware,hardware,208,20.392
+Combined,6,Java,java,177,17.353
+Combined,7,AWS,aws,173,16.961
+Combined,8,Data Science,data science,165,16.176
+Combined,9,Django,django,161,15.784
+Combined,10,Deep Learning,deep learning,157,15.392
+Combined,11,JavaScript,javascript,152,14.902
+Combined,12,technical support,technical support,146,14.314
+Combined,13,c,c,145,14.216
+Combined,14,MySQL,mysql,133,13.039
+Combined,15,project management,project management,131,12.843
+Combined,16,Linux,linux,125,12.255
+Combined,17,HTML,html,119,11.667
+Combined,18,Model Training,model training,117,11.471
+Combined,19,Flask,flask,111,10.882
+Combined,20,Natural Language Processing,natural language processing,111,10.882
+Combined,21,C++,c++,109,10.686
+Combined,22,excel,excel,108,10.588
+Combined,23,CSS,css,106,10.392
+Combined,24,TensorFlow,tensorflow,104,10.196
+Combined,25,Cisco,cisco,101,9.902

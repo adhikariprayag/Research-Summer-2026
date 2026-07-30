@@ -1,0 +1,5 @@
+dataset_group,resumes,total_filtered_predictions,mean_per_resume,median_per_resume,minimum_per_resume,first_quartile,third_quartile,maximum_per_resume,resumes_with_zero_predictions
+Jithin,400,5994,14.985,15.0,7,12.0,17.0,26,0
+Saugata,500,12157,24.314,23.0,2,18.0,29.0,109,0
+Snehaan,120,4585,38.208,33.5,0,24.0,50.0,111,2
+Combined,1020,22736,22.29,19.0,0,14.0,26.0,111,2

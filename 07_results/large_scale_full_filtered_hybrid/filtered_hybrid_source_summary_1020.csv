@@ -1,0 +1,5 @@
+dataset_group,resumes,raw_hybrid_predictions,removed_v4_only,filtered_hybrid_predictions,filtered_v4_only,gpt_only,both,percentage_raw_removed
+Jithin,400,6458,464,5994,386,4117,1491,7.185
+Saugata,500,13546,1389,12157,1049,8264,2844,10.254
+Snehaan,120,5234,649,4585,545,3434,606,12.4
+Combined,1020,25238,2502,22736,1980,15815,4941,9.914
