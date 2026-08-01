@@ -1,0 +1,620 @@
+role_family,rank_within_role,skill,posting_count,within_role_percent
+Software Engineering,1,Python,9,90.0
+Software Engineering,2,Java,5,50.0
+Software Engineering,2,JavaScript,5,50.0
+Software Engineering,3,AWS,4,40.0
+Software Engineering,3,CI/CD,4,40.0
+Software Engineering,4,Algorithms,3,30.0
+Software Engineering,4,C++,3,30.0
+Software Engineering,4,Data Structures,3,30.0
+Software Engineering,4,Git,3,30.0
+Software Engineering,4,React,3,30.0
+Software Engineering,4,SQL,3,30.0
+Software Engineering,5,API,2,20.0
+Software Engineering,5,Automated Testing,2,20.0
+Software Engineering,5,Bare-Metal Development,2,20.0
+Software Engineering,5,C#,2,20.0
+Software Engineering,5,Data Pipelines,2,20.0
+Software Engineering,5,Distributed Systems,2,20.0
+Software Engineering,5,Fault Tolerance,2,20.0
+Software Engineering,5,GCP,2,20.0
+Software Engineering,5,Go,2,20.0
+Software Engineering,5,Kubernetes,2,20.0
+Software Engineering,5,PostgreSQL,2,20.0
+Software Engineering,5,Redux,2,20.0
+Software Engineering,5,REST API,2,20.0
+Software Engineering,5,Software Architecture,2,20.0
+Software Engineering,5,Terraform,2,20.0
+Software Engineering,5,Unit Testing,2,20.0
+Software Engineering,6,Access Management,1,10.0
+Software Engineering,6,AI Development Tools,1,10.0
+Software Engineering,6,Angular,1,10.0
+Software Engineering,6,Azure,1,10.0
+Software Engineering,6,Azure Data Factory,1,10.0
+Software Engineering,6,Azure Functions,1,10.0
+Software Engineering,6,Azure Logic Apps,1,10.0
+Software Engineering,6,Azure Service Bus,1,10.0
+Software Engineering,6,Backend Development,1,10.0
+Software Engineering,6,Blockchain,1,10.0
+Software Engineering,6,C,1,10.0
+Software Engineering,6,CAN,1,10.0
+Software Engineering,6,Cassandra,1,10.0
+Software Engineering,6,Claude,1,10.0
+Software Engineering,6,Cloud Infrastructure,1,10.0
+Software Engineering,6,Cloud-Native Development,1,10.0
+Software Engineering,6,Command Line,1,10.0
+Software Engineering,6,Containerization,1,10.0
+Software Engineering,6,Control Systems,1,10.0
+Software Engineering,6,CRM,1,10.0
+Software Engineering,6,Cyber-Physical Systems,1,10.0
+Software Engineering,6,Cybersecurity,1,10.0
+Software Engineering,6,Data Visualization,1,10.0
+Software Engineering,6,Debugging,1,10.0
+Software Engineering,6,Design Patterns,1,10.0
+Software Engineering,6,DevOps,1,10.0
+Software Engineering,6,Digital Twins,1,10.0
+Software Engineering,6,DigitalOcean,1,10.0
+Software Engineering,6,Django,1,10.0
+Software Engineering,6,DO-178C,1,10.0
+Software Engineering,6,Docker,1,10.0
+Software Engineering,6,eCommerce,1,10.0
+Software Engineering,6,Elasticsearch,1,10.0
+Software Engineering,6,Embedded Operating Systems,1,10.0
+Software Engineering,6,Embedded Software,1,10.0
+Software Engineering,6,ERP,1,10.0
+Software Engineering,6,EtherCAT,1,10.0
+Software Engineering,6,ETL,1,10.0
+Software Engineering,6,Event-Driven Architecture,1,10.0
+Software Engineering,6,Flask,1,10.0
+Software Engineering,6,Fuzzing,1,10.0
+Software Engineering,6,GitHub,1,10.0
+Software Engineering,6,Gradle,1,10.0
+Software Engineering,6,GraphQL,1,10.0
+Software Engineering,6,Hardware-in-the-Loop,1,10.0
+Software Engineering,6,HTTP,1,10.0
+Software Engineering,6,I2C,1,10.0
+Software Engineering,6,IEC 61508,1,10.0
+Software Engineering,6,Industrial Networks,1,10.0
+Software Engineering,6,Integration Testing,1,10.0
+Software Engineering,6,ISO 26262,1,10.0
+Software Engineering,6,JSON,1,10.0
+Software Engineering,6,Kinematics,1,10.0
+Software Engineering,6,Linux,1,10.0
+Software Engineering,6,Machine Vision,1,10.0
+Software Engineering,6,Microcontrollers,1,10.0
+Software Engineering,6,Modbus,1,10.0
+Software Engineering,6,Modeling,1,10.0
+Software Engineering,6,Monte Carlo Simulation,1,10.0
+Software Engineering,6,Motion Control,1,10.0
+Software Engineering,6,MySQL,1,10.0
+Software Engineering,6,NestJS,1,10.0
+Software Engineering,6,Node.js,1,10.0
+Software Engineering,6,NoSQL,1,10.0
+Software Engineering,6,Object-Oriented Programming,1,10.0
+Software Engineering,6,OPC UA,1,10.0
+Software Engineering,6,Operating Systems,1,10.0
+Software Engineering,6,PLC,1,10.0
+Software Engineering,6,React Native,1,10.0
+Software Engineering,6,Real-Time Systems,1,10.0
+Software Engineering,6,Relational Databases,1,10.0
+Software Engineering,6,Robotics,1,10.0
+Software Engineering,6,ROS,1,10.0
+Software Engineering,6,RTOS,1,10.0
+Software Engineering,6,Ruby on Rails,1,10.0
+Software Engineering,6,Rust,1,10.0
+Software Engineering,6,Safety-Critical Software,1,10.0
+Software Engineering,6,Secrets Management,1,10.0
+Software Engineering,6,Secure Software Development,1,10.0
+Software Engineering,6,Sensor Fusion,1,10.0
+Software Engineering,6,Shell Scripting,1,10.0
+Software Engineering,6,Simulation,1,10.0
+Software Engineering,6,Software Testing,1,10.0
+Software Engineering,6,Software-in-the-Loop,1,10.0
+Software Engineering,6,SpaceWire,1,10.0
+Software Engineering,6,Spark,1,10.0
+Software Engineering,6,SPI,1,10.0
+Software Engineering,6,Storage Systems,1,10.0
+Software Engineering,6,System Testing,1,10.0
+Software Engineering,6,TCP/IP,1,10.0
+Software Engineering,6,TypeScript,1,10.0
+Software Engineering,6,Unix,1,10.0
+Software Engineering,6,User Interface Development,1,10.0
+Software Engineering,6,Version Control,1,10.0
+Software Engineering,6,Vue.js,1,10.0
+Software Engineering,6,Web3,1,10.0
+Software Engineering,6,Webhooks,1,10.0
+Software Engineering,6,WMS,1,10.0
+Software Engineering,6,XML,1,10.0
+Data and AI,1,Python,6,60.0
+Data and AI,2,Data Pipelines,5,50.0
+Data and AI,3,Machine Learning,4,40.0
+Data and AI,3,SQL,4,40.0
+Data and AI,4,A/B Testing,3,30.0
+Data and AI,4,Data Visualization,3,30.0
+Data and AI,4,Git,3,30.0
+Data and AI,4,Prompt Engineering,3,30.0
+Data and AI,4,Statistical Analysis,3,30.0
+Data and AI,5,AI Tools,2,20.0
+Data and AI,5,API,2,20.0
+Data and AI,5,Automation,2,20.0
+Data and AI,5,Azure,2,20.0
+Data and AI,5,Cloud Infrastructure,2,20.0
+Data and AI,5,Data Governance,2,20.0
+Data and AI,5,Data Quality,2,20.0
+Data and AI,5,Data Structures,2,20.0
+Data and AI,5,Databases,2,20.0
+Data and AI,5,Embeddings,2,20.0
+Data and AI,5,Excel,2,20.0
+Data and AI,5,Generative AI,2,20.0
+Data and AI,5,Large Language Models,2,20.0
+Data and AI,5,pandas,2,20.0
+Data and AI,5,Recommendation Systems,2,20.0
+Data and AI,5,Retrieval-Augmented Generation,2,20.0
+Data and AI,5,Unstructured Data,2,20.0
+Data and AI,6,Adobe Analytics,1,10.0
+Data and AI,6,AI Agents,1,10.0
+Data and AI,6,AI-900,1,10.0
+Data and AI,6,AKS,1,10.0
+Data and AI,6,Algorithms,1,10.0
+Data and AI,6,Analytics,1,10.0
+Data and AI,6,ArcGIS,1,10.0
+Data and AI,6,AWS,1,10.0
+Data and AI,6,AWS Bedrock,1,10.0
+Data and AI,6,AWS CDK,1,10.0
+Data and AI,6,AWS Certified Cloud Practitioner,1,10.0
+Data and AI,6,AWS Solutions Architect Associate,1,10.0
+Data and AI,6,Azure OpenAI,1,10.0
+Data and AI,6,Bicep,1,10.0
+Data and AI,6,CARTO,1,10.0
+Data and AI,6,ChatGPT,1,10.0
+Data and AI,6,CI/CD,1,10.0
+Data and AI,6,Classification,1,10.0
+Data and AI,6,Claude,1,10.0
+Data and AI,6,Collaborative Filtering,1,10.0
+Data and AI,6,Containerization,1,10.0
+Data and AI,6,Contextual Bandits,1,10.0
+Data and AI,6,CrewAI,1,10.0
+Data and AI,6,Data Acquisition,1,10.0
+Data and AI,6,Data Analysis,1,10.0
+Data and AI,6,Data Architecture,1,10.0
+Data and AI,6,Data Cleaning,1,10.0
+Data and AI,6,Data Engineering,1,10.0
+Data and AI,6,Data Integrity,1,10.0
+Data and AI,6,Data Management,1,10.0
+Data and AI,6,Data Modeling,1,10.0
+Data and AI,6,Data Transformation,1,10.0
+Data and AI,6,Data Wrangling,1,10.0
+Data and AI,6,Databricks,1,10.0
+Data and AI,6,DAX,1,10.0
+Data and AI,6,Deep Recommenders,1,10.0
+Data and AI,6,DevOps,1,10.0
+Data and AI,6,Distributed Data Processing,1,10.0
+Data and AI,6,ECS,1,10.0
+Data and AI,6,EKS,1,10.0
+Data and AI,6,Experimental Design,1,10.0
+Data and AI,6,Exploratory Data Analysis,1,10.0
+Data and AI,6,FAISS,1,10.0
+Data and AI,6,FedRAMP,1,10.0
+Data and AI,6,Generative AI Tools,1,10.0
+Data and AI,6,GIS,1,10.0
+Data and AI,6,GitHub Copilot,1,10.0
+Data and AI,6,Go,1,10.0
+Data and AI,6,Google Analytics,1,10.0
+Data and AI,6,Graph Methods,1,10.0
+Data and AI,6,Hive,1,10.0
+Data and AI,6,Hypothesis Testing,1,10.0
+Data and AI,6,Java,1,10.0
+Data and AI,6,Jupyter,1,10.0
+Data and AI,6,LangChain,1,10.0
+Data and AI,6,LightGBM,1,10.0
+Data and AI,6,Linux,1,10.0
+Data and AI,6,LlamaIndex,1,10.0
+Data and AI,6,Looker,1,10.0
+Data and AI,6,MAP,1,10.0
+Data and AI,6,Milvus,1,10.0
+Data and AI,6,MLOps,1,10.0
+Data and AI,6,Model Evaluation,1,10.0
+Data and AI,6,NDCG,1,10.0
+Data and AI,6,NIST AI RMF,1,10.0
+Data and AI,6,NumPy,1,10.0
+Data and AI,6,Performance Attribution,1,10.0
+Data and AI,6,Personalization,1,10.0
+Data and AI,6,Pinecone,1,10.0
+Data and AI,6,Power BI,1,10.0
+Data and AI,6,Power Query,1,10.0
+Data and AI,6,Predictive Modeling,1,10.0
+Data and AI,6,Probability Distributions,1,10.0
+Data and AI,6,PySpark,1,10.0
+Data and AI,6,QGIS,1,10.0
+Data and AI,6,R,1,10.0
+Data and AI,6,Ranking Systems,1,10.0
+Data and AI,6,Recall,1,10.0
+Data and AI,6,Regression,1,10.0
+Data and AI,6,Reinforcement Learning,1,10.0
+Data and AI,6,Representation Learning,1,10.0
+Data and AI,6,Retrieval Systems,1,10.0
+Data and AI,6,RNN,1,10.0
+Data and AI,6,Scala,1,10.0
+Data and AI,6,scikit-learn,1,10.0
+Data and AI,6,Semantic Kernel,1,10.0
+Data and AI,6,Sequence Models,1,10.0
+Data and AI,6,Signal Validation,1,10.0
+Data and AI,6,Snowflake,1,10.0
+Data and AI,6,Spark,1,10.0
+Data and AI,6,Statistical Modeling,1,10.0
+Data and AI,6,Statistics,1,10.0
+Data and AI,6,Streaming Data,1,10.0
+Data and AI,6,Structured Data,1,10.0
+Data and AI,6,Summarization,1,10.0
+Data and AI,6,System Design,1,10.0
+Data and AI,6,Tableau,1,10.0
+Data and AI,6,Terraform,1,10.0
+Data and AI,6,Testing,1,10.0
+Data and AI,6,Text Extraction,1,10.0
+Data and AI,6,Transformers,1,10.0
+Data and AI,6,Vector Search,1,10.0
+Data and AI,6,Version Control,1,10.0
+Data and AI,6,Weaviate,1,10.0
+Data and AI,6,Workforce Analytics,1,10.0
+Data and AI,6,XGBoost,1,10.0
+Data and AI,6,Zero Trust,1,10.0
+Cybersecurity,1,Incident Response,5,50.0
+Cybersecurity,1,Vulnerability Management,5,50.0
+Cybersecurity,2,Security Automation,4,40.0
+Cybersecurity,2,SIEM,4,40.0
+Cybersecurity,3,AWS,3,30.0
+Cybersecurity,3,Azure,3,30.0
+Cybersecurity,3,Cloud Security,3,30.0
+Cybersecurity,3,GCP,3,30.0
+Cybersecurity,4,Access Control,2,20.0
+Cybersecurity,4,AZ-900,2,20.0
+Cybersecurity,4,Bash,2,20.0
+Cybersecurity,4,CompTIA Security+,2,20.0
+Cybersecurity,4,CTF,2,20.0
+Cybersecurity,4,Cybersecurity Investigations,2,20.0
+Cybersecurity,4,Excel,2,20.0
+Cybersecurity,4,FedRAMP,2,20.0
+Cybersecurity,4,Governance Risk and Compliance,2,20.0
+Cybersecurity,4,HIPAA,2,20.0
+Cybersecurity,4,Large Language Models,2,20.0
+Cybersecurity,4,Networking,2,20.0
+Cybersecurity,4,PowerShell,2,20.0
+Cybersecurity,4,Programming,2,20.0
+Cybersecurity,4,Python,2,20.0
+Cybersecurity,4,Security Monitoring,2,20.0
+Cybersecurity,4,Security Operations,2,20.0
+Cybersecurity,4,SOC 2,2,20.0
+Cybersecurity,4,Threat Detection,2,20.0
+Cybersecurity,4,Threat Modeling,2,20.0
+Cybersecurity,4,Version Control,2,20.0
+Cybersecurity,5,AI Tools,1,10.0
+Cybersecurity,5,Application Security,1,10.0
+Cybersecurity,5,Authentication,1,10.0
+Cybersecurity,5,AWS Certified Cloud Practitioner,1,10.0
+Cybersecurity,5,AZ-500,1,10.0
+Cybersecurity,5,Blue Team Level 1,1,10.0
+Cybersecurity,5,Burp Suite,1,10.0
+Cybersecurity,5,C2 Exploitation,1,10.0
+Cybersecurity,5,CCSK,1,10.0
+Cybersecurity,5,CEH,1,10.0
+Cybersecurity,5,CI/CD,1,10.0
+Cybersecurity,5,CIS Benchmarks,1,10.0
+Cybersecurity,5,Cloud Architecture,1,10.0
+Cybersecurity,5,Cloud Infrastructure,1,10.0
+Cybersecurity,5,Cloud Security Posture Management,1,10.0
+Cybersecurity,5,COBIT,1,10.0
+Cybersecurity,5,Compliance Automation,1,10.0
+Cybersecurity,5,CompTIA Cloud+,1,10.0
+Cybersecurity,5,Continuous Controls Monitoring,1,10.0
+Cybersecurity,5,Continuous Monitoring,1,10.0
+Cybersecurity,5,CrowdStrike,1,10.0
+Cybersecurity,5,Cryptography,1,10.0
+Cybersecurity,5,Data Security,1,10.0
+Cybersecurity,5,Data Warehousing,1,10.0
+Cybersecurity,5,DNS,1,10.0
+Cybersecurity,5,eCPPT,1,10.0
+Cybersecurity,5,eJPT,1,10.0
+Cybersecurity,5,Elastic,1,10.0
+Cybersecurity,5,Encryption,1,10.0
+Cybersecurity,5,Endpoint Protection,1,10.0
+Cybersecurity,5,Enterprise Risk,1,10.0
+Cybersecurity,5,Firewalls,1,10.0
+Cybersecurity,5,FISMA,1,10.0
+Cybersecurity,5,GIAC,1,10.0
+Cybersecurity,5,Google Cybersecurity Certificate,1,10.0
+Cybersecurity,5,GSEC,1,10.0
+Cybersecurity,5,Hack The Box,1,10.0
+Cybersecurity,5,HITRUST,1,10.0
+Cybersecurity,5,Home Lab,1,10.0
+Cybersecurity,5,Host-Based Collection,1,10.0
+Cybersecurity,5,IaaS,1,10.0
+Cybersecurity,5,Identity and Access Management,1,10.0
+Cybersecurity,5,ISC2 CC,1,10.0
+Cybersecurity,5,ISO,1,10.0
+Cybersecurity,5,ISO 27001,1,10.0
+Cybersecurity,5,ITGC,1,10.0
+Cybersecurity,5,Jamf,1,10.0
+Cybersecurity,5,KnowBe4,1,10.0
+Cybersecurity,5,Linux,1,10.0
+Cybersecurity,5,Log Ingestion,1,10.0
+Cybersecurity,5,macOS,1,10.0
+Cybersecurity,5,MDR,1,10.0
+Cybersecurity,5,Microsoft Office,1,10.0
+Cybersecurity,5,Network Collection,1,10.0
+Cybersecurity,5,Network Forensics,1,10.0
+Cybersecurity,5,Nexpose,1,10.0
+Cybersecurity,5,NIST,1,10.0
+Cybersecurity,5,NIST 800-53,1,10.0
+Cybersecurity,5,NIST CSF,1,10.0
+Cybersecurity,5,Offensive Security,1,10.0
+Cybersecurity,5,Okta,1,10.0
+Cybersecurity,5,Operating System Auditing,1,10.0
+Cybersecurity,5,Operating Systems,1,10.0
+Cybersecurity,5,OSCP,1,10.0
+Cybersecurity,5,PA-DSS,1,10.0
+Cybersecurity,5,PaaS,1,10.0
+Cybersecurity,5,Patch Management,1,10.0
+Cybersecurity,5,PCI DSS,1,10.0
+Cybersecurity,5,Penetration Testing,1,10.0
+Cybersecurity,5,Prisma Cloud,1,10.0
+Cybersecurity,5,Qualys,1,10.0
+Cybersecurity,5,Reverse Engineering,1,10.0
+Cybersecurity,5,Routers,1,10.0
+Cybersecurity,5,SaaS,1,10.0
+Cybersecurity,5,SANS,1,10.0
+Cybersecurity,5,SC-900,1,10.0
+Cybersecurity,5,Secure Coding,1,10.0
+Cybersecurity,5,Security Event Monitoring,1,10.0
+Cybersecurity,5,Security Risk Assessment,1,10.0
+Cybersecurity,5,Server Administration,1,10.0
+Cybersecurity,5,SOC,1,10.0
+Cybersecurity,5,Social Engineering,1,10.0
+Cybersecurity,5,Splunk,1,10.0
+Cybersecurity,5,SQL,1,10.0
+Cybersecurity,5,SSCP,1,10.0
+Cybersecurity,5,STIG,1,10.0
+Cybersecurity,5,Switches,1,10.0
+Cybersecurity,5,Tenable,1,10.0
+Cybersecurity,5,Threat Hunting,1,10.0
+Cybersecurity,5,Threat Research,1,10.0
+Cybersecurity,5,TryHackMe,1,10.0
+Cybersecurity,5,Vulnerability Assessment,1,10.0
+Cybersecurity,5,Windows,1,10.0
+Cloud and DevOps,1,Kubernetes,7,70.0
+Cloud and DevOps,1,Python,7,70.0
+Cloud and DevOps,2,CI/CD,5,50.0
+Cloud and DevOps,2,Networking,5,50.0
+Cloud and DevOps,3,Docker,4,40.0
+Cloud and DevOps,3,Go,4,40.0
+Cloud and DevOps,3,Grafana,4,40.0
+Cloud and DevOps,3,Prometheus,4,40.0
+Cloud and DevOps,4,C++,3,30.0
+Cloud and DevOps,4,Cloud Infrastructure,3,30.0
+Cloud and DevOps,4,Infrastructure as Code,3,30.0
+Cloud and DevOps,4,Observability,3,30.0
+Cloud and DevOps,5,AI Agents,2,20.0
+Cloud and DevOps,5,Ansible,2,20.0
+Cloud and DevOps,5,AWS,2,20.0
+Cloud and DevOps,5,Bash,2,20.0
+Cloud and DevOps,5,C,2,20.0
+Cloud and DevOps,5,Configuration Management,2,20.0
+Cloud and DevOps,5,Distributed Systems,2,20.0
+Cloud and DevOps,5,Git,2,20.0
+Cloud and DevOps,5,GitHub,2,20.0
+Cloud and DevOps,5,GitLab CI/CD,2,20.0
+Cloud and DevOps,5,Java,2,20.0
+Cloud and DevOps,5,Large Language Models,2,20.0
+Cloud and DevOps,5,Linux,2,20.0
+Cloud and DevOps,5,Microservices,2,20.0
+Cloud and DevOps,5,Storage Systems,2,20.0
+Cloud and DevOps,5,Terraform,2,20.0
+Cloud and DevOps,5,TLS,2,20.0
+Cloud and DevOps,6,802.1X,1,10.0
+Cloud and DevOps,6,Access Control,1,10.0
+Cloud and DevOps,6,Active Directory,1,10.0
+Cloud and DevOps,6,AI Coding Assistants,1,10.0
+Cloud and DevOps,6,AI Tools,1,10.0
+Cloud and DevOps,6,Apollo,1,10.0
+Cloud and DevOps,6,Automation,1,10.0
+Cloud and DevOps,6,Azure,1,10.0
+Cloud and DevOps,6,Bazel,1,10.0
+Cloud and DevOps,6,BI Tools,1,10.0
+Cloud and DevOps,6,Bitbucket,1,10.0
+Cloud and DevOps,6,Capacity Planning,1,10.0
+Cloud and DevOps,6,ChatGPT,1,10.0
+Cloud and DevOps,6,Cilium,1,10.0
+Cloud and DevOps,6,Claude,1,10.0
+Cloud and DevOps,6,Cline,1,10.0
+Cloud and DevOps,6,Cloud Storage,1,10.0
+Cloud and DevOps,6,Cloud-Init,1,10.0
+Cloud and DevOps,6,CloudFormation,1,10.0
+Cloud and DevOps,6,CloudWatch,1,10.0
+Cloud and DevOps,6,Data Analysis,1,10.0
+Cloud and DevOps,6,Data Ingestion,1,10.0
+Cloud and DevOps,6,Data Warehousing,1,10.0
+Cloud and DevOps,6,Database Administration,1,10.0
+Cloud and DevOps,6,Database Design,1,10.0
+Cloud and DevOps,6,Datadog,1,10.0
+Cloud and DevOps,6,DevOps,1,10.0
+Cloud and DevOps,6,DevSecOps,1,10.0
+Cloud and DevOps,6,Disaster Recovery,1,10.0
+Cloud and DevOps,6,Distributed Computing,1,10.0
+Cloud and DevOps,6,DNS,1,10.0
+Cloud and DevOps,6,ELK Stack,1,10.0
+Cloud and DevOps,6,Embedded Systems,1,10.0
+Cloud and DevOps,6,Envoy,1,10.0
+Cloud and DevOps,6,Fedora,1,10.0
+Cloud and DevOps,6,Fortinet,1,10.0
+Cloud and DevOps,6,Frontend Development,1,10.0
+Cloud and DevOps,6,Generative AI,1,10.0
+Cloud and DevOps,6,GitHub Actions,1,10.0
+Cloud and DevOps,6,GitLab,1,10.0
+Cloud and DevOps,6,GitOps,1,10.0
+Cloud and DevOps,6,Gradle,1,10.0
+Cloud and DevOps,6,HTTP,1,10.0
+Cloud and DevOps,6,Hybrid Cloud,1,10.0
+Cloud and DevOps,6,Incident Response,1,10.0
+Cloud and DevOps,6,Infrastructure Monitoring,1,10.0
+Cloud and DevOps,6,JavaScript,1,10.0
+Cloud and DevOps,6,Jenkins,1,10.0
+Cloud and DevOps,6,Kafka,1,10.0
+Cloud and DevOps,6,Kibana,1,10.0
+Cloud and DevOps,6,Kickstart,1,10.0
+Cloud and DevOps,6,Kyverno,1,10.0
+Cloud and DevOps,6,Load Balancers,1,10.0
+Cloud and DevOps,6,Logging,1,10.0
+Cloud and DevOps,6,Loki,1,10.0
+Cloud and DevOps,6,Machine Learning,1,10.0
+Cloud and DevOps,6,macOS,1,10.0
+Cloud and DevOps,6,MCP Servers,1,10.0
+Cloud and DevOps,6,MDM,1,10.0
+Cloud and DevOps,6,Metrics,1,10.0
+Cloud and DevOps,6,Metrics Collection,1,10.0
+Cloud and DevOps,6,Microsoft 365,1,10.0
+Cloud and DevOps,6,MongoDB,1,10.0
+Cloud and DevOps,6,Natural Language Processing,1,10.0
+Cloud and DevOps,6,Nix,1,10.0
+Cloud and DevOps,6,OpenTelemetry,1,10.0
+Cloud and DevOps,6,Operating Systems,1,10.0
+Cloud and DevOps,6,Orchestration Tools,1,10.0
+Cloud and DevOps,6,PaaS,1,10.0
+Cloud and DevOps,6,Packer,1,10.0
+Cloud and DevOps,6,Packet Analysis,1,10.0
+Cloud and DevOps,6,Policy as Code,1,10.0
+Cloud and DevOps,6,PowerShell,1,10.0
+Cloud and DevOps,6,Predictive Analytics,1,10.0
+Cloud and DevOps,6,Puppet,1,10.0
+Cloud and DevOps,6,React,1,10.0
+Cloud and DevOps,6,Redux,1,10.0
+Cloud and DevOps,6,Retrieval-Augmented Generation,1,10.0
+Cloud and DevOps,6,Rust,1,10.0
+Cloud and DevOps,6,SaaS,1,10.0
+Cloud and DevOps,6,SAML,1,10.0
+Cloud and DevOps,6,Secure Boot,1,10.0
+Cloud and DevOps,6,Server Provisioning,1,10.0
+Cloud and DevOps,6,Small Language Models,1,10.0
+Cloud and DevOps,6,Software Development Life Cycle,1,10.0
+Cloud and DevOps,6,Software Verification and Validation,1,10.0
+Cloud and DevOps,6,systemd,1,10.0
+Cloud and DevOps,6,Systems Performance,1,10.0
+Cloud and DevOps,6,Test Infrastructure,1,10.0
+Cloud and DevOps,6,TPM,1,10.0
+Cloud and DevOps,6,Tracing,1,10.0
+Cloud and DevOps,6,TypeScript,1,10.0
+Cloud and DevOps,6,U2F,1,10.0
+Cloud and DevOps,6,Ubuntu,1,10.0
+Cloud and DevOps,6,UEFI,1,10.0
+Cloud and DevOps,6,Unix,1,10.0
+Cloud and DevOps,6,V-Model,1,10.0
+Cloud and DevOps,6,VPN,1,10.0
+Cloud and DevOps,6,Windows,1,10.0
+Cloud and DevOps,6,Windsurf,1,10.0
+Cloud and DevOps,6,X.509,1,10.0
+Systems and IT,1,macOS,6,60.0
+Systems and IT,2,Windows,5,50.0
+Systems and IT,3,Bash,4,40.0
+Systems and IT,3,Google Workspace,4,40.0
+Systems and IT,3,Linux,4,40.0
+Systems and IT,3,Microsoft Intune,4,40.0
+Systems and IT,3,Okta,4,40.0
+Systems and IT,3,PowerShell,4,40.0
+Systems and IT,3,Python,4,40.0
+Systems and IT,4,CompTIA Network+,3,30.0
+Systems and IT,4,Helpdesk Support,3,30.0
+Systems and IT,5,API,2,20.0
+Systems and IT,5,ChatGPT,2,20.0
+Systems and IT,5,Claude,2,20.0
+Systems and IT,5,CompTIA Security+,2,20.0
+Systems and IT,5,DHCP,2,20.0
+Systems and IT,5,DNS,2,20.0
+Systems and IT,5,IT Monitoring,2,20.0
+Systems and IT,5,Jamf,2,20.0
+Systems and IT,5,MDM,2,20.0
+Systems and IT,5,MFA,2,20.0
+Systems and IT,5,Microsoft Entra,2,20.0
+Systems and IT,5,Networking,2,20.0
+Systems and IT,5,SaaS Administration,2,20.0
+Systems and IT,5,Scripting,2,20.0
+Systems and IT,5,Slack,2,20.0
+Systems and IT,5,SSO,2,20.0
+Systems and IT,5,TCP/IP,2,20.0
+Systems and IT,5,Zoom,2,20.0
+Systems and IT,6,Access Management,1,10.0
+Systems and IT,6,Ansible,1,10.0
+Systems and IT,6,Application Management,1,10.0
+Systems and IT,6,Atlassian,1,10.0
+Systems and IT,6,AWS,1,10.0
+Systems and IT,6,Azure,1,10.0
+Systems and IT,6,Cloud Support,1,10.0
+Systems and IT,6,Command-Line Troubleshooting,1,10.0
+Systems and IT,6,CompTIA,1,10.0
+Systems and IT,6,CompTIA A+,1,10.0
+Systems and IT,6,Confluence,1,10.0
+Systems and IT,6,Data Acquisition Systems,1,10.0
+Systems and IT,6,Debugging,1,10.0
+Systems and IT,6,Drones,1,10.0
+Systems and IT,6,Embedded Software,1,10.0
+Systems and IT,6,Endpoint Management,1,10.0
+Systems and IT,6,Ethernet,1,10.0
+Systems and IT,6,Freshservice,1,10.0
+Systems and IT,6,GCP,1,10.0
+Systems and IT,6,Gemini,1,10.0
+Systems and IT,6,GitHub Copilot,1,10.0
+Systems and IT,6,Hardware Integration,1,10.0
+Systems and IT,6,Hardware Prototyping,1,10.0
+Systems and IT,6,Hardware Support,1,10.0
+Systems and IT,6,HIPAA,1,10.0
+Systems and IT,6,HTTP,1,10.0
+Systems and IT,6,HTTPS,1,10.0
+Systems and IT,6,Identity and Access Management,1,10.0
+Systems and IT,6,IIS,1,10.0
+Systems and IT,6,Incident Response,1,10.0
+Systems and IT,6,ISO 27001,1,10.0
+Systems and IT,6,ISO 42001,1,10.0
+Systems and IT,6,IT Asset Management,1,10.0
+Systems and IT,6,ITIL,1,10.0
+Systems and IT,6,ITSM,1,10.0
+Systems and IT,6,Jira,1,10.0
+Systems and IT,6,Kandji,1,10.0
+Systems and IT,6,Log Analysis,1,10.0
+Systems and IT,6,Mechanical Design,1,10.0
+Systems and IT,6,Microsoft 365,1,10.0
+Systems and IT,6,Mosyle,1,10.0
+Systems and IT,6,Network Troubleshooting,1,10.0
+Systems and IT,6,NIST,1,10.0
+Systems and IT,6,Operating Systems,1,10.0
+Systems and IT,6,OSI Model,1,10.0
+Systems and IT,6,PII,1,10.0
+Systems and IT,6,Programming,1,10.0
+Systems and IT,6,Radar Systems,1,10.0
+Systems and IT,6,Remote Support,1,10.0
+Systems and IT,6,REST API,1,10.0
+Systems and IT,6,Root Cause Analysis,1,10.0
+Systems and IT,6,Routing,1,10.0
+Systems and IT,6,Salesforce,1,10.0
+Systems and IT,6,Sensor Systems,1,10.0
+Systems and IT,6,Servers,1,10.0
+Systems and IT,6,ServiceNow,1,10.0
+Systems and IT,6,SharePoint,1,10.0
+Systems and IT,6,Shell Scripting,1,10.0
+Systems and IT,6,SOC 2,1,10.0
+Systems and IT,6,SQL Server,1,10.0
+Systems and IT,6,Switching,1,10.0
+Systems and IT,6,System Provisioning,1,10.0
+Systems and IT,6,Systems Administration,1,10.0
+Systems and IT,6,Test Environments,1,10.0
+Systems and IT,6,Testing,1,10.0
+Systems and IT,6,TLS,1,10.0
+Systems and IT,6,Troubleshooting,1,10.0
+Systems and IT,6,Virtualization,1,10.0
+Systems and IT,6,VLAN,1,10.0
+Systems and IT,6,VMware,1,10.0
+Systems and IT,6,VPN,1,10.0
+Systems and IT,6,Web Applications,1,10.0
+Systems and IT,6,Wi-Fi,1,10.0
+Systems and IT,6,Windows Administration,1,10.0
+Systems and IT,6,Windows Server,1,10.0
+Systems and IT,6,Windows Workstation Deployment,1,10.0
+Systems and IT,6,Wireless Networking,1,10.0
+Systems and IT,6,Workflow Automation,1,10.0
+Systems and IT,6,Zendesk,1,10.0

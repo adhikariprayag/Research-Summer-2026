@@ -1,0 +1,474 @@
+rank_core_47,skill,core_posting_count,core_posting_percent,full_50_posting_count,count_difference
+1,Python,27,57.4,28,1
+2,AWS,11,23.4,11,0
+3,CI/CD,9,19.1,11,2
+3,Linux,9,19.1,9,0
+4,Bash,8,17.0,8,0
+4,Java,8,17.0,8,0
+4,Kubernetes,8,17.0,9,1
+4,macOS,8,17.0,8,0
+4,Networking,8,17.0,9,1
+4,SQL,8,17.0,8,0
+5,Azure,7,14.9,8,1
+5,Data Pipelines,7,14.9,7,0
+5,Git,7,14.9,8,1
+5,Go,7,14.9,7,0
+5,PowerShell,7,14.9,7,0
+5,Windows,7,14.9,7,0
+6,API,6,12.8,6,0
+6,Cloud Infrastructure,6,12.8,7,1
+6,GCP,6,12.8,6,0
+6,Incident Response,6,12.8,7,1
+6,JavaScript,6,12.8,6,0
+7,C++,5,10.6,6,1
+7,Data Structures,5,10.6,5,0
+7,Docker,5,10.6,5,0
+7,Large Language Models,5,10.6,6,1
+7,Okta,5,10.6,5,0
+7,Terraform,5,10.6,5,0
+7,Vulnerability Management,5,10.6,5,0
+8,Algorithms,4,8.5,4,0
+8,Claude,4,8.5,5,1
+8,CompTIA Security+,4,8.5,4,0
+8,Data Visualization,4,8.5,4,0
+8,Excel,4,8.5,4,0
+8,Google Workspace,4,8.5,4,0
+8,Machine Learning,4,8.5,5,1
+8,Microsoft Intune,4,8.5,4,0
+8,Operating Systems,4,8.5,4,0
+8,React,4,8.5,4,0
+8,Security Automation,4,8.5,4,0
+8,SIEM,4,8.5,4,0
+8,Version Control,4,8.5,4,0
+9,A/B Testing,3,6.4,3,0
+9,Access Control,3,6.4,3,0
+9,AI Tools,3,6.4,4,1
+9,Ansible,3,6.4,3,0
+9,Automation,3,6.4,3,0
+9,ChatGPT,3,6.4,4,1
+9,Cloud Security,3,6.4,3,0
+9,CompTIA Network+,3,6.4,3,0
+9,DevOps,3,6.4,3,0
+9,Distributed Systems,3,6.4,4,1
+9,DNS,3,6.4,4,1
+9,FedRAMP,3,6.4,3,0
+9,Generative AI,3,6.4,3,0
+9,GitHub,3,6.4,3,0
+9,Helpdesk Support,3,6.4,3,0
+9,HIPAA,3,6.4,3,0
+9,Jamf,3,6.4,3,0
+9,MDM,3,6.4,3,0
+9,Programming,3,6.4,3,0
+9,Prompt Engineering,3,6.4,3,0
+9,Redux,3,6.4,3,0
+9,REST API,3,6.4,3,0
+9,Retrieval-Augmented Generation,3,6.4,3,0
+9,SOC 2,3,6.4,3,0
+9,Statistical Analysis,3,6.4,3,0
+9,Storage Systems,3,6.4,3,0
+9,TCP/IP,3,6.4,3,0
+10,Access Management,2,4.3,2,0
+10,AI Agents,2,4.3,3,1
+10,Automated Testing,2,4.3,2,0
+10,AWS Certified Cloud Practitioner,2,4.3,2,0
+10,AZ-900,2,4.3,2,0
+10,Bare-Metal Development,2,4.3,2,0
+10,C,2,4.3,3,1
+10,C#,2,4.3,2,0
+10,Configuration Management,2,4.3,2,0
+10,Containerization,2,4.3,2,0
+10,CTF,2,4.3,2,0
+10,Cybersecurity Investigations,2,4.3,2,0
+10,Data Governance,2,4.3,2,0
+10,Data Quality,2,4.3,2,0
+10,Data Warehousing,2,4.3,2,0
+10,Databases,2,4.3,2,0
+10,Debugging,2,4.3,2,0
+10,DHCP,2,4.3,2,0
+10,Embedded Software,2,4.3,2,0
+10,Embeddings,2,4.3,2,0
+10,Fault Tolerance,2,4.3,2,0
+10,GitHub Copilot,2,4.3,2,0
+10,GitLab CI/CD,2,4.3,2,0
+10,Governance Risk and Compliance,2,4.3,2,0
+10,Gradle,2,4.3,2,0
+10,Grafana,2,4.3,4,2
+10,HTTP,2,4.3,3,1
+10,Identity and Access Management,2,4.3,2,0
+10,Infrastructure as Code,2,4.3,3,1
+10,ISO 27001,2,4.3,2,0
+10,IT Monitoring,2,4.3,2,0
+10,MFA,2,4.3,2,0
+10,Microservices,2,4.3,2,0
+10,Microsoft Entra,2,4.3,2,0
+10,NIST,2,4.3,2,0
+10,PaaS,2,4.3,2,0
+10,pandas,2,4.3,2,0
+10,PostgreSQL,2,4.3,2,0
+10,Prometheus,2,4.3,4,2
+10,Recommendation Systems,2,4.3,2,0
+10,Rust,2,4.3,2,0
+10,SaaS,2,4.3,2,0
+10,SaaS Administration,2,4.3,2,0
+10,Scripting,2,4.3,2,0
+10,Security Monitoring,2,4.3,2,0
+10,Security Operations,2,4.3,2,0
+10,Shell Scripting,2,4.3,2,0
+10,Slack,2,4.3,2,0
+10,Software Architecture,2,4.3,2,0
+10,Spark,2,4.3,2,0
+10,SSO,2,4.3,2,0
+10,Testing,2,4.3,2,0
+10,Threat Detection,2,4.3,2,0
+10,Threat Modeling,2,4.3,2,0
+10,TLS,2,4.3,3,1
+10,TypeScript,2,4.3,2,0
+10,Unit Testing,2,4.3,2,0
+10,Unix,2,4.3,2,0
+10,Unstructured Data,2,4.3,2,0
+10,VPN,2,4.3,2,0
+10,Zoom,2,4.3,2,0
+11,802.1X,1,2.1,1,0
+11,Active Directory,1,2.1,1,0
+11,Adobe Analytics,1,2.1,1,0
+11,AI Development Tools,1,2.1,1,0
+11,AI-900,1,2.1,1,0
+11,AKS,1,2.1,1,0
+11,Analytics,1,2.1,1,0
+11,Angular,1,2.1,1,0
+11,Apollo,1,2.1,1,0
+11,Application Management,1,2.1,1,0
+11,Application Security,1,2.1,1,0
+11,ArcGIS,1,2.1,1,0
+11,Atlassian,1,2.1,1,0
+11,Authentication,1,2.1,1,0
+11,AWS Bedrock,1,2.1,1,0
+11,AWS CDK,1,2.1,1,0
+11,AWS Solutions Architect Associate,1,2.1,1,0
+11,AZ-500,1,2.1,1,0
+11,Azure Data Factory,1,2.1,1,0
+11,Azure Functions,1,2.1,1,0
+11,Azure Logic Apps,1,2.1,1,0
+11,Azure OpenAI,1,2.1,1,0
+11,Azure Service Bus,1,2.1,1,0
+11,Backend Development,1,2.1,1,0
+11,Bazel,1,2.1,1,0
+11,BI Tools,1,2.1,1,0
+11,Bicep,1,2.1,1,0
+11,Bitbucket,1,2.1,1,0
+11,Blockchain,1,2.1,1,0
+11,Blue Team Level 1,1,2.1,1,0
+11,Burp Suite,1,2.1,1,0
+11,C2 Exploitation,1,2.1,1,0
+11,CAN,1,2.1,1,0
+11,Capacity Planning,1,2.1,1,0
+11,CARTO,1,2.1,1,0
+11,Cassandra,1,2.1,1,0
+11,CCSK,1,2.1,1,0
+11,CEH,1,2.1,1,0
+11,Cilium,1,2.1,1,0
+11,CIS Benchmarks,1,2.1,1,0
+11,Classification,1,2.1,1,0
+11,Cline,1,2.1,1,0
+11,Cloud Architecture,1,2.1,1,0
+11,Cloud Security Posture Management,1,2.1,1,0
+11,Cloud Storage,1,2.1,1,0
+11,Cloud-Init,1,2.1,1,0
+11,Cloud-Native Development,1,2.1,1,0
+11,CloudFormation,1,2.1,1,0
+11,CloudWatch,1,2.1,1,0
+11,COBIT,1,2.1,1,0
+11,Collaborative Filtering,1,2.1,1,0
+11,Command Line,1,2.1,1,0
+11,Command-Line Troubleshooting,1,2.1,1,0
+11,Compliance Automation,1,2.1,1,0
+11,CompTIA,1,2.1,1,0
+11,CompTIA A+,1,2.1,1,0
+11,CompTIA Cloud+,1,2.1,1,0
+11,Confluence,1,2.1,1,0
+11,Contextual Bandits,1,2.1,1,0
+11,Continuous Controls Monitoring,1,2.1,1,0
+11,Continuous Monitoring,1,2.1,1,0
+11,Control Systems,1,2.1,1,0
+11,CrewAI,1,2.1,1,0
+11,CRM,1,2.1,1,0
+11,CrowdStrike,1,2.1,1,0
+11,Cryptography,1,2.1,1,0
+11,Cyber-Physical Systems,1,2.1,1,0
+11,Cybersecurity,1,2.1,1,0
+11,Data Acquisition,1,2.1,1,0
+11,Data Acquisition Systems,1,2.1,1,0
+11,Data Analysis,1,2.1,2,1
+11,Data Architecture,1,2.1,1,0
+11,Data Cleaning,1,2.1,1,0
+11,Data Engineering,1,2.1,1,0
+11,Data Ingestion,1,2.1,1,0
+11,Data Integrity,1,2.1,1,0
+11,Data Management,1,2.1,1,0
+11,Data Modeling,1,2.1,1,0
+11,Data Security,1,2.1,1,0
+11,Data Transformation,1,2.1,1,0
+11,Data Wrangling,1,2.1,1,0
+11,Database Administration,1,2.1,1,0
+11,Database Design,1,2.1,1,0
+11,Databricks,1,2.1,1,0
+11,DAX,1,2.1,1,0
+11,Deep Recommenders,1,2.1,1,0
+11,Design Patterns,1,2.1,1,0
+11,Digital Twins,1,2.1,1,0
+11,DigitalOcean,1,2.1,1,0
+11,Disaster Recovery,1,2.1,1,0
+11,Distributed Computing,1,2.1,1,0
+11,Distributed Data Processing,1,2.1,1,0
+11,Django,1,2.1,1,0
+11,DO-178C,1,2.1,1,0
+11,Drones,1,2.1,1,0
+11,eCommerce,1,2.1,1,0
+11,eCPPT,1,2.1,1,0
+11,ECS,1,2.1,1,0
+11,eJPT,1,2.1,1,0
+11,EKS,1,2.1,1,0
+11,Elastic,1,2.1,1,0
+11,Elasticsearch,1,2.1,1,0
+11,Embedded Operating Systems,1,2.1,1,0
+11,Embedded Systems,1,2.1,1,0
+11,Encryption,1,2.1,1,0
+11,Endpoint Management,1,2.1,1,0
+11,Endpoint Protection,1,2.1,1,0
+11,Enterprise Risk,1,2.1,1,0
+11,Envoy,1,2.1,1,0
+11,ERP,1,2.1,1,0
+11,EtherCAT,1,2.1,1,0
+11,Ethernet,1,2.1,1,0
+11,ETL,1,2.1,1,0
+11,Event-Driven Architecture,1,2.1,1,0
+11,Experimental Design,1,2.1,1,0
+11,Exploratory Data Analysis,1,2.1,1,0
+11,FAISS,1,2.1,1,0
+11,Fedora,1,2.1,1,0
+11,Firewalls,1,2.1,1,0
+11,FISMA,1,2.1,1,0
+11,Flask,1,2.1,1,0
+11,Fortinet,1,2.1,1,0
+11,Freshservice,1,2.1,1,0
+11,Frontend Development,1,2.1,1,0
+11,Fuzzing,1,2.1,1,0
+11,Gemini,1,2.1,1,0
+11,Generative AI Tools,1,2.1,1,0
+11,GIAC,1,2.1,1,0
+11,GIS,1,2.1,1,0
+11,GitHub Actions,1,2.1,1,0
+11,GitLab,1,2.1,1,0
+11,GitOps,1,2.1,1,0
+11,Google Analytics,1,2.1,1,0
+11,Google Cybersecurity Certificate,1,2.1,1,0
+11,Graph Methods,1,2.1,1,0
+11,GraphQL,1,2.1,1,0
+11,GSEC,1,2.1,1,0
+11,Hack The Box,1,2.1,1,0
+11,Hardware Integration,1,2.1,1,0
+11,Hardware Prototyping,1,2.1,1,0
+11,Hardware Support,1,2.1,1,0
+11,Hardware-in-the-Loop,1,2.1,1,0
+11,HITRUST,1,2.1,1,0
+11,Hive,1,2.1,1,0
+11,Home Lab,1,2.1,1,0
+11,Host-Based Collection,1,2.1,1,0
+11,HTTPS,1,2.1,1,0
+11,Hybrid Cloud,1,2.1,1,0
+11,Hypothesis Testing,1,2.1,1,0
+11,I2C,1,2.1,1,0
+11,IaaS,1,2.1,1,0
+11,IEC 61508,1,2.1,1,0
+11,Industrial Networks,1,2.1,1,0
+11,Infrastructure Monitoring,1,2.1,1,0
+11,Integration Testing,1,2.1,1,0
+11,ISC2 CC,1,2.1,1,0
+11,ISO,1,2.1,1,0
+11,ISO 26262,1,2.1,1,0
+11,ISO 42001,1,2.1,1,0
+11,IT Asset Management,1,2.1,1,0
+11,ITGC,1,2.1,1,0
+11,ITIL,1,2.1,1,0
+11,ITSM,1,2.1,1,0
+11,Jenkins,1,2.1,1,0
+11,Jira,1,2.1,1,0
+11,JSON,1,2.1,1,0
+11,Jupyter,1,2.1,1,0
+11,Kafka,1,2.1,1,0
+11,Kandji,1,2.1,1,0
+11,Kickstart,1,2.1,1,0
+11,Kinematics,1,2.1,1,0
+11,KnowBe4,1,2.1,1,0
+11,Kyverno,1,2.1,1,0
+11,LangChain,1,2.1,1,0
+11,LightGBM,1,2.1,1,0
+11,LlamaIndex,1,2.1,1,0
+11,Load Balancers,1,2.1,1,0
+11,Log Ingestion,1,2.1,1,0
+11,Loki,1,2.1,1,0
+11,Looker,1,2.1,1,0
+11,Machine Vision,1,2.1,1,0
+11,MAP,1,2.1,1,0
+11,MCP Servers,1,2.1,1,0
+11,MDR,1,2.1,1,0
+11,Mechanical Design,1,2.1,1,0
+11,Microcontrollers,1,2.1,1,0
+11,Microsoft 365,1,2.1,2,1
+11,Microsoft Office,1,2.1,1,0
+11,Milvus,1,2.1,1,0
+11,MLOps,1,2.1,1,0
+11,Modbus,1,2.1,1,0
+11,Model Evaluation,1,2.1,1,0
+11,Modeling,1,2.1,1,0
+11,MongoDB,1,2.1,1,0
+11,Monte Carlo Simulation,1,2.1,1,0
+11,Mosyle,1,2.1,1,0
+11,Motion Control,1,2.1,1,0
+11,MySQL,1,2.1,1,0
+11,NDCG,1,2.1,1,0
+11,NestJS,1,2.1,1,0
+11,Network Collection,1,2.1,1,0
+11,Network Forensics,1,2.1,1,0
+11,Network Troubleshooting,1,2.1,1,0
+11,Nexpose,1,2.1,1,0
+11,NIST 800-53,1,2.1,1,0
+11,NIST AI RMF,1,2.1,1,0
+11,NIST CSF,1,2.1,1,0
+11,Nix,1,2.1,1,0
+11,Node.js,1,2.1,1,0
+11,NoSQL,1,2.1,1,0
+11,NumPy,1,2.1,1,0
+11,Object-Oriented Programming,1,2.1,1,0
+11,Observability,1,2.1,3,2
+11,Offensive Security,1,2.1,1,0
+11,OPC UA,1,2.1,1,0
+11,Operating System Auditing,1,2.1,1,0
+11,Orchestration Tools,1,2.1,1,0
+11,OSCP,1,2.1,1,0
+11,OSI Model,1,2.1,1,0
+11,PA-DSS,1,2.1,1,0
+11,Packer,1,2.1,1,0
+11,Packet Analysis,1,2.1,1,0
+11,Patch Management,1,2.1,1,0
+11,PCI DSS,1,2.1,1,0
+11,Penetration Testing,1,2.1,1,0
+11,Performance Attribution,1,2.1,1,0
+11,Personalization,1,2.1,1,0
+11,PII,1,2.1,1,0
+11,Pinecone,1,2.1,1,0
+11,PLC,1,2.1,1,0
+11,Policy as Code,1,2.1,1,0
+11,Power BI,1,2.1,1,0
+11,Power Query,1,2.1,1,0
+11,Predictive Modeling,1,2.1,1,0
+11,Prisma Cloud,1,2.1,1,0
+11,Probability Distributions,1,2.1,1,0
+11,Puppet,1,2.1,1,0
+11,PySpark,1,2.1,1,0
+11,QGIS,1,2.1,1,0
+11,Qualys,1,2.1,1,0
+11,R,1,2.1,1,0
+11,Radar Systems,1,2.1,1,0
+11,Ranking Systems,1,2.1,1,0
+11,React Native,1,2.1,1,0
+11,Real-Time Systems,1,2.1,1,0
+11,Recall,1,2.1,1,0
+11,Regression,1,2.1,1,0
+11,Reinforcement Learning,1,2.1,1,0
+11,Relational Databases,1,2.1,1,0
+11,Representation Learning,1,2.1,1,0
+11,Retrieval Systems,1,2.1,1,0
+11,Reverse Engineering,1,2.1,1,0
+11,RNN,1,2.1,1,0
+11,Robotics,1,2.1,1,0
+11,ROS,1,2.1,1,0
+11,Routers,1,2.1,1,0
+11,Routing,1,2.1,1,0
+11,RTOS,1,2.1,1,0
+11,Ruby on Rails,1,2.1,1,0
+11,Safety-Critical Software,1,2.1,1,0
+11,Salesforce,1,2.1,1,0
+11,SAML,1,2.1,1,0
+11,SANS,1,2.1,1,0
+11,SC-900,1,2.1,1,0
+11,Scala,1,2.1,1,0
+11,scikit-learn,1,2.1,1,0
+11,Secrets Management,1,2.1,1,0
+11,Secure Boot,1,2.1,1,0
+11,Secure Coding,1,2.1,1,0
+11,Secure Software Development,1,2.1,1,0
+11,Security Event Monitoring,1,2.1,1,0
+11,Security Risk Assessment,1,2.1,1,0
+11,Semantic Kernel,1,2.1,1,0
+11,Sensor Fusion,1,2.1,1,0
+11,Sensor Systems,1,2.1,1,0
+11,Sequence Models,1,2.1,1,0
+11,Server Administration,1,2.1,1,0
+11,Server Provisioning,1,2.1,1,0
+11,Servers,1,2.1,1,0
+11,ServiceNow,1,2.1,1,0
+11,Signal Validation,1,2.1,1,0
+11,Simulation,1,2.1,1,0
+11,Small Language Models,1,2.1,1,0
+11,Snowflake,1,2.1,1,0
+11,SOC,1,2.1,1,0
+11,Social Engineering,1,2.1,1,0
+11,Software Testing,1,2.1,1,0
+11,Software-in-the-Loop,1,2.1,1,0
+11,SpaceWire,1,2.1,1,0
+11,SPI,1,2.1,1,0
+11,Splunk,1,2.1,1,0
+11,SSCP,1,2.1,1,0
+11,Statistical Modeling,1,2.1,1,0
+11,Statistics,1,2.1,1,0
+11,STIG,1,2.1,1,0
+11,Streaming Data,1,2.1,1,0
+11,Structured Data,1,2.1,1,0
+11,Summarization,1,2.1,1,0
+11,Switches,1,2.1,1,0
+11,Switching,1,2.1,1,0
+11,System Design,1,2.1,1,0
+11,System Provisioning,1,2.1,1,0
+11,System Testing,1,2.1,1,0
+11,systemd,1,2.1,1,0
+11,Systems Administration,1,2.1,1,0
+11,Systems Performance,1,2.1,1,0
+11,Tableau,1,2.1,1,0
+11,Tenable,1,2.1,1,0
+11,Test Environments,1,2.1,1,0
+11,Test Infrastructure,1,2.1,1,0
+11,Text Extraction,1,2.1,1,0
+11,Threat Hunting,1,2.1,1,0
+11,Threat Research,1,2.1,1,0
+11,TPM,1,2.1,1,0
+11,Transformers,1,2.1,1,0
+11,Troubleshooting,1,2.1,1,0
+11,TryHackMe,1,2.1,1,0
+11,U2F,1,2.1,1,0
+11,Ubuntu,1,2.1,1,0
+11,UEFI,1,2.1,1,0
+11,User Interface Development,1,2.1,1,0
+11,Vector Search,1,2.1,1,0
+11,Virtualization,1,2.1,1,0
+11,VLAN,1,2.1,1,0
+11,VMware,1,2.1,1,0
+11,Vue.js,1,2.1,1,0
+11,Vulnerability Assessment,1,2.1,1,0
+11,Weaviate,1,2.1,1,0
+11,Web Applications,1,2.1,1,0
+11,Web3,1,2.1,1,0
+11,Webhooks,1,2.1,1,0
+11,Wi-Fi,1,2.1,1,0
+11,Windows Administration,1,2.1,1,0
+11,Windows Workstation Deployment,1,2.1,1,0
+11,Windsurf,1,2.1,1,0
+11,Wireless Networking,1,2.1,1,0
+11,WMS,1,2.1,1,0
+11,Workflow Automation,1,2.1,1,0
+11,Workforce Analytics,1,2.1,1,0
+11,X.509,1,2.1,1,0
+11,XGBoost,1,2.1,1,0
+11,XML,1,2.1,1,0
+11,Zendesk,1,2.1,1,0
+11,Zero Trust,1,2.1,1,0
