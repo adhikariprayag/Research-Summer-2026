@@ -1,0 +1,19 @@
+Frequency Rank,Skill,Full 50 Count,Full 50 Percent,Role Families Present,Core 47 Count,Core 47 Percent,Count Difference,Stable at 7+ in Core 47
+1,Python,28,56.0,5,27,57.4,1,Yes
+2,AWS,11,22.0,5,11,23.4,0,Yes
+2,CI/CD,11,22.0,4,9,19.1,2,Yes
+3,Kubernetes,9,18.0,2,8,17.0,1,Yes
+3,Linux,9,18.0,5,9,19.1,0,Yes
+3,Networking,9,18.0,3,8,17.0,1,Yes
+4,Azure,8,16.0,5,7,14.9,1,Yes
+4,Bash,8,16.0,3,8,17.0,0,Yes
+4,Git,8,16.0,3,7,14.9,1,Yes
+4,Java,8,16.0,3,8,17.0,0,Yes
+4,SQL,8,16.0,3,8,17.0,0,Yes
+4,macOS,8,16.0,3,8,17.0,0,Yes
+5,Cloud Infrastructure,7,14.0,4,6,12.8,1,No
+5,Data Pipelines,7,14.0,2,7,14.9,0,Yes
+5,Go,7,14.0,3,7,14.9,0,Yes
+5,Incident Response,7,14.0,3,6,12.8,1,No
+5,PowerShell,7,14.0,3,7,14.9,0,Yes
+5,Windows,7,14.0,3,7,14.9,0,Yes

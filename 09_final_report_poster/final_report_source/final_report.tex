@@ -1,0 +1,1400 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+\title{Measuring and Mitigating NER Accuracy\\
+Degradation in Creative Resumes}
+
+\author{
+\IEEEauthorblockN{Prayag Adhikari}
+\IEEEauthorblockA{
+Department of Computer Science\\
+Caldwell University\\
+Caldwell, NJ, USA\\
+Email: padhikari1@caldwell.edu\\
+Advisor: Dr. Sushil Poudel
+}
+}
+
+\maketitle
+
+\begin{abstract}
+Automated resume parsers can lose or misclassify information when document extraction and named entity recognition (NER) fail. This study evaluated resume parsing across document layouts and examined whether GPT-assisted and hybrid methods improve technical-skill recovery. An initial gold-standard experiment used 20 resumes, comprising 10 standard and 10 creative layouts, annotated for PERSON, ORG, DATE, GPE, and SKILL entities, totaling 1,108 entities. Contrary to the proposed hypothesis, the baseline achieved a higher strict F1 score on creative resumes (0.329) than on standard resumes (0.223), with an overall F1 of 0.270; therefore, the small initial sample did not demonstrate systematic layout-related degradation. The study then expanded to 1,020 computer-science resumes from three public datasets. On a stratified, manually reviewed sample of 50 resumes, GPT-only skill extraction achieved strict precision, recall, and F1 scores of 0.966, 0.644, and 0.773. A raw union of rule-based V4 and GPT predictions increased recall but reduced precision, whereas a cross-validation-derived filtered hybrid achieved 0.921 precision, 0.679 recall, and the highest strict F1 of 0.782. Bootstrap analysis estimated a combined F1 improvement of 0.0089 over GPT-only, although the confidence interval slightly crossed zero. An analysis of 50 job descriptions and a four-scan Jobscan pilot supplied exploratory external comparisons. Overall, hybrid filtering improved skill recovery, but performance varied across datasets, and claims about layout bias or commercial ATS behavior require cautious interpretation.
+\end{abstract}
+
+\begin{IEEEkeywords}
+applicant tracking systems, named entity recognition, resume parsing, skill extraction, large language models
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+Resumes are semi-structured documents that combine free text, headings, dates, organizations, locations, and lists of technical skills. Automated hiring platforms may extract these elements to support candidate search, filtering, and job matching. However, published guidance about preparing resumes for Applicant Tracking Systems (ATS) is inconsistent, particularly regarding formatting and keyword use \cite{lookadoo2025}. This inconsistency creates a practical problem for students and other job seekers: a resume must communicate effectively to a human reader while remaining sufficiently machine-readable for automated processing.
+
+Natural language processing methods have been applied to resume parsing, candidate ranking, keyword matching, and job-description comparison \cite{bhatia2019resume,yadav2025}. Named Entity Recognition (NER) provides one established framework for locating and labeling spans such as people, organizations, dates, and locations \cite{conll2003}. Nevertheless, resumes differ from ordinary prose. Multi-column layouts, graphics, text boxes, embedded images, and non-linear reading order can disrupt PDF text extraction before NER is applied. Recent layout-aware research identifies document heterogeneity and reading-order reconstruction as central resume-parsing challenges \cite{zhu2025layout}. ResumeBench similarly demonstrates that structure-rich resumes remain difficult for large language models, even when outputs follow a predefined schema \cite{ling2025resumebench}. In addition to extraction reliability, automated resume screening raises fairness concerns because resumes can encode demographic information that influences downstream models \cite{parasurama2021}.
+
+This study investigates two related but distinct technical problems. The first is whether creative or complex PDF layouts reduce accuracy in an ATS-style extraction and NER pipeline. This question is evaluated using 20 resumes, divided evenly between standard and creative or complex layouts, with 1,108 manually annotated PERSON, ORG, DATE, GPE, and SKILL entities. The second problem is whether technical-skill recovery can be improved at a larger scale by combining a precision-focused rule-based method with contextual extraction from GPT-4o-mini. This question is studied using 1,020 CS/IT resumes collected from three public datasets. Because the large corpus is stored primarily as extracted text, it supports skill-extraction and scalability analysis but not direct conclusions about visual layout.
+
+The main contributions of this research are:
+
+\begin{enumerate}
+    \item A comparative baseline evaluation of standard and creative or complex PDF resumes using strict exact-match scoring and entity-level error analysis.
+    \item A stratified 50-resume manual evaluation comparing a generalized rule-based V4 system, GPT-only extraction, a raw V4--GPT union, and a cross-validation-filtered hybrid.
+    \item A full-corpus application of GPT and hybrid methods to 1,020 resumes, accompanied by dataset-specific reporting and bootstrap uncertainty estimates.
+    \item An industry-keyword analysis based on 50 CS job descriptions and an exploratory four-scan comparison with Jobscan.
+\end{enumerate}
+
+The initial layout experiment did not support the proposed expectation that creative resumes would necessarily perform worse: the creative group achieved a strict F1 score of 0.329, compared with 0.223 for the standard group. This result is interpreted cautiously because the sample was small and potentially affected by differences in profession, entity density, anonymization, and vocabulary. In the final 50-resume skill evaluation, GPT-only achieved a strict F1 score of 0.773, the raw hybrid achieved 0.754, and the filtered hybrid achieved the highest strict F1 score of 0.782. The filtered hybrid showed a clear improvement for the Snehaan source, while its combined advantage over GPT-only was modest and its bootstrap confidence interval slightly crossed zero.
+
+Accordingly, this work does not claim to reproduce any proprietary ATS or establish universal layout bias. Instead, it provides a reproducible analysis of extraction failure, NER behavior, skill-recovery tradeoffs, and dataset variation. The results emphasize that layout evaluation and large-scale skill extraction must be treated as separate experimental questions and that practical resume guidance should be based on transparent evidence rather than unsupported claims about commercial systems.
+
+\section{Related Work}
+
+\subsection{ATS Guidance and Automated Resume Analysis}
+
+Applicant Tracking Systems support activities such as storing applications, searching candidate records, extracting qualifications, and comparing resumes with job requirements. However, their internal parsing and ranking mechanisms are generally not available for independent inspection. Lookadoo and Moore audited 18 business and technical communication textbooks and found substantial variation in how the texts described AI-assisted ATS, resume formatting, and keyword practices \cite{lookadoo2025}. Their findings demonstrate that common resume advice is not always consistent or sufficiently evidence-based, strengthening the need for transparent experiments that separate extraction performance from general claims about commercial hiring platforms.
+
+Prior technical work has applied natural language processing to resume extraction and job matching. Bhatia et al.\ presented an end-to-end system that combined resume parsing with BERT-based candidate ranking against job descriptions \cite{bhatia2019resume}. Yadav et al.\ similarly described a resume-analysis system that extracted candidate information and used keyword and ATS-style matching for evaluation against job requirements \cite{yadav2025}. These systems illustrate the practical connection between accurate information extraction and downstream candidate comparison: information that is missed or mislabeled during parsing cannot be used reliably during matching.
+
+\subsection{Named Entity Recognition and Skill Extraction}
+
+Named Entity Recognition provides a standard framework for labeling text spans by semantic category. The CoNLL-2003 shared task helped establish entity-level evaluation for categories such as people, organizations, and locations \cite{conll2003}. Modern NLP libraries such as spaCy provide pretrained statistical pipelines that make these methods accessible for applied research \cite{spacy2020}. However, general-purpose NER categories do not directly cover the full range of resume information. Technical skills, software tools, cloud services, frameworks, and multi-word competencies are particularly domain-specific and are not represented by a standard spaCy SKILL label.
+
+Consequently, resume parsing frequently combines statistical NER with rules, dictionaries, or contextual models. The present research follows this combined approach: spaCy identifies PERSON, ORG, DATE, and GPE entities, while technical skills are evaluated using a custom matcher, GPT-based recovery, and hybrid combinations. This design permits separate analysis of conventional named entities and the specialized skill vocabulary that is central to CS/IT resumes.
+
+\subsection{Layout-Aware and LLM-Based Resume Parsing}
+
+Resume layout introduces challenges that are not captured by text-only NER evaluation. Zhu et al.\ describe a layout-aware framework that combines PDF metadata, OCR content, reading-order reconstruction, and efficient language-model extraction \cite{zhu2025layout}. Their work identifies document heterogeneity, multi-column structure, and image-based content as major barriers to consistent resume parsing. This supports evaluating text extraction as a distinct stage rather than assuming that the original PDF has already been converted into a correct linear sequence.
+
+ResumeBench provides a complementary large-scale perspective. It contains 2,500 privacy-compliant synthetic resumes across 50 templates, 30 career fields, and five languages, and evaluates 24 language models on structured resume extraction \cite{ling2025resumebench}. Its results show substantial variation among models and continued difficulty with structural alignment and semantic ambiguity. ResumeBench offers broad template and language coverage, whereas the present study contributes a smaller manually annotated experiment using real PDF layouts and a separate 1,020-resume text corpus for skill-recovery analysis.
+
+\subsection{Fairness, Scope, and Research Gap}
+
+Parsing performance also matters because resume representations can influence later automated decisions. Parasurama and Sedoc showed that resumes contain gender-associated information and that removing such signals creates tradeoffs between obfuscation and screening performance \cite{parasurama2021}. Although the present study does not evaluate demographic fairness or hiring decisions, this work motivates careful attention to extraction reliability, privacy, and the limits of automated evaluation.
+
+Together, prior studies establish the importance of resume parsing, layout awareness, specialized entity extraction, and responsible interpretation. They also leave a specific methodological gap addressed here: a manually annotated comparison between standard and creative PDF layouts should not be conflated with a text-only scalability experiment. This research therefore separates its manually annotated 20-PDF layout study from its 1,020-resume technical-skill study and reports results by dataset source as well as in aggregate.
+
+\section{Research Questions}
+
+This study addresses four research questions spanning the 20-resume
+PDF-layout experiment, the larger technical-skill evaluation, and the
+exploratory external comparisons:
+
+\begin{enumerate}
+    \item \textbf{RQ1:} How does baseline ATS-style text extraction and
+    named entity recognition performance differ between standard and
+    creative or complex PDF resumes, both overall and across PERSON,
+    ORG, DATE, GPE, and SKILL entities?
+
+    \item \textbf{RQ2:} To what extent does GPT-assisted reconstruction
+    improve strict entity recovery over the original spaCy and
+    keyword-matching baseline on the 20-resume dataset, and does the
+    effect differ between layout groups?
+
+    \item \textbf{RQ3:} On the stratified, manually reviewed sample of
+    50 CS/IT resumes, how do generalized V4, GPT-only, raw hybrid, and
+    cross-validation-filtered hybrid skill extraction compare under
+    strict and relaxed precision, recall, and F1, both overall and by
+    dataset source?
+
+    \item \textbf{RQ4:} When GPT and hybrid methods are applied to the
+    full 1,020-resume corpus, what technical-skill distributions and
+    industry-keyword recovery patterns emerge relative to 50 CS job
+    descriptions and the exploratory Jobscan pilot?
+\end{enumerate}
+
+The original directional hypothesis associated with RQ1 predicted that
+creative or complex resumes would achieve lower strict F1 scores than
+standard resumes. The remaining questions are treated primarily as
+comparative or exploratory analyses. RQ1 and RQ2 use the
+20-PDF layout experiment, RQ3 uses manually reviewed predictions, and RQ4 is
+descriptive because the full corpus does not contain complete manual
+annotations or preserved visual-layout labels.
+
+\section{Methodology}
+
+\subsection{Original 20-Resume Layout Experiment}
+
+The first experiment evaluated whether resume layout was associated
+with differences in ATS-style text extraction and named entity
+recognition. Twenty real resume PDFs were selected and manually divided
+into two equally sized groups: 10 standard resumes and 10 creative or
+complex resumes. Standard resumes generally followed a conventional
+single-column structure, whereas the creative or complex group included
+features such as multiple columns, text boxes, graphics, unusual
+section placement, and non-linear reading order. These layout labels
+were assigned from the original PDFs before system performance was
+calculated.
+
+Text was first extracted from each PDF using PyMuPDF. When ordinary PDF
+extraction returned no usable text, the document pages were rendered as
+images and processed with Tesseract OCR. OCR was required for two
+image-based resumes. Extracted text was not manually repaired before
+model processing because fragmented words, reading-order errors, and
+OCR substitutions represented realistic failures that an ATS-style
+pipeline could encounter.
+
+A manual Gold Standard was created for five entity categories:
+PERSON, ORG, DATE, GPE, and SKILL. The completed annotation set
+contained 1,108 entities across the 20 resumes. PERSON, ORG, DATE, and
+GPE represented conventional named-entity categories, while SKILL
+captured programming languages, software tools, frameworks, cloud
+services, and other technical competencies.
+
+The baseline pipeline applied spaCy's
+\texttt{en\_core\_web\_lg} model to identify PERSON, ORG, DATE, and
+GPE entities \cite{spacy2020}. A custom keyword matcher was applied
+separately to identify SKILL entities, after which the outputs were
+combined. Predictions were evaluated against the Gold Standard using
+strict exact matching: a prediction was counted as correct only when
+its normalized text and entity category matched a Gold Standard entry.
+Precision, recall, and F1 were calculated overall, by layout group, and
+by entity category.
+
+A second condition evaluated GPT-assisted reconstruction. The same
+extracted resume text was supplied to GPT-4o-mini with instructions to
+return structured PERSON, ORG, DATE, GPE, and SKILL entities. These
+predictions were evaluated independently against the same Gold Standard
+and matching rules. This comparison measured whether contextual
+reconstruction improved entity recovery over the spaCy and keyword
+baseline without changing the underlying extracted text.
+
+Because the layout experiment contained only 20 resumes and was not a
+random sample of all resume designs, its results were treated as a
+small descriptive comparison rather than evidence of universal
+layout effects or proprietary ATS behavior.
+
+\subsection{Large-Scale Resume Corpus}
+
+The second experimental stage expanded the research from the
+20-PDF layout study to a larger corpus focused specifically on
+technical-skill extraction. The corpus contained 1,020 CS/IT resumes
+collected from three public resume datasets. The source datasets were
+kept separate so that system performance and prediction distributions
+could be reported both by source and in aggregate.
+
+From the Snehaan Bhawal Resume Dataset, 120 resumes labeled for
+information-technology-related work were retained
+\cite{snehaan_dataset}. These records were assigned identifiers from
+\texttt{SNE\_IT\_0001} through \texttt{SNE\_IT\_0120}. From the
+Jithin Jagadeesh Resume Dataset, 400 computer-science-oriented records
+were retained and assigned identifiers from
+\texttt{JIT\_CS\_0001} through \texttt{JIT\_CS\_0400}
+\cite{jithin_dataset}. Finally, a strict CS-oriented filter was applied
+to the Saugata Roy Arghya Resume Dataset, producing 500 records with
+identifiers from \texttt{SAU\_CS\_0001} through
+\texttt{SAU\_CS\_0500} \cite{saugata_dataset}.
+
+Each selected record was converted into a consistent JSON-based
+representation containing a stable resume identifier, dataset source,
+and resume text. A combined metadata file tracked all 1,020 records and
+preserved their source labels throughout processing. The resulting
+corpus consisted of 500 Saugata records, 400 Jithin records, and 120
+Snehaan records.
+
+The source contributions were intentionally unequal because the purpose
+of this stage was to evaluate skill extraction across heterogeneous
+public datasets rather than construct a perfectly balanced benchmark.
+For that reason, subsequent analyses report both source-specific and
+combined results. Source-specific reporting helps reveal whether an
+overall performance estimate is dominated by one dataset's vocabulary,
+writing style, or annotation characteristics.
+
+Unlike the original 20-resume experiment, the large corpus was stored
+primarily as extracted resume text rather than consistently preserved
+PDF layouts. It was therefore used to evaluate technical-skill
+extraction, system scalability, dataset variation, and industry-keyword
+coverage. It was not used to draw conclusions about visual resume
+layout or reading-order degradation.
+
+\subsection{Technical-Skill Extraction Systems}
+
+Four technical-skill extraction configurations were evaluated on the
+large CS/IT corpus:
+
+\begin{enumerate}
+    \item \textbf{Generalized V4:} a deterministic, rule-based system
+    designed to identify programming languages, software tools,
+    frameworks, databases, cloud platforms, and related technical
+    competencies. It combined a curated skill vocabulary with
+    normalized variants, multi-word phrase matching, and exclusion
+    rules intended to reduce common false positives.
+
+    \item \textbf{GPT-only:} a contextual extraction system using
+    GPT-4o-mini. Each resume's text was processed independently with
+    instructions to return only technical skills in structured JSON
+    format. The returned values were normalized and deduplicated within
+    each resume before evaluation.
+
+    \item \textbf{Raw hybrid:} the set union of normalized V4 and GPT
+    predictions for each resume. This condition retained any skill
+    predicted by either system. Every prediction was assigned a
+    provenance label indicating whether it appeared in GPT only, V4
+    only, or both systems.
+
+    \item \textbf{Filtered hybrid:} a precision-oriented version of the
+    raw hybrid. Manually reviewed V4-only predictions were used to learn
+    a term-level exclusion filter. The filter was applied only to
+    blacklisted V4-only predictions; GPT predictions and terms detected
+    by both systems were retained.
+\end{enumerate}
+
+A common normalization procedure was applied before comparing or
+combining predictions so that differences in capitalization and
+surrounding whitespace did not create separate skill entries. The raw
+hybrid was intended to increase recall by recovering the complementary
+predictions of the rule-based and contextual systems. However, because
+a direct union can also introduce rule-based false positives, the
+filtered hybrid was designed to recover part of the precision lost by
+the raw union.
+
+The exclusion filter was derived from the manually reviewed 50-resume
+sample. That review contained 277 V4-only prediction rows representing
+66 unique V4-only terms. Seventeen terms that consistently behaved as
+false positives were selected for exclusion. Examples of the error
+patterns addressed by the filter included generic educational words,
+section fragments, and non-technical phrases incorrectly matched by
+the rule-based vocabulary.
+
+To avoid evaluating the filter on the same annotations used to learn
+it, the 50-resume filtered-hybrid results were generated through
+cross-validation. For each held-out fold, exclusion decisions were
+derived from the remaining reviewed folds and then applied to the
+held-out resumes. After the manual evaluation was completed, a
+consolidated 17-term filter learned from the full reviewed sample was
+applied to V4-only predictions in the 1,020-resume corpus.
+
+All systems retained the resume identifier and dataset source with each
+prediction. This made it possible to compare extraction systems both
+across the complete evaluation sample and separately for the Jithin,
+Saugata, and Snehaan sources.
+
+\subsection{Manual Evaluation and Metrics}
+
+A stratified sample of 50 resumes was selected from the 1,020-resume
+corpus for manual evaluation. The sample contained 15 Jithin resumes,
+20 Saugata resumes, and 15 Snehaan resumes. Selection was stratified by
+dataset source and initial prediction volume so that resumes with low,
+medium, and high numbers of predicted skills were represented.
+
+A review pack was created from the normalized union of V4 and GPT
+predictions. It contained 1,338 unique prediction rows, together with
+resume-text exports and candidate missed-skill rows. Each prediction
+was manually reviewed in the context of its source resume and assigned
+one of three primary labels:
+
+\begin{enumerate}
+    \item \textbf{Correct:} the predicted term was explicitly present
+    and functioned as a technical skill in the resume.
+
+    \item \textbf{Partial:} the prediction captured a valid technical
+    concept but did not exactly match the complete skill expression.
+
+    \item \textbf{Incorrect:} the term was absent, non-technical, or
+    incorrectly interpreted as a skill.
+\end{enumerate}
+
+Skills present in the resume text but not recovered by a particular
+system were recorded as false negatives. The completed manual review
+therefore provided a shared reference set for evaluating V4, GPT-only,
+the raw hybrid, and the cross-validation-filtered hybrid under the same
+criteria.
+
+Two scoring schemes were used. Under \emph{strict} scoring, only
+predictions labeled correct counted as true positives; partial matches
+did not receive full credit. Under \emph{relaxed} scoring, correct and
+partial predictions were accepted as successful matches. This
+distinction measured whether system rankings changed when near-exact
+technical concepts were credited.
+
+For each system, precision, recall, and F1 were calculated as
+
+\begin{equation}
+P = \frac{TP}{TP+FP},
+\end{equation}
+
+\begin{equation}
+R = \frac{TP}{TP+FN},
+\end{equation}
+
+and
+
+\begin{equation}
+F_1 = \frac{2PR}{P+R},
+\end{equation}
+
+where \(TP\), \(FP\), and \(FN\) denote true-positive, false-positive,
+and false-negative skill predictions. Results were calculated for the
+complete 50-resume sample and separately for the Jithin, Saugata, and
+Snehaan sources.
+
+A nonparametric resume-level bootstrap was used to quantify uncertainty
+in the strict-F1 difference between the filtered hybrid and GPT-only
+systems \cite{efron1993bootstrap}. Resumes were sampled with replacement,
+and strict F1 was recomputed for both systems within each bootstrap
+sample. The analysis reported the mean F1 difference, a 95\% percentile
+confidence interval, and the proportion of bootstrap samples in which
+the filtered hybrid achieved a higher F1 score. Resampling was
+performed both by dataset source and across the combined evaluation
+sample.
+
+Because the manual annotations were completed by one researcher, the
+evaluation did not provide an inter-annotator agreement estimate. This
+constraint is addressed as a threat to validity later in the report.
+
+\subsection{External Comparison Methods}
+
+Two exploratory external analyses were conducted to connect the
+evaluated extraction results with current job-market vocabulary and a
+commercial resume-scanning service.
+
+\textit{Industry-keyword comparison:}
+Fifty Computer Science and Software Engineering job descriptions were
+collected to provide a sample of technical terminology appearing in
+current job advertisements. Technical keywords from these descriptions
+were compiled and their frequencies were summarized. The resulting
+industry vocabulary was compared with the manually annotated SKILL
+entities and system predictions from the original 20-resume experiment.
+
+The comparison evaluated whether industry-relevant skills present in the
+Gold Standard were recovered by the original baseline or the
+GPT-assisted system. The baseline contributed 207 deduplicated SKILL
+predictions. Exact and normalized matching rules were applied
+consistently when comparing the industry vocabulary, Gold Standard
+skills, and system outputs. Results were summarized overall and for the
+standard and creative or complex resume groups.
+
+This analysis was intended to provide descriptive job-market context
+rather than a representative estimate of all CS/IT hiring requirements.
+The 50 job descriptions were not treated as a new manually annotated
+resume benchmark, and keyword frequency was not interpreted as evidence
+of proprietary ATS ranking behavior.
+
+\textit{Jobscan pilot:}
+A small external pilot was conducted using Jobscan, a proprietary resume
+scanner and job-match reporting service \cite{jobscan2026}. Four valid
+resume--job-description scans were retained: one Jithin resume
+(\texttt{JIT\_CS\_0016}) and three Snehaan resumes
+(\texttt{SNE\_IT\_0053}, \texttt{SNE\_IT\_0056}, and
+\texttt{SNE\_IT\_0110}). Each resume was paired with a different
+role-relevant job description.
+
+For each valid scan, the recorded outputs included the overall Match
+Score, visible matched and missing skills, hard- and soft-skill
+observations, searchability feedback, recruiter recommendations, and
+word-count information. An initial scan of
+\texttt{SNE\_IT\_0053} returned an anomalous score of 100 after the wrong
+text was likely submitted. That result was excluded, the scan was
+repeated with the intended content, and only the corrected result was
+included in the pilot summary.
+
+Jobscan results were analyzed descriptively and were not converted into
+NER precision, recall, or F1. Its Match Score incorporates factors beyond
+technical-skill extraction, including headings, contact information,
+education, job titles, measurable results, word count, and general role
+alignment. In addition, the reports did not expose every possible missing
+skill and occasionally produced questionable role or education
+interpretations. Jobscan was therefore treated as an exploratory
+industry-facing comparison rather than an external Gold Standard or a
+verified representation of all commercial ATS platforms.
+
+\section{Results}
+
+\subsection{Original Layout Experiment}
+
+The original baseline produced 1,277 predictions for the 1,108
+Gold Standard entities. Of these predictions, 322 were correct and 955
+were incorrect, while 786 Gold Standard entities were missed. The
+resulting combined strict precision, recall, and F1 were 0.252, 0.291,
+and 0.270, respectively.
+
+Table~\ref{tab:layout_system_results} compares the baseline and
+GPT-assisted reconstruction results by layout group. The baseline
+achieved a strict F1 of 0.223 on the 10 standard resumes and 0.329 on
+the 10 creative or complex resumes. The creative group therefore
+outperformed the standard group by 0.106 F1, contrary to the original
+directional hypothesis.
+
+\begin{table}[t]
+\caption{Strict Performance in the Original 20-Resume Experiment}
+\label{tab:layout_system_results}
+\centering
+\footnotesize
+\begin{tabular}{llccc}
+\toprule
+Group & System & Precision & Recall & F1 \\
+\midrule
+Standard & Baseline & 0.211 & 0.236 & 0.223 \\
+Standard & GPT & 0.599 & 0.273 & 0.375 \\
+Creative & Baseline & 0.302 & 0.360 & 0.329 \\
+Creative & GPT & 0.708 & 0.424 & 0.530 \\
+Combined & Baseline & 0.252 & 0.291 & 0.270 \\
+Combined & GPT & 0.654 & 0.339 & 0.447 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Baseline performance varied substantially across entity categories, as
+shown in Table~\ref{tab:baseline_entity_results}. ORG produced the
+lowest F1, 0.125, because the general-purpose NER model generated 788
+organization predictions but only 56 were correct. PERSON achieved high
+recall of 0.778 but low precision of 0.206. The SKILL matcher showed the
+opposite pattern: it achieved the highest precision, 0.894, but recovered
+only 0.235 of the 788 annotated skills.
+
+\begin{table}[t]
+\caption{Baseline Strict Performance by Entity Category}
+\label{tab:baseline_entity_results}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Entity & Gold & Pred. & Correct & P & R & F1 \\
+\midrule
+PERSON & 18 & 68 & 14 & 0.206 & 0.778 & 0.326 \\
+ORG & 111 & 788 & 56 & 0.071 & 0.505 & 0.125 \\
+DATE & 146 & 142 & 47 & 0.331 & 0.322 & 0.326 \\
+GPE & 45 & 72 & 20 & 0.278 & 0.444 & 0.342 \\
+SKILL & 788 & 207 & 185 & 0.894 & 0.235 & 0.372 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+GPT-assisted reconstruction generated 575 predictions, of which 376
+were correct and 199 were incorrect; 732 Gold Standard entities remained
+unrecovered. Its combined strict precision, recall, and F1 were 0.654,
+0.339, and 0.447. Relative to the baseline, GPT increased strict F1 by
+0.177 overall. Improvements occurred in both layout groups: standard
+resume F1 increased from 0.223 to 0.375, while creative or complex resume
+F1 increased from 0.329 to 0.530.
+
+These findings indicate that contextual reconstruction improved entity
+recovery from the same extracted text. However, the higher performance
+of the creative group does not demonstrate that creative layouts are
+generally easier to parse. The result may reflect differences in
+profession, entity density, skill vocabulary, anonymization, OCR use,
+and document composition within the small 20-resume sample.
+
+\subsection{Fifty-Resume System Comparison}
+
+The completed 50-resume manual review contained 1,592 Gold Standard
+technical skills. Generalized V4 generated 488 predictions: 287 were
+correct, 189 were incorrect, and 12 were partial matches. GPT-only
+generated 1,061 predictions, including 1,025 correct, 24 incorrect, and
+12 partial predictions. The raw hybrid union generated 1,338 predictions,
+of which 1,104 were correct, 211 were incorrect, and 23 were partial.
+
+The cross-validation-filtered hybrid produced 1,174 predictions,
+including 1,081 correct, 79 incorrect, and 14 partial predictions.
+Its reported performance was generated by applying exclusion decisions
+learned from training folds to held-out resumes rather than by evaluating
+the full-sample filter on the annotations used to construct it.
+
+Table~\ref{tab:system_comparison_50} presents the combined strict and
+relaxed evaluation results. Generalized V4 achieved strict precision of
+0.588 but recovered only 0.180 of the Gold Standard skills, producing a
+strict F1 of 0.276. GPT-only substantially improved both precision and
+recall, reaching a strict F1 of 0.773.
+
+\begin{table}[t]
+\caption{Combined 50-Resume Technical-Skill Evaluation}
+\label{tab:system_comparison_50}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+& & \multicolumn{3}{c}{Strict} &
+\multicolumn{3}{c}{Relaxed} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+System & Pred. & P & R & F1 & P & R & F1 \\
+\midrule
+V4 & 488 & 0.588 & 0.180 & 0.276 &
+0.613 & 0.188 & 0.288 \\
+GPT-only & 1,061 & 0.966 & 0.644 & 0.773 &
+0.977 & 0.651 & 0.782 \\
+Raw hybrid & 1,338 & 0.825 & 0.693 & 0.754 &
+0.842 & 0.708 & 0.769 \\
+Filtered hybrid (CV) & 1,174 & 0.921 & 0.679 & 0.782 &
+0.933 & 0.688 & 0.792 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The raw hybrid achieved the highest strict recall, 0.693, because it
+retained every normalized skill predicted by either V4 or GPT. However,
+its strict precision declined to 0.825 because V4-only false positives
+were also added to the union. Consequently, its strict F1 of 0.754 was
+lower than the GPT-only F1 of 0.773.
+
+Cross-validation filtering removed 164 V4-only predictions from the raw
+union. These removals included 132 incorrect predictions and 23 correct
+predictions. The resulting filtered hybrid recovered most of the raw
+hybrid's precision loss while retaining higher recall than GPT-only. It
+achieved strict precision of 0.921, recall of 0.679, and the highest
+combined strict F1, 0.782.
+
+Under relaxed scoring, the system ordering remained similar. The filtered
+hybrid achieved the highest relaxed F1, 0.792, followed by GPT-only at
+0.782, the raw hybrid at 0.769, and V4 at 0.288. The filtered hybrid's
+combined strict-F1 advantage over GPT-only was 0.009, indicating a modest
+overall improvement despite the larger reduction in rule-based false
+positives.
+
+\subsection{Dataset-Specific Performance}
+
+Performance differed across the three dataset sources. The manually
+reviewed sample contained 274 Gold Standard skills in the 15 Jithin
+resumes, 577 in the 20 Saugata resumes, and 741 in the 15 Snehaan
+resumes. Thus, the equally sized Jithin and Snehaan groups differed
+substantially in technical-skill density.
+
+Table~\ref{tab:dataset_system_results} reports strict performance by
+source. GPT-only achieved the highest strict F1 for Jithin, 0.827, and
+Saugata, 0.841. The cross-validation-filtered hybrid was close behind,
+with strict F1 scores of 0.822 and 0.833, respectively.
+
+\begin{table}[t]
+\caption{Strict Performance by Dataset Source}
+\label{tab:dataset_system_results}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\begin{tabular}{llccc}
+\toprule
+Dataset & System & Precision & Recall & F1 \\
+\midrule
+Jithin & V4 & 0.678 & 0.223 & 0.335 \\
+Jithin & GPT-only & 0.966 & 0.723 & \textbf{0.827} \\
+Jithin & Raw hybrid & 0.854 & 0.745 & 0.795 \\
+Jithin & Filtered hybrid & 0.923 & 0.741 & 0.822 \\
+\midrule
+Saugata & V4 & 0.593 & 0.194 & 0.292 \\
+Saugata & GPT-only & 0.973 & 0.740 & \textbf{0.841} \\
+Saugata & Raw hybrid & 0.835 & 0.769 & 0.801 \\
+Saugata & Filtered hybrid & 0.922 & 0.759 & 0.833 \\
+\midrule
+Snehaan & V4 & 0.545 & 0.154 & 0.240 \\
+Snehaan & GPT-only & 0.959 & 0.540 & 0.691 \\
+Snehaan & Raw hybrid & 0.804 & 0.615 & 0.697 \\
+Snehaan & Filtered hybrid & 0.919 & 0.594 & \textbf{0.721} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Snehaan showed a different pattern. GPT-only achieved strict precision
+of 0.959 but recall of only 0.540, producing an F1 of 0.691. The raw
+hybrid increased recall to 0.615 but reduced precision to 0.804. After
+cross-validation filtering, precision recovered to 0.919 while recall
+remained above GPT-only at 0.594. The filtered hybrid consequently
+achieved the highest Snehaan strict F1, 0.721, an improvement of 0.030
+over GPT-only.
+
+The raw hybrid achieved the highest strict recall within every source,
+but its added V4-only predictions consistently reduced precision.
+Filtering produced a more balanced tradeoff. On Jithin and Saugata, this
+tradeoff was not sufficient to exceed GPT-only F1; on Snehaan, the
+additional recovered skills outweighed the remaining false positives.
+
+Relaxed scoring did not change the winning GPT-based system within each
+source. GPT-only achieved relaxed F1 scores of 0.852 on Jithin and 0.841
+on Saugata, while the filtered hybrid achieved the highest Snehaan
+relaxed F1, 0.733.
+
+Generalized V4 performed substantially below the GPT-based systems for
+all three sources, with strict F1 ranging from 0.240 to 0.335. Its low
+recall indicates that a fixed rule-based vocabulary did not cover much
+of the varied technical terminology present in the manually reviewed
+resumes.
+
+These differences demonstrate why combined results alone are
+insufficient. The filtered hybrid's overall advantage was driven
+primarily by its improvement on Snehaan, while GPT-only remained
+slightly stronger on Jithin and Saugata. Because these sources contain
+different text structures, vocabularies, and skill densities, the
+dataset-specific differences should not be interpreted as visual-layout
+effects.
+
+\subsection{Bootstrap Uncertainty}
+
+Resume-level bootstrap resampling was used to evaluate whether the
+strict-F1 differences between the cross-validation-filtered hybrid and
+GPT-only systems were stable across alternative samples of resumes.
+Positive differences favor the filtered hybrid, while negative
+differences favor GPT-only.
+
+Table~\ref{tab:bootstrap_results} reports the mean F1 differences,
+95\% percentile confidence intervals, and the proportion of bootstrap
+samples in which the filtered hybrid achieved a higher strict F1.
+
+\begin{table}[t]
+\caption{Bootstrap Strict-F1 Difference: Filtered Hybrid Minus GPT-Only}
+\label{tab:bootstrap_results}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\begin{tabular}{lccc}
+\toprule
+Group & $\Delta$F1 & 95\% CI & $P(\Delta > 0)$ \\
+\midrule
+Combined & $+0.0089$ & $[-0.0002,\ 0.0179]$ & 0.9725 \\
+Jithin & $-0.0049$ & $[-0.0186,\ 0.0075]$ & 0.2362 \\
+Saugata & $-0.0079$ & $[-0.0249,\ 0.0078]$ & 0.1682 \\
+Snehaan & $+0.0305$ & $[0.0158,\ 0.0457]$ & 1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For the combined 50-resume sample, the filtered hybrid improved strict
+F1 by 0.0089 on average. It outperformed GPT-only in 97.25\% of the
+bootstrap samples. However, the 95\% confidence interval ranged from
+$-0.0002$ to $0.0179$ and therefore slightly crossed zero. The combined
+result provides strong directional evidence of improvement, but it does
+not establish an unambiguous positive difference under the 95\%
+interval criterion.
+
+The clearest improvement occurred for Snehaan. The filtered hybrid's
+mean strict-F1 advantage was 0.0305, with a 95\% confidence interval
+from 0.0158 to 0.0457. The filtered hybrid outperformed GPT-only in
+every Snehaan bootstrap sample. This interval remained entirely above
+zero, indicating that the source-specific improvement was stable under
+resume-level resampling.
+
+Jithin and Saugata showed small negative point estimates of
+$-0.0049$ and $-0.0079$, respectively. Both confidence intervals
+included zero, so the analysis did not establish a stable difference
+between GPT-only and the filtered hybrid for either source.
+
+These results confirm that the filtered hybrid's effectiveness was
+dataset-dependent. It produced a clear gain for Snehaan, while GPT-only
+remained slightly stronger on Jithin and Saugata. The quantity
+$P(\Delta > 0)$ is a descriptive bootstrap proportion and should not
+be interpreted as a conventional hypothesis-test p-value.
+
+\subsection{Full-Corpus Skill Recovery}
+
+After completing the manually reviewed evaluation, the extraction systems
+were applied to all 1,020 resumes. This stage measured prediction volume,
+source distribution, and scalability rather than accuracy, because the
+complete corpus did not have manually annotated Gold Standard skills.
+
+The Generalized V4 output initially contained 14,665 entity predictions.
+After removing 5,242 non-SKILL entities, 9,423 technical-skill
+predictions remained. V4 produced at least one retained skill for 1,019
+of the 1,020 resumes.
+
+GPT-only processing completed successfully for all 1,020 resumes and
+generated 20,756 normalized skill predictions. Of the complete corpus,
+1,016 resumes contained at least one GPT-predicted skill.
+
+The normalized raw union contained 25,238 unique resume-skill
+predictions. Of these, 15,815 were predicted only by GPT, 4,482 were
+predicted only by V4, and 4,941 were detected by both systems. The raw
+hybrid total was therefore smaller than the direct sum of the two system
+outputs because shared predictions were deduplicated.
+
+The consolidated 17-term exclusion filter was applied only to the 4,482
+V4-only predictions. It removed 2,502 predictions and retained 1,980
+V4-only predictions. All 15,815 GPT-only predictions and all 4,941
+predictions detected by both systems were retained. The resulting
+filtered-hybrid corpus contained 22,736 predictions, a 9.9\% reduction
+from the raw union.
+
+Table~\ref{tab:full_corpus_counts} reports the effect of filtering by
+dataset source.
+
+\begin{table}[t]
+\caption{Full-Corpus Raw and Filtered Hybrid Prediction Counts}
+\label{tab:full_corpus_counts}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.0pt}
+\begin{tabular}{lrrrr}
+\toprule
+Dataset & Resumes & Raw & Filtered & Removed \\
+\midrule
+Jithin & 400 & 6,458 & 5,994 & 464 \\
+Saugata & 500 & 13,546 & 12,157 & 1,389 \\
+Snehaan & 120 & 5,234 & 4,585 & 649 \\
+\midrule
+Combined & 1,020 & 25,238 & 22,736 & 2,502 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The proportion removed differed by source. Filtering removed
+approximately 7.2\% of Jithin predictions, 10.3\% of Saugata
+predictions, and 12.4\% of Snehaan predictions. Snehaan therefore showed
+the largest proportional change, consistent with the manually reviewed
+sample in which filtering produced the clearest source-specific benefit.
+
+These full-corpus totals should not be interpreted as precision, recall,
+or F1 results. Prediction volume can reflect resume length, technical
+skill density, vocabulary, source formatting, and false-positive
+behavior. Accuracy conclusions remain limited to the manually reviewed
+50-resume evaluation, while the 1,020-resume analysis demonstrates the
+scale and distributional effect of applying the extraction and filtering
+pipeline.
+
+\subsection{External and Industry Comparisons}
+
+\textit{Industry-keyword recovery:}
+The 50-job-description analysis produced a vocabulary of 496 technical
+keywords. Of the 788 Gold Standard SKILL occurrences in the original
+20 resumes, 190 matched this broader industry vocabulary. These included
+96 occurrences in the standard group and 94 in the creative or complex
+group.
+
+Under normalized matching, the original baseline recovered 105 of the
+190 industry-relevant skill occurrences, or 55.3\%. GPT recovered 99,
+or 52.1\%. The baseline therefore achieved a 3.2-percentage-point
+advantage across the complete 496-keyword vocabulary.
+
+The group-level results were not uniform. On standard resumes, GPT
+recovered 44 of 96 occurrences, or 45.8\%, compared with 43, or 44.8\%,
+for the baseline. On creative or complex resumes, the baseline recovered
+62 of 94 occurrences, or 66.0\%, while GPT recovered 55, or 58.5\%.
+
+A second analysis focused on the 18 leading keywords that appeared in
+at least seven of the collected job descriptions. Forty-four occurrences
+of these leading keywords appeared in the Gold Standard resumes. The
+baseline recovered 32 occurrences, or 72.7\%, while GPT recovered 33,
+or 75.0\%.
+
+Table~\ref{tab:industry_recovery} summarizes the normalized recovery
+results. GPT performed slightly better for leading keywords overall and
+for the standard group, while the baseline remained stronger across the
+complete vocabulary and the creative group.
+
+\begin{table}[t]
+\caption{Normalized Industry-Keyword Recovery}
+\label{tab:industry_recovery}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llrrr}
+\toprule
+Scope & Group & Occurrences & Baseline & GPT \\
+\midrule
+All 496 & Standard & 96 & 44.8\% & 45.8\% \\
+All 496 & Creative & 94 & 66.0\% & 58.5\% \\
+All 496 & Combined & 190 & 55.3\% & 52.1\% \\
+\midrule
+Leading 18 & Standard & 25 & 60.0\% & 64.0\% \\
+Leading 18 & Creative & 19 & 89.5\% & 89.5\% \\
+Leading 18 & Combined & 44 & 72.7\% & 75.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Under exact matching, the baseline recovered 102 of 190 occurrences
+across the full vocabulary, compared with 83 for GPT. For the leading
+keywords, the baseline recovered 30 of 44 occurrences and GPT recovered
+27. The difference between exact and normalized recovery demonstrates
+the effect of capitalization, punctuation, abbreviations, and related
+surface-form variation.
+
+\textit{Jobscan pilot:}
+Four valid resume--job-description scans were retained for the
+exploratory Jobscan comparison. Their Match Scores are shown in
+Table~\ref{tab:jobscan_results}.
+
+\begin{table}[t]
+\caption{Valid Jobscan Pilot Scores}
+\label{tab:jobscan_results}
+\centering
+\footnotesize
+\begin{tabular}{llr}
+\toprule
+Resume & Source & Match Score \\
+\midrule
+\texttt{JIT\_CS\_0016} & Jithin & 30 \\
+\texttt{SNE\_IT\_0053} & Snehaan & 27 \\
+\texttt{SNE\_IT\_0056} & Snehaan & 50 \\
+\texttt{SNE\_IT\_0110} & Snehaan & 21 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The four valid scores had a mean of 32.0, a median of 28.5, and a range
+from 21 to 50. Across the visible report fields, Jobscan identified 11
+matched skills and 33 missing skills. The initial
+\texttt{SNE\_IT\_0053} scan that returned a score of 100 was excluded
+because the wrong text was likely submitted; the corrected scan produced
+the retained score of 27.
+
+These Jobscan outcomes were not directly comparable with the study's
+precision, recall, or F1 results. Each resume was evaluated against a
+different role-specific job description, and the Match Score incorporated
+formatting, searchability, education, job titles, measurable results,
+word count, and general role alignment in addition to visible skills.
+The four-scan pilot therefore supplied limited external context rather
+than independent validation of the extraction systems.
+
+Together, the external comparisons did not identify one system as
+universally superior. GPT showed a small advantage for leading
+industry keywords, the baseline recovered more of the complete industry
+vocabulary, and Jobscan produced substantial variation across only four
+resume--job pairs.
+
+\section{Discussion}
+
+\subsection{Layout Hypothesis}
+
+The original directional hypothesis predicted that creative or complex
+resumes would achieve lower strict entity-level F1 than standard
+resumes. The results did not support this hypothesis. Under the original
+baseline, the creative group achieved an F1 of 0.329, compared with
+0.223 for the standard group. The same ordering remained after
+GPT-assisted reconstruction: creative or complex resumes achieved 0.530,
+while standard resumes achieved 0.375.
+
+The entity-specific results show that the difference was not consistent
+across every category. Standard resumes achieved higher DATE F1
+(0.373 versus 0.294) and GPE F1 (0.407 versus 0.286). Creative resumes
+achieved higher ORG F1 (0.188 versus 0.082), PERSON F1
+(0.444 versus 0.000), and SKILL F1 (0.456 versus 0.313). The aggregate
+layout-group difference therefore reflected the mixture and distribution
+of entity categories rather than a uniform advantage for creative
+formatting.
+
+This result should not be interpreted as evidence that creative layouts
+are inherently easier for automated systems. Layout type was not the
+only characteristic that differed between the two groups. The resumes
+also varied in profession, technical-skill density, organization usage,
+anonymization, wording, document length, and extraction method. Some
+creative resumes contained explicit lists of technical skills that were
+well suited to keyword matching, while some standard resumes contained
+organization-heavy text that generated many spaCy false positives.
+
+The sample also contained only 10 resumes in each layout group. The
+standard and creative resumes were not paired versions of identical
+content, so the experiment could not isolate layout while holding
+vocabulary and entity density constant. OCR was required for two
+image-based documents, and strict exact matching penalized boundary,
+capitalization, abbreviation, and normalization differences. These
+factors may have affected group-level results independently of visual
+design.
+
+Resume parsing involves at least two related stages: converting the PDF
+into correctly ordered text and identifying entities within that text.
+A visually creative document can perform adequately when its embedded
+text and reading order remain accessible, while a visually conventional
+document can still produce poor predictions if its content is
+anonymized, organization-heavy, or outside the system vocabulary.
+Layout-aware research similarly emphasizes that document heterogeneity
+and reading-order reconstruction must be evaluated separately from
+semantic extraction \cite{zhu2025layout}.
+
+Accordingly, the most defensible conclusion is not that creative layouts
+are harmless, but that this small experiment did not establish a
+universal creative-layout penalty. A stronger causal test would place
+the same resume content into multiple controlled templates, preserve
+identical Gold Standard entities, and evaluate PDF extraction and NER as
+separate stages. Such a design would allow differences to be attributed
+more directly to layout rather than to resume content or dataset
+composition.
+
+For practical guidance, the findings support caution rather than a
+complete prohibition on visual design. Important information should
+remain selectable, headings should be recognizable, reading order should
+be testable after text extraction, and essential qualifications should
+not appear only inside graphics or images.
+
+\subsection{Hybrid-System Tradeoffs}
+
+The four technical-skill extraction configurations represented different
+precision, recall, interpretability, and implementation tradeoffs.
+Generalized V4 was deterministic and auditable, but its strict recall of
+0.180 showed that a fixed vocabulary and pattern rules could not cover
+the terminology present across the three datasets. Its strict precision
+of 0.588 also demonstrated that rule-based matching did not automatically
+guarantee high precision when generic or context-dependent terms appeared
+in resume text.
+
+GPT-only provided the strongest standalone performance. Its strict
+precision of 0.966 indicates that contextual extraction rejected most
+non-technical phrases, while its recall of 0.644 recovered substantially
+more skills than V4. This result suggests that contextual interpretation
+was particularly valuable for abbreviations, multi-word tools, uncommon
+technologies, and terms whose meaning depended on surrounding resume
+content.
+
+The raw hybrid confirmed that the systems contained complementary
+predictions, but it also demonstrated that set union is not automatically
+an improvement. Adding every V4 prediction to GPT increased strict
+recall from 0.644 to 0.693. The raw union recovered 79 more correct
+predictions than GPT-only, but it also introduced 187 additional
+incorrect predictions. Precision therefore declined from 0.966 to 0.825,
+and strict F1 fell from 0.773 to 0.754.
+
+The cross-validation-filtered hybrid produced a better balance. Filtering
+removed 164 V4-only predictions from the evaluated union, including 132
+incorrect, 23 correct, and nine partial predictions. Strict precision
+recovered to 0.921 while recall remained above GPT-only at 0.679. The
+resulting strict F1 of 0.782 was the highest combined score, and the
+relaxed F1 of 0.792 showed the same overall pattern.
+
+However, filtering did not improve every source equally. GPT-only
+retained the highest strict F1 for Jithin and Saugata, while the filtered
+hybrid performed best for Snehaan. The combined bootstrap difference
+favored the filtered hybrid by 0.0089 F1, but its 95\% confidence interval
+slightly crossed zero. In contrast, the Snehaan improvement of 0.0305
+had an interval entirely above zero. These findings indicate that the
+value of rule-based additions depended on dataset vocabulary and skill
+density rather than representing a universal hybrid advantage.
+
+The full-corpus application introduces an additional transfer concern.
+The consolidated filter removed 2,502 of the 4,482 V4-only predictions
+from the raw 1,020-resume union. Although the reviewed sample showed
+that many excluded terms behaved as false positives, the full corpus
+did not contain complete Gold Standard annotations. It is therefore not
+possible to assume that every removed full-corpus prediction was
+incorrect. A term-level blacklist learned from one sample may remove a
+valid skill when the same expression appears in a different technical
+context.
+
+The systems also differ operationally. V4 can run locally at low cost,
+produces repeatable outputs, and permits direct inspection of every rule.
+GPT provides stronger contextual coverage but depends on model access,
+prompt stability, API cost, and privacy-aware handling of resume text.
+The filtered hybrid adds further maintenance because it requires
+prediction provenance, reviewed examples, exclusion rules, and held-out
+validation.
+
+Accordingly, GPT-only represents a strong and comparatively simple
+default for this corpus. A filtered hybrid can provide additional recall
+and modestly higher combined F1 when its exclusion rules are validated
+for the target source. The raw union should not be preferred solely
+because it returns more skills. Practical hybrid design requires
+provenance tracking, source-specific evaluation, and explicit control of
+the false positives introduced by each component.
+
+\subsection{Practical Implications}
+
+For students and resume writers, the findings do not support a simple
+rule that every visually creative resume will be parsed less accurately
+than a standard resume. Instead, they emphasize the importance of the
+machine-readable structure beneath the visual design. Important resume
+content should remain selectable, copyable, and understandable after
+plain-text extraction. Applicants can perform a basic self-audit by
+copying the PDF content into a text editor and checking whether names,
+contact details, education, employers, dates, locations, skills, and
+section headings appear in a logical reading order. Essential
+qualifications should not be presented only through icons, images,
+decorative text boxes, or graphics.
+
+Technical skills should be written explicitly and truthfully. Multi-word
+technology names should remain intact, and uncommon abbreviations may be
+paired with their expanded forms when doing so improves clarity. Relevant
+skills can be placed in a dedicated skills section and reinforced through
+accurate project or experience descriptions. However, applicants should
+not add technologies they have not used or repeat keywords merely to
+increase their frequency. The objective is to make genuine qualifications
+clear to both human readers and automated systems.
+
+The job-description experiments also indicate that keyword comparison
+depends on the extraction method. Across all 496 normalized job-description
+terms, the deterministic baseline recovered 55.3\%, compared with 52.1\%
+for GPT. Among the 18 leading industry keywords, GPT recovered 75.0\%,
+compared with 72.7\% for the baseline. Neither system therefore dominated
+every comparison. A useful resume review should combine multiple checks:
+confirm that relevant terminology is present when accurate, inspect the
+surrounding context, and manually review any terms reported as missing.
+
+The four valid Jobscan pilot scores ranged from 21 to 50, with a mean of
+32. These scores should be interpreted as exploratory system outputs
+rather than direct measurements of resume quality or hiring probability.
+Commercial matching tools may incorporate formatting, section structure,
+experience wording, job-title similarity, and other proprietary factors
+in addition to technical skills. Applicants should therefore avoid
+optimizing a resume around one score. Automated feedback is more useful
+as a prompt for human review than as a definitive pass-or-fail judgment.
+
+For developers and researchers, the results demonstrate the importance
+of reporting precision and recall together. The raw hybrid increased
+recall but also introduced enough false positives to reduce F1 below the
+GPT-only result. The filtered hybrid achieved the highest combined F1,
+but its improvement varied by dataset source and depended on
+cross-validation-derived exclusion rules. Hybrid systems should therefore
+retain prediction provenance, validate filtering rules on held-out data,
+and report source-specific results rather than relying only on an
+aggregate score. Terms removed from the unannotated full corpus also
+cannot automatically be treated as errors.
+
+Any resume-processing workflow should additionally consider privacy.
+Resume text can contain names, contact information, employment history,
+education, and other sensitive personal data. When external models or
+commercial services are used, researchers and applicants should consider
+what information is transmitted, how it is stored, and whether identifying
+details can be removed before processing.
+
+Consequently, the student-facing self-audit rubric and optimization guide
+developed from this study should present conservative, evidence-based
+checks rather than promises of ATS success. The guidance can help users
+identify machine-readability problems, missing relevant terminology, and
+potential extraction failures, but it cannot reproduce every commercial
+ATS or predict a hiring outcome. Automated analysis should complement
+careful human editing and review.
+
+\section{Limitations and Threats to Validity}
+
+Several limitations constrain the interpretation and generalizability of
+this study. First, the layout experiment used only 20 resumes, divided
+equally between standard and creative or complex designs. The documents
+were not paired versions of identical resume content. They differed in
+profession, vocabulary, entity density, document length, anonymization,
+and use of OCR. Consequently, the observed performance differences cannot
+be attributed solely to layout. A stronger design would place identical
+content into multiple controlled templates and evaluate text extraction
+and entity recognition separately.
+
+The standard and creative categories also required human judgment.
+Although the categories captured visible structural differences, resume
+design exists on a continuum and cannot always be represented by a
+binary label. Features such as columns, icons, tables, graphics, embedded
+fonts, and reading order may affect extraction differently. The current
+sample was too small to estimate the independent effect of each feature.
+
+The Gold Standard annotations introduce another source of uncertainty.
+Annotations were manually prepared using a predefined entity schema, but
+the study did not include multiple independent annotators or calculate
+inter-annotator agreement. Some organization names, locations, dates, and
+technical skills can reasonably be represented using different boundaries
+or levels of specificity. Strict exact matching counted capitalization,
+abbreviation, normalization, and boundary differences as errors even when
+a prediction retained useful information. Relaxed evaluation reduced this
+problem for the technical-skill experiment, but it still depended on
+manual review decisions.
+
+The large-scale corpus was assembled from three public resume datasets
+and restricted to computer-science-related records. These sources differed
+in format, vocabulary, category definitions, anonymization, and technical
+skill density. The 1,020 resumes should therefore not be interpreted as a
+representative sample of all applicants, professions, geographic regions,
+or commercial ATS inputs. Public datasets may also contain outdated,
+duplicated, synthetic, or heavily processed records that differ from
+resumes submitted in current hiring environments.
+
+The manually reviewed 50-resume sample was stratified by dataset source
+and prediction-count band. This design ensured that low-, medium-, and
+high-output cases were inspected, but it was not a simple random sample
+of the full corpus. The resulting precision, recall, and F1 estimates are
+appropriate for comparing the evaluated systems within the sample, but
+they may not directly estimate performance across all 1,020 resumes.
+
+Although cross-validation was used when evaluating the filtered hybrid,
+the consolidated exclusion terms were derived from reviewed V4-only
+predictions within the available datasets. Their effectiveness may depend
+on the vocabulary and skill distribution of those sources. The filtered
+hybrid improved combined strict F1 by approximately 0.009 over GPT-only,
+but the bootstrap confidence interval slightly crossed zero. The
+improvement was clearly positive for Snehaan but was not reproduced for
+Jithin or Saugata. Independent evaluation on a new annotated dataset is
+therefore necessary before treating the filter as generally transferable.
+
+The full 1,020-resume corpus did not receive complete Gold Standard
+annotation. As a result, the 22,736 filtered-hybrid predictions describe
+system output volume rather than verified accuracy. Similarly, the 2,502
+V4-only predictions removed by the consolidated filter cannot all be
+assumed to be incorrect. Some excluded expressions may represent valid
+skills in contexts not observed during manual review.
+
+GPT-based results are also dependent on the selected model, prompt,
+normalization procedure, API behavior, and time of execution. Model
+updates or alternative prompts may produce different predictions.
+Although structured outputs and a consistent processing pipeline improved
+repeatability, the system is not deterministic in the same manner as the
+rule-based baseline.
+
+Finally, this research evaluated an experimental pipeline rather than a
+complete commercial ATS. The Jobscan comparison contained only four valid
+resume--job-description pairs, with different job descriptions used for
+each resume. Its scores were exploratory and were not directly comparable
+with entity-level precision, recall, or F1. The study therefore supports
+conclusions about the evaluated extraction methods, not claims about every
+commercial screening system or a candidate's probability of receiving an
+interview.
+
+\section{Privacy, Ethics, and Reproducibility}
+
+Resumes contain potentially sensitive personal information, including
+names, contact details, education, employment history, locations, and
+professional affiliations. Although this research used resumes obtained
+from publicly accessible datasets rather than directly recruiting
+participants, public availability does not eliminate the need for careful
+data handling. Raw resume files, extracted text, detailed annotations,
+model outputs, and manual-review materials were therefore treated as
+research data rather than as information intended for redistribution.
+
+Project files containing resume-level text or predictions were kept
+separate from aggregate research results. Private output directories were
+excluded from version-controlled research materials, while shareable
+outputs were limited to scripts, summary statistics, aggregate tables,
+and non-identifying methodological documentation. API credentials were
+supplied through environment variables and were not written into scripts
+or committed to the repository. Any future public release should continue
+to exclude raw personal information unless the relevant dataset terms and
+ethical review explicitly permit redistribution.
+
+The use of an external language-model API introduces an additional
+privacy consideration because resume text may be transmitted outside the
+local research environment. Researchers should minimize the amount of
+personal information submitted, remove unnecessary identifying details
+when possible, and review the provider's data-use and retention terms.
+Similar caution applies to third-party resume-scoring services such as
+Jobscan. The limited Jobscan pilot was used only as an exploratory
+comparison and should not be interpreted as authorization to upload
+another person's resume without their knowledge.
+
+This study was designed to evaluate information-extraction methods rather
+than rank candidates or make employment decisions. The systems were not
+used to infer protected characteristics, recommend applicants, or predict
+job performance. Nevertheless, extraction errors can have ethical
+consequences if such systems are incorporated into hiring workflows.
+False negatives may hide legitimate qualifications, while false positives
+may misrepresent an applicant's experience. Differences across dataset
+sources further demonstrate that a system that performs well for one
+group of documents may not perform equally well for another.
+
+For these reasons, automated resume analysis should include human review,
+especially when its output could influence access to employment.
+Applicants should also not be encouraged to believe that a particular
+format, keyword count, or commercial score guarantees favorable
+treatment. The student-facing guidance produced by this project is
+intended to improve clarity and machine readability while preserving
+truthful representation of qualifications.
+
+Reproducibility was supported through a structured project directory,
+separate scripts for dataset preparation and each extraction system,
+normalized CSV schemas, documented prompts, source-specific results, and
+saved aggregate summaries. The deterministic V4 pipeline can be rerun
+using the same vocabulary, normalization rules, and exclusion logic.
+The filtered-hybrid evaluation also recorded its cross-validation
+procedure, while the statistical analysis documented resume-level
+bootstrap resampling and its reported confidence intervals.
+
+GPT-based processing is less completely reproducible because outputs may
+change with model versions, service updates, prompts, and nondeterministic
+generation. Reproduction therefore requires recording the exact model
+identifier, prompt structure, processing date, normalization procedure,
+and output schema. Saved status files and combined prediction outputs
+provide an audit trail for the completed runs, but they cannot guarantee
+that a future API execution will return identical predictions.
+
+Finally, reproducibility should not require releasing sensitive
+resume-level data. Researchers can provide code, configuration details,
+entity schemas, aggregate evaluation results, and instructions for
+rebuilding the dataset from its original sources while keeping private
+annotations and identifying content restricted. This approach balances
+scientific transparency with the privacy risks associated with resume
+data.
+
+\section{Student-Facing Deliverables}
+
+The experimental findings were translated into two practical
+student-facing deliverables: a Resume Self-Audit Rubric and a Computer
+Science Resume Optimization Guide. These resources emphasize
+machine-readable structure, truthful skill representation, and manual
+verification. They are not intended to reproduce a commercial ATS,
+predict hiring outcomes, or guarantee that a resume will pass an
+automated screening system.
+
+\subsection{Resume Self-Audit Rubric}
+
+The Resume Self-Audit Rubric provides a structured way for students to
+inspect a resume before submission. Each criterion may be rated as zero
+when it is not satisfied, one when it is partially satisfied, or two when
+it is clearly satisfied. The total is intended only to identify areas
+requiring revision; it is not a validated ATS compatibility score.
+
+\begin{enumerate}
+    \item \textbf{Text accessibility:} The PDF contains selectable and
+    copyable text. Important content is not stored only as an image.
+
+    \item \textbf{Reading order:} When the resume is copied into a plain
+    text editor, sections, bullet points, dates, and descriptions appear
+    in a logical sequence.
+
+    \item \textbf{Section recognition:} Conventional and descriptive
+    headings such as Education, Experience, Projects, and Technical
+    Skills are used where appropriate.
+
+    \item \textbf{Essential information:} Names, contact details,
+    employers, degrees, dates, locations, and important qualifications
+    remain visible after text extraction.
+
+    \item \textbf{Technical-skill clarity:} Programming languages,
+    frameworks, databases, cloud services, and software tools are written
+    explicitly and use clear multi-word names.
+
+    \item \textbf{Evidence and context:} Important skills are supported
+    by truthful project, course, research, or work-experience
+    descriptions rather than appearing only as an isolated keyword list.
+
+    \item \textbf{Job relevance:} Terminology from the target job
+    description is included only when it accurately describes the
+    applicant's qualifications.
+
+    \item \textbf{Manual verification:} Automated feedback is checked
+    against the original resume, and reported missing or matched terms
+    are reviewed by a person before revisions are made.
+\end{enumerate}
+
+The rubric reflects the distinction between visual appearance and the
+underlying text structure observed in the layout experiment. A creative
+resume is not automatically unsuitable, but it requires additional
+checking when it uses columns, graphics, icons, text boxes, or
+non-standard reading order. Students should preserve a visually polished
+design only when its essential content remains accessible after
+extraction.
+
+\subsection{Computer Science Resume Optimization Guide}
+
+The Computer Science Resume Optimization Guide converts the
+technical-skill and job-description findings into a repeatable review
+process:
+
+\begin{enumerate}
+    \item Select a specific job description and identify the programming
+    languages, tools, frameworks, databases, cloud platforms, and
+    technical methods that it explicitly requires.
+
+    \item Compare those requirements with the applicant's genuine
+    coursework, projects, research, employment, and independent
+    experience. Terms should be added only when they are accurate.
+
+    \item Preserve complete multi-word technology names, such as
+    ``Amazon Web Services'' or ``Microsoft SQL Server.'' When useful,
+    include both a widely recognized abbreviation and its expanded form,
+    such as ``Amazon Web Services (AWS).''
+
+    \item Place core competencies in a clearly labeled Technical Skills
+    section while also demonstrating important skills in project or
+    experience descriptions. Context helps distinguish a genuine
+    technical competency from an unrelated word match.
+
+    \item Use consistent spelling and recognizable terminology, but do
+    not repeat keywords unnaturally. Keyword stuffing may reduce
+    readability and does not demonstrate proficiency.
+
+    \item Export the completed resume as a text-readable PDF. Copy its
+    contents into a plain text editor and inspect the reading order,
+    missing characters, section boundaries, and multi-word skills.
+
+    \item Treat automated match reports as diagnostic suggestions.
+    Compare their output with the source resume and job description
+    instead of relying on one extraction method or proprietary score.
+\end{enumerate}
+
+The guide is supported by the finding that no evaluated extraction method
+recovered every relevant term. GPT performed slightly better for the 18
+leading industry keywords, while the deterministic baseline recovered a
+larger share of the complete 496-keyword vocabulary. Jobscan also
+produced scores ranging from 21 to 50 across only four valid scans.
+Consequently, the recommended process combines job-specific review,
+machine-readability testing, and human judgment rather than optimizing
+for one tool.
+
+Together, the rubric and guide provide students with actionable checks
+while preserving the study's cautious interpretation. Their purpose is
+to reduce preventable extraction problems and improve the clarity of
+truthful qualifications, not to manipulate hiring systems or promise a
+particular employment result.
+
+\section{Conclusion}
+
+This research examined whether creative or complex resume layouts reduce
+the accuracy of an ATS-style extraction and named-entity-recognition
+pipeline and whether GPT-assisted and hybrid methods can improve
+technical-skill recovery. The study combined a 20-resume PDF-layout
+experiment, a manually reviewed 50-resume system comparison, full-corpus
+processing of 1,020 computer-science-related resumes, an industry-keyword
+analysis, and an exploratory Jobscan pilot.
+
+The original directional hypothesis predicted that creative or complex
+resumes would achieve lower strict F1 than standard resumes. The observed
+results did not support that prediction. Under the original baseline,
+creative resumes achieved an F1 of 0.329, compared with 0.223 for
+standard resumes. After GPT-assisted reconstruction, the corresponding
+scores increased to 0.530 and 0.375. Overall entity-level F1 increased
+from 0.270 under the baseline to 0.447 under GPT reconstruction.
+However, the resumes were not controlled versions of identical content,
+and the sample contained only 10 documents in each layout group.
+Consequently, these results do not establish that creative layouts are
+generally easier or that layout has no effect. They show that visual
+category alone did not explain performance in this sample.
+
+The larger technical-skill evaluation demonstrated the value of
+contextual extraction while also revealing the tradeoffs of hybrid
+systems. On the manually reviewed 50-resume sample, Generalized V4
+achieved a strict F1 of 0.276, GPT-only achieved 0.773, the raw hybrid
+achieved 0.754, and the cross-validation-filtered hybrid achieved the
+highest combined strict F1 of 0.782. The raw union increased recall but
+introduced enough false positives to reduce its overall F1. Filtering
+recovered much of that lost precision while retaining recall above the
+GPT-only system.
+
+The hybrid improvement was not uniform across dataset sources. GPT-only
+remained slightly stronger for Jithin and Saugata, while the filtered
+hybrid improved Snehaan strict F1 from 0.691 to 0.721. Bootstrap analysis
+estimated a combined filtered-hybrid advantage of approximately 0.009,
+but its 95\% confidence interval slightly crossed zero. The Snehaan
+difference remained positive throughout its confidence interval. These
+findings demonstrate that source-specific evaluation is necessary and
+that an aggregate improvement should not be treated as evidence of
+universal system superiority.
+
+Across the complete 1,020-resume corpus, GPT produced 20,756 normalized
+skill predictions. The raw V4--GPT union contained 25,238 predictions,
+and the consolidated filter removed 2,502 V4-only predictions, producing
+22,736 filtered-hybrid predictions. Because the complete corpus did not
+have Gold Standard annotations, these totals measure prediction volume
+and scalability rather than accuracy. Similarly, the industry-keyword
+and Jobscan analyses provided external context but did not identify one
+method or commercial score as universally reliable.
+
+The practical conclusion is that students should focus on
+machine-readable structure rather than relying on absolute claims about
+resume appearance. Important content should remain selectable, text
+extraction should preserve a logical reading order, technical skills
+should be written explicitly and truthfully, and automated feedback
+should be manually reviewed. A Resume Self-Audit Rubric and Computer
+Science Resume Optimization Guide were developed to convert these
+findings into cautious, actionable guidance.
+
+Future research should test identical resume content across controlled
+templates, use multiple independent annotators, validate the hybrid filter
+on a newly annotated external dataset, and separate PDF text-extraction
+errors from semantic entity-recognition errors. Additional work could
+also evaluate other document parsers and commercial systems under
+privacy-aware and ethically reviewed conditions. Overall, the study shows
+that contextual models can substantially improve technical-skill
+recovery, but reliable resume analysis still requires validated
+evaluation, dataset-specific reporting, transparent system design, and
+human oversight.
+
+\section*{Acknowledgment}
+
+The author thanks Dr. Sushil Poudel for his guidance, feedback, and
+mentorship throughout this research. The author also acknowledges the
+support of Caldwell University's STEM Advance program and the Department
+of Computer Science, which provided the resources and research
+environment necessary to complete this project.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

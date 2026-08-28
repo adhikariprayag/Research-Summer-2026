@@ -1,0 +1,17 @@
+Dataset,System,Strict Precision,Strict Recall,Strict F1
+Jithin,Generalized V4,0.678,0.223,0.335
+Jithin,GPT,0.966,0.723,0.827
+Jithin,Raw Hybrid,0.854,0.745,0.795
+Jithin,CV Filtered Hybrid,0.923,0.741,0.822
+Saugata,Generalized V4,0.593,0.194,0.292
+Saugata,GPT,0.973,0.74,0.841
+Saugata,Raw Hybrid,0.835,0.769,0.801
+Saugata,CV Filtered Hybrid,0.922,0.759,0.833
+Snehaan,Generalized V4,0.545,0.154,0.24
+Snehaan,GPT,0.959,0.54,0.691
+Snehaan,Raw Hybrid,0.804,0.615,0.697
+Snehaan,CV Filtered Hybrid,0.919,0.594,0.721
+Combined,Generalized V4,0.588,0.18,0.276
+Combined,GPT,0.966,0.644,0.773
+Combined,Raw Hybrid,0.825,0.693,0.754
+Combined,CV Filtered Hybrid,0.921,0.679,0.782

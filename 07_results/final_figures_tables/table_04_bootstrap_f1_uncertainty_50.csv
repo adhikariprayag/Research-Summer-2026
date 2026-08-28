@@ -1,0 +1,5 @@
+Dataset,GPT F1,GPT CI Lower,GPT CI Upper,Raw Hybrid F1,Raw Hybrid CI Lower,Raw Hybrid CI Upper,CV Filtered Hybrid F1,CV Filtered Hybrid CI Lower,CV Filtered Hybrid CI Upper,Filtered Minus GPT F1,Difference CI Lower,Difference CI Upper,Probability Filtered Better
+Jithin,0.8267,0.7667,0.8874,0.7953,0.7358,0.8534,0.8219,0.7642,0.8788,-0.0049,-0.0186,0.0075,0.2362
+Saugata,0.8406,0.7726,0.9051,0.8007,0.7391,0.8611,0.8327,0.7702,0.8938,-0.0079,-0.0249,0.0078,0.1682
+Snehaan,0.6908,0.6294,0.7474,0.6972,0.6452,0.7421,0.7213,0.6679,0.7701,0.0305,0.0158,0.0457,1.0
+Combined,0.7727,0.7371,0.8086,0.7536,0.7223,0.7846,0.7816,0.7487,0.8142,0.0089,-0.0002,0.0179,0.9725

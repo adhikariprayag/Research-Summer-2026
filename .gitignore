@@ -86,3 +86,17 @@ env/
 02_dataset/large_scale_dataset/scripts/filter_and_evaluate_baseline_v4_skill_relabel_15.py
 05_gpt_reconstruction/gpt_skill_recovery_private/
 02_dataset/large_scale_dataset/full_v4_private/
+# Approved public student deliverables
+!08_student_deliverables/**/*.pdf
+!08_student_deliverables/**/*.docx
+# Approved public aggregate figures
+!07_results/final_figures_tables/*.pdf
+
+# Local final-report editing backups
+09_final_report_poster/final_report_source/final_report_before_*.tex
+09_final_report_poster/final_report_source/final_report_compile_output.txt
+
+# Public final-report source: keep only required files
+09_final_report_poster/final_report_source/*
+!09_final_report_poster/final_report_source/final_report.tex
+!09_final_report_poster/final_report_source/references.bib

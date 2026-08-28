@@ -1,0 +1,5 @@
+Dataset,Resumes,V4 Skill Predictions,GPT Skill Predictions,Raw Hybrid Predictions,Removed V4-Only Predictions,Filtered Hybrid Predictions,Raw Predictions Removed (%)
+Jithin,400,2341,5608,6458,464,5994,7.185
+Saugata,500,5282,11108,13546,1389,12157,10.254
+Snehaan,120,1800,4040,5234,649,4585,12.4
+Combined,1020,9423,20756,25238,2502,22736,9.914

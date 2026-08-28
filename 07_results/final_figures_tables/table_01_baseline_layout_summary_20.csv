@@ -1,0 +1,4 @@
+Layout Group,Resumes,Gold Entities,Predicted Entities,Precision,Recall,F1
+Standard,10,622,698,0.211,0.236,0.223
+Creative,10,486,579,0.302,0.36,0.329
+Overall,20,1108,1277,0.252,0.291,0.27

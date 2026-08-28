@@ -1,0 +1,5 @@
+System,Predictions,Gold Skills,Strict Precision,Strict Recall,Strict F1,Relaxed Precision,Relaxed Recall,Relaxed F1
+Generalized V4,488,1592,0.588,0.18,0.276,0.613,0.188,0.288
+GPT,1061,1592,0.966,0.644,0.773,0.977,0.651,0.782
+Raw Hybrid,1338,1592,0.825,0.693,0.754,0.842,0.708,0.769
+CV Filtered Hybrid,1174,1592,0.921,0.679,0.782,0.933,0.688,0.792
